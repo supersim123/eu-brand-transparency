@@ -1,0 +1,258 @@
+# EU Brand Transparency Weekly News Research
+
+Date window:
+- Search current news and official sources up to 2026-07-06.
+- Prioritize ownership changes announced or completed in the last 7-30 days.
+- Also include high-confidence missed deals from 2015 onward if relevant and absent.
+
+Goal:
+Find newly announced or previously missed acquisitions, majority stakes, take-privates,
+mergers, or indirect ownership changes involving European consumer brands and platforms.
+
+Known deals:
+- brand=AutoScout24; sector=mobility; origin_country=Germany; buyer=Hellman & Friedman; buyer_country=USA; year=2020; deal_status=completed
+- brand=momondo; sector=travel; origin_country=Denmark; buyer=Booking Holdings; buyer_country=USA; year=2017; deal_status=completed
+- brand=FREENOW; sector=mobility; origin_country=Germany; buyer=Lyft; buyer_country=USA; year=2025; deal_status=completed
+- brand=Drivy; sector=app; origin_country=France; buyer=Getaround; buyer_country=USA; year=2019; deal_status=completed
+- brand=KIKO Milano; sector=beauty; origin_country=Italy; buyer=L Catterton; buyer_country=USA; year=2024; deal_status=announced
+- brand=Saturn / MediaMarktSaturn / CECONOMY; sector=retail; origin_country=Germany; buyer=JD.com; buyer_country=China; year=2025; deal_status=pending_regulatory_review
+- brand=Gorenje; sector=household appliances; origin_country=Slovenia; buyer=Hisense; buyer_country=China; year=2018; deal_status=completed
+- brand=mobile.de; sector=mobility; origin_country=Germany; buyer=Permira-Blackstone consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+- brand=Wolt; sector=food delivery; origin_country=Finland; buyer=DoorDash; buyer_country=USA; year=2022; deal_status=completed
+- brand=Depop; sector=marketplace; origin_country=United Kingdom; buyer=Etsy; buyer_country=USA; year=2021; deal_status=completed
+- brand=Shazam; sector=app; origin_country=United Kingdom; buyer=Apple; buyer_country=USA; year=2018; deal_status=completed
+- brand=Skyscanner; sector=travel; origin_country=United Kingdom; buyer=Ctrip / Trip.com Group; buyer_country=China; year=2016; deal_status=completed
+- brand=Supercell; sector=gaming; origin_country=Finland; buyer=Tencent-led consortium; buyer_country=China; year=2016; deal_status=completed
+- brand=iZettle; sector=app; origin_country=Sweden; buyer=PayPal; buyer_country=USA; year=2018; deal_status=completed
+- brand=Rovio; sector=gaming; origin_country=Finland; buyer=SEGA; buyer_country=Japan; year=2023; deal_status=completed
+- brand=Kahoot; sector=app; origin_country=Norway; buyer=Goldman Sachs Asset Management-led consortium; buyer_country=USA / mixed; year=2024; deal_status=completed
+- brand=Farfetch; sector=marketplace; origin_country=United Kingdom; buyer=Coupang; buyer_country=South Korea; year=2024; deal_status=completed
+- brand=END.; sector=retail; origin_country=United Kingdom; buyer=The Carlyle Group; buyer_country=USA; year=2021; deal_status=completed
+- brand=Ted Baker; sector=fashion; origin_country=United Kingdom; buyer=Authentic Brands Group; buyer_country=USA; year=2022; deal_status=completed
+- brand=Hunter Boots; sector=fashion; origin_country=United Kingdom; buyer=Authentic Brands Group; buyer_country=USA; year=2023; deal_status=completed
+- brand=Scotch & Soda; sector=fashion; origin_country=Netherlands; buyer=Bluestar Alliance; buyer_country=USA; year=2023; deal_status=completed
+- brand=Gorillas; sector=grocery delivery; origin_country=Germany; buyer=Getir; buyer_country=Turkey; year=2022; deal_status=completed
+- brand=Busuu; sector=app; origin_country=United Kingdom; buyer=Chegg; buyer_country=USA; year=2022; deal_status=completed
+- brand=Circ; sector=app; origin_country=Germany; buyer=Bird; buyer_country=USA; year=2020; deal_status=completed
+- brand=Zoopla; sector=marketplace; origin_country=United Kingdom; buyer=Silver Lake; buyer_country=USA; year=2018; deal_status=completed
+- brand=OnTheMarket; sector=marketplace; origin_country=United Kingdom; buyer=CoStar Group; buyer_country=USA; year=2023; deal_status=completed
+- brand=Notonthehighstreet; sector=marketplace; origin_country=United Kingdom; buyer=Great Hill Partners; buyer_country=USA; year=2021; deal_status=completed
+- brand=Bally; sector=fashion; origin_country=Switzerland; buyer=Regent; buyer_country=USA; year=2024; deal_status=completed
+- brand=G-Star RAW; sector=fashion; origin_country=Netherlands; buyer=WHP Global; buyer_country=USA; year=2024; deal_status=completed
+- brand=KUKA; sector=industrial; origin_country=Germany; buyer=Midea Group; buyer_country=China; year=2016; deal_status=completed
+- brand=Hotel Chocolat; sector=retail; origin_country=United Kingdom; buyer=Mars; buyer_country=USA; year=2024; deal_status=completed
+- brand=Grenade; sector=retail; origin_country=United Kingdom; buyer=Mondelez International; buyer_country=USA; year=2021; deal_status=completed
+- brand=Rapha; sector=fashion; origin_country=United Kingdom; buyer=RZC Investments; buyer_country=USA; year=2017; deal_status=completed
+- brand=Pinarello; sector=fashion; origin_country=Italy; buyer=L Catterton; buyer_country=USA; year=2016; deal_status=completed
+- brand=Birkenstock; sector=fashion; origin_country=Germany; buyer=L Catterton and Financière Agache; buyer_country=USA / France; year=2021; deal_status=completed
+- brand=King; sector=gaming; origin_country=United Kingdom; buyer=Microsoft; buyer_country=USA; year=2023; deal_status=completed
+- brand=Codemasters; sector=gaming; origin_country=United Kingdom; buyer=Electronic Arts; buyer_country=USA; year=2021; deal_status=completed
+- brand=Outfit7; sector=gaming; origin_country=Slovenia; buyer=United Luck Consortium; buyer_country=China; year=2017; deal_status=completed
+- brand=Tink; sector=app; origin_country=Sweden; buyer=Visa; buyer_country=USA; year=2022; deal_status=completed
+- brand=Nutmeg; sector=app; origin_country=United Kingdom; buyer=JPMorgan Chase; buyer_country=USA; year=2021; deal_status=completed
+- brand=Seedrs; sector=marketplace; origin_country=United Kingdom; buyer=Republic; buyer_country=USA; year=2022; deal_status=completed
+- brand=Citymapper; sector=app; origin_country=United Kingdom; buyer=Via; buyer_country=USA; year=2023; deal_status=completed
+- brand=Deliveroo; sector=food delivery; origin_country=United Kingdom; buyer=DoorDash; buyer_country=USA; year=2025; deal_status=completed
+- brand=Morrisons; sector=retail; origin_country=United Kingdom; buyer=Clayton Dubilier and Rice; buyer_country=USA; year=2021; deal_status=completed
+- brand=Philips Domestic Appliances; sector=household appliances; origin_country=Netherlands; buyer=Hillhouse Investment; buyer_country=China; year=2021; deal_status=completed
+- brand=Candy; sector=household appliances; origin_country=Italy; buyer=Haier; buyer_country=China; year=2019; deal_status=completed
+- brand=The Body Shop; sector=beauty; origin_country=United Kingdom; buyer=Auréa-led investor group; buyer_country=United Kingdom; year=2024; deal_status=completed
+- brand=Poundland; sector=retail; origin_country=United Kingdom; buyer=Gordon Brothers; buyer_country=USA; year=2025; deal_status=completed
+- brand=Selfridges; sector=retail; origin_country=United Kingdom; buyer=Central Group / PIF; buyer_country=Thailand / Saudi Arabia; year=2024; deal_status=completed
+- brand=Majestic Wine; sector=retail; origin_country=United Kingdom; buyer=Fortress Investment Group; buyer_country=USA; year=2019; deal_status=completed
+- brand=Adevinta; sector=marketplace; origin_country=Norway; buyer=Permira and Blackstone; buyer_country=United Kingdom / USA; year=2024; deal_status=completed
+- brand=Merlin Entertainments; sector=travel; origin_country=United Kingdom; buyer=KIRKBI Blackstone and CPPIB; buyer_country=Denmark / USA / Canada; year=2019; deal_status=completed
+- brand=VFS Global; sector=travel; origin_country=Switzerland; buyer=Blackstone; buyer_country=USA; year=2022; deal_status=completed
+- brand=Skroutz; sector=marketplace; origin_country=Greece; buyer=Blackstone; buyer_country=USA; year=2026; deal_status=pending_regulatory_review
+- brand=zooplus; sector=retail; origin_country=Germany; buyer=Hellman & Friedman / EQT; buyer_country=USA / Sweden; year=2022; deal_status=completed
+- brand=Nets; sector=fintech; origin_country=Denmark; buyer=Nexi; buyer_country=Italy; year=2021; deal_status=completed
+- brand=TeamSystem; sector=software; origin_country=Italy; buyer=Hellman and Friedman; buyer_country=USA; year=2016; deal_status=completed
+- brand=Accell; sector=retail; origin_country=Netherlands; buyer=KKR; buyer_country=USA; year=2022; deal_status=completed
+- brand=Karo Healthcare; sector=beauty; origin_country=Sweden; buyer=KKR; buyer_country=USA; year=2025; deal_status=completed
+- brand=Wella; sector=beauty; origin_country=Germany; buyer=KKR; buyer_country=USA; year=2020; deal_status=completed
+- brand=Upfield; sector=food; origin_country=Netherlands; buyer=KKR; buyer_country=USA; year=2018; deal_status=completed
+- brand=Roompot; sector=travel; origin_country=Netherlands; buyer=KKR; buyer_country=USA; year=2020; deal_status=completed
+- brand=Exact; sector=software; origin_country=Netherlands; buyer=KKR; buyer_country=USA; year=2019; deal_status=completed
+- brand=Pipedrive; sector=software; origin_country=Estonia; buyer=Vista Equity Partners; buyer_country=USA; year=2020; deal_status=completed
+- brand=Sophos; sector=software; origin_country=United Kingdom; buyer=Thoma Bravo; buyer_country=USA; year=2020; deal_status=completed
+- brand=Darktrace; sector=software; origin_country=United Kingdom; buyer=Thoma Bravo; buyer_country=USA; year=2024; deal_status=completed
+- brand=SwiftKey; sector=app; origin_country=United Kingdom; buyer=Microsoft; buyer_country=USA; year=2016; deal_status=completed
+- brand=Wunderlist; sector=app; origin_country=Germany; buyer=Microsoft; buyer_country=USA; year=2015; deal_status=completed
+- brand=Mapillary; sector=app; origin_country=Sweden; buyer=Facebook; buyer_country=USA; year=2020; deal_status=completed
+- brand=Endomondo; sector=app; origin_country=Denmark; buyer=Under Armour; buyer_country=USA; year=2015; deal_status=completed
+- brand=FATMAP; sector=app; origin_country=United Kingdom; buyer=Strava; buyer_country=USA; year=2023; deal_status=completed
+- brand=Blinkist; sector=app; origin_country=Germany; buyer=Go1; buyer_country=Australia; year=2023; deal_status=completed
+- brand=Runna; sector=app; origin_country=United Kingdom; buyer=Strava; buyer_country=USA; year=2025; deal_status=announced
+- brand=Peak Games; sector=gaming; origin_country=Turkey; buyer=Zynga; buyer_country=USA; year=2020; deal_status=completed
+- brand=Small Giant Games; sector=gaming; origin_country=Finland; buyer=Zynga; buyer_country=USA; year=2019; deal_status=completed
+- brand=Gram Games; sector=gaming; origin_country=Turkey; buyer=Zynga; buyer_country=USA; year=2018; deal_status=completed
+- brand=Nordeus; sector=gaming; origin_country=Serbia; buyer=Take-Two Interactive; buyer_country=USA; year=2021; deal_status=completed
+- brand=Sumo Group; sector=gaming; origin_country=United Kingdom; buyer=Tencent; buyer_country=China; year=2022; deal_status=completed
+- brand=Techland; sector=gaming; origin_country=Poland; buyer=Tencent; buyer_country=China; year=2023; deal_status=announced
+- brand=Sharkmob; sector=gaming; origin_country=Sweden; buyer=Tencent; buyer_country=China; year=2019; deal_status=completed
+- brand=Tequila Works; sector=gaming; origin_country=Spain; buyer=Tencent; buyer_country=China; year=2022; deal_status=completed
+- brand=Miniclip; sector=gaming; origin_country=Switzerland; buyer=Tencent; buyer_country=China; year=2015; deal_status=completed
+- brand=Currencycloud; sector=fintech; origin_country=United Kingdom; buyer=Visa; buyer_country=USA; year=2021; deal_status=completed
+- brand=WorldFirst; sector=fintech; origin_country=United Kingdom; buyer=Ant Financial; buyer_country=China; year=2019; deal_status=completed
+- brand=Earthport; sector=fintech; origin_country=United Kingdom; buyer=Visa; buyer_country=USA; year=2019; deal_status=completed
+- brand=Worldpay; sector=fintech; origin_country=United Kingdom; buyer=Global Payments; buyer_country=USA; year=2026; deal_status=completed
+- brand=Paysafe; sector=fintech; origin_country=United Kingdom; buyer=Blackstone and CVC; buyer_country=USA / United Kingdom; year=2017; deal_status=completed
+- brand=Glovo; sector=food delivery; origin_country=Spain; buyer=Delivery Hero; buyer_country=Germany; year=2022; deal_status=completed
+- brand=Etraveli; sector=travel; origin_country=Sweden; buyer=Booking Holdings; buyer_country=USA; year=2023; deal_status=cancelled
+- brand=Ganni; sector=fashion; origin_country=Denmark; buyer=L Catterton; buyer_country=USA / France; year=2017; deal_status=completed
+- brand=A.P.C.; sector=fashion; origin_country=France; buyer=L Catterton; buyer_country=USA / France; year=2023; deal_status=completed
+- brand=Zenly; sector=app; origin_country=France; buyer=Snap; buyer_country=USA; year=2017; deal_status=completed
+- brand=Booking.com; sector=travel; origin_country=Netherlands; buyer=Booking Holdings; buyer_country=USA; year=2005; deal_status=completed
+- brand=Cheapflights; sector=travel; origin_country=United Kingdom; buyer=Booking Holdings; buyer_country=USA; year=2017; deal_status=completed
+- brand=Travelfusion; sector=travel; origin_country=United Kingdom; buyer=Ctrip; buyer_country=China; year=2015; deal_status=completed
+- brand=Kiwi.com; sector=travel; origin_country=Czech Republic; buyer=General Atlantic; buyer_country=USA; year=2019; deal_status=completed
+- brand=Leboncoin Auto; sector=mobility; origin_country=France; buyer=Adevinta consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+- brand=La Centrale; sector=mobility; origin_country=France; buyer=Providence Equity Partners; buyer_country=USA; year=2021; deal_status=completed
+- brand=Coches.net; sector=mobility; origin_country=Spain; buyer=Adevinta consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+- brand=Milanuncios Motor; sector=mobility; origin_country=Spain; buyer=Adevinta consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+- brand=Subito Motori; sector=mobility; origin_country=Italy; buyer=Adevinta consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+- brand=willhaben Auto; sector=mobility; origin_country=Austria; buyer=Styria Media Group and Sprints Capital; buyer_country=Austria / Sweden; year=2025; deal_status=completed
+- brand=Otomoto; sector=mobility; origin_country=Poland; buyer=Prosus / Naspers via OLX Group; buyer_country=Netherlands / South Africa; year=2010; deal_status=completed
+- brand=Autovit.ro; sector=mobility; origin_country=Romania; buyer=Prosus / Naspers via OLX Group; buyer_country=Netherlands / South Africa; year=2010; deal_status=completed
+- brand=Marktplaats Auto; sector=mobility; origin_country=Netherlands; buyer=Adevinta consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+- brand=2dehands; sector=mobility; origin_country=Belgium; buyer=Adevinta consortium via Adevinta; buyer_country=United Kingdom / USA / Norway; year=2024; deal_status=completed
+
+Known research candidates:
+- brand=Spotify; sector=streaming; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=Klarna; sector=fintech; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=Revolut; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Wise; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Vinted; sector=marketplace; origin_country=Lithuania; ownership_status=needs_research; research_priority=high
+- brand=Zalando; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=ASOS; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Boohoo; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Gymshark; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Trainline; sector=mobility; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Bolt; sector=mobility; origin_country=Estonia; ownership_status=needs_research; research_priority=high
+- brand=BlaBlaCar; sector=mobility; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=GetYourGuide; sector=travel; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Omio; sector=travel; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Too Good To Go; sector=food; origin_country=Denmark; ownership_status=needs_research; research_priority=high
+- brand=HelloFresh; sector=food; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Delivery Hero; sector=food delivery; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Just Eat Takeaway; sector=food delivery; origin_country=Netherlands; ownership_status=needs_research; research_priority=high
+- brand=Flink; sector=grocery; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Picnic; sector=grocery; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Oda; sector=grocery; origin_country=Norway; ownership_status=needs_research; research_priority=medium
+- brand=Ocado; sector=grocery; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Allegro; sector=marketplace; origin_country=Poland; ownership_status=needs_research; research_priority=high
+- brand=Bol.com; sector=marketplace; origin_country=Netherlands; ownership_status=needs_research; research_priority=high
+- brand=Cdiscount; sector=marketplace; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Decathlon; sector=retail; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=IKEA; sector=retail; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=H&M; sector=fashion; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=Zara; sector=fashion; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=Mango; sector=fashion; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=LEGO; sector=toys; origin_country=Denmark; ownership_status=needs_research; research_priority=high
+- brand=Bang & Olufsen; sector=electronics; origin_country=Denmark; ownership_status=needs_research; research_priority=medium
+- brand=Miele; sector=household appliances; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Bosch Home; sector=household appliances; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Dyson; sector=household appliances; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=N26; sector=fintech; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Trade Republic; sector=fintech; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Monzo; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Starling Bank; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Qonto; sector=fintech; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Lydia; sector=fintech; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Bunq; sector=fintech; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Mollie; sector=fintech; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Adyen; sector=fintech; origin_country=Netherlands; ownership_status=needs_research; research_priority=high
+- brand=Checkout.com; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Deezer; sector=streaming; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=SoundCloud; sector=streaming; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Komoot; sector=mobility; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=WeTransfer; sector=productivity; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Babbel; sector=education; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Trustpilot; sector=marketplace; origin_country=Denmark; ownership_status=needs_research; research_priority=medium
+- brand=Wallapop; sector=marketplace; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Vestiaire Collective; sector=marketplace; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Back Market; sector=marketplace; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Leboncoin; sector=marketplace; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=AUTO1; sector=marketplace; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Auto Trader UK; sector=marketplace; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Rightmove; sector=real estate; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Idealista; sector=real estate; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Immowelt; sector=real estate; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Otto; sector=marketplace; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=About You; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Flix; sector=mobility; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Ryanair; sector=travel; origin_country=Ireland; ownership_status=needs_research; research_priority=high
+- brand=easyJet; sector=travel; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Wizz Air; sector=travel; origin_country=Hungary; ownership_status=needs_research; research_priority=medium
+- brand=TUI; sector=travel; origin_country=Germany; ownership_status=public_european; known_owner=Public shareholders; research_priority=high
+- brand=Booking.com; sector=travel; origin_country=Netherlands; ownership_status=acquired_non_european; known_owner=Booking Holdings; research_priority=high
+- brand=eDreams ODIGEO; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Hostelworld; sector=travel; origin_country=Ireland; ownership_status=needs_research; research_priority=medium
+- brand=Secret Escapes; sector=travel; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Loveholidays; sector=travel; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Glovo; sector=food delivery; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Carrefour; sector=retail; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=Auchan; sector=retail; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=E.Leclerc; sector=retail; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Tesco; sector=retail; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Sainsbury's; sector=retail; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Marks & Spencer; sector=retail; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Next; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Primark; sector=fashion; origin_country=Ireland; ownership_status=needs_research; research_priority=high
+- brand=Aldi; sector=retail; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Lidl; sector=retail; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Kaufland; sector=retail; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=dm-drogerie markt; sector=beauty; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Rossmann; sector=beauty; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Freetrade; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Scalable Capital; sector=fintech; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Raisin; sector=fintech; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Zopa; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=CD Projekt; sector=gaming; origin_country=Poland; ownership_status=needs_research; research_priority=high
+- brand=Paradox Interactive; sector=gaming; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Ubisoft; sector=gaming; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=Remedy Entertainment; sector=gaming; origin_country=Finland; ownership_status=needs_research; research_priority=medium
+- brand=Embracer Group; sector=gaming; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Lindt; sector=food; origin_country=Switzerland; ownership_status=needs_research; research_priority=high
+- brand=Fazer; sector=food; origin_country=Finland; ownership_status=needs_research; research_priority=medium
+- brand=Ritter Sport; sector=food; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Barilla; sector=food; origin_country=Italy; ownership_status=needs_research; research_priority=high
+- brand=Ferrero; sector=food; origin_country=Italy; ownership_status=needs_research; research_priority=high
+- brand=Lavazza; sector=food; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Illy; sector=food; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Danone; sector=food; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=Nestle; sector=food; origin_country=Switzerland; ownership_status=needs_research; research_priority=high
+- brand=Arla; sector=food; origin_country=Denmark; ownership_status=needs_research; research_priority=medium
+- brand=Oatly; sector=food; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Prada; sector=fashion; origin_country=Italy; ownership_status=needs_research; research_priority=high
+- brand=Gucci; sector=fashion; origin_country=Italy; ownership_status=needs_research; research_priority=high
+- brand=Burberry; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Mulberry; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Dr. Martens; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Hugo Boss; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Adidas; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Puma; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Lacoste; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Ganni; sector=fashion; origin_country=Denmark; ownership_status=needs_research; research_priority=medium
+- brand=Acne Studios; sector=fashion; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Lush; sector=beauty; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Rituals; sector=beauty; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Nivea; sector=beauty; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- ... 159 more rows omitted
+
+Search priorities:
+- Large consumer-facing European brands and apps.
+- Marketplace, travel, retail, food delivery, gaming, fintech, mobility, fashion, beauty,
+  household, and electronics sectors.
+- Query known buyer types and names such as private equity firms, US tech companies,
+  Chinese strategic buyers, marketplace groups, and large public-company acquirers.
+
+Source priority:
+1. EU Commission, national competition authorities, SEC filings, annual reports
+2. company press releases or investor relations pages
+3. reputable business media
+
+Output:
+- Only suggest leads that include URLs.
+- Do not add already-known deals unless the current owner materially changed.
+- Include useful search gaps for manual follow-up.

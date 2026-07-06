@@ -1,0 +1,248 @@
+{
+  "new_deal_candidates": [
+    {
+      "brand": "Hugo Boss",
+      "sector": "fashion",
+      "origin_country": "Germany",
+      "buyer": "Frasers Group",
+      "buyer_country": "United Kingdom",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "pending_takeover",
+      "source_urls": [
+        "https://www.ticker.app/lse/FRAS/rns/2026-06-10/Cash-Offer-for-Hugo-Boss-AG/8292H",
+        "https://www.theindustry.fashion/frasers-group-confirms-e38-a-share-hugo-boss-takeover-offer-is-final/",
+        "https://www.theguardian.com/business/2026/jun/11/hugo-boss-shares-frasers-offer-mike-ashley-takeover"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "Well-known German fashion/lifestyle brand. Frasers announced a voluntary public takeover offer on 2026-06-10 to acquire all Hugo Boss shares it does not already hold; reports say Frasers already owned a significant direct/economic stake. Not completed as of the sources found, so classify as pending takeover/announced rather than completed.",
+      "dedupe_note": "Hugo Boss appears in known research candidates but not known deals; this is a new material ownership-change lead."
+    },
+    {
+      "brand": "About You",
+      "sector": "fashion / marketplace",
+      "origin_country": "Germany",
+      "buyer": "Zalando",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2025,
+      "deal_status": "completed",
+      "deal_type": "take_private",
+      "source_urls": [
+        "https://www.webdisclosure.com/press-release/zalando-se-etr-de000zal-zalando-and-about-you-successfully-complete-transaction-and-team-up-to-lead-the-way-in-european-fashion-and-lifestyle-e-commerce-AS9CDaMS7g3",
+        "https://s205.q4cdn.com/202422753/files/doc_news/2025/25-07-11_Zalando-and-ABOUT-YOU-Successfully-Complete-Transaction-and-Team-Up-to-Lead-the-Way-in-European-Fashion-and-Lifestyle-E-commerce.pdf",
+        "https://s205.q4cdn.com/202422753/files/doc_news/2025/Nov/06/25-11-06_ABOUT-YOU-and-Zalando-Complete-Final-Step-of-their-Strategic-Combination.pdf"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Large German consumer fashion e-commerce platform. Zalando and About You announced completion of their strategic combination on 2025-07-11; a later 2025 company release states the legal completion/final step of the takeover transaction was completed, including squeeze-out/merger steps.",
+      "dedupe_note": "About You appears in known research candidates but not known deals; this is a missed 2025 completed deal."
+    },
+    {
+      "brand": "Just Eat Takeaway.com",
+      "sector": "food delivery",
+      "origin_country": "Netherlands",
+      "buyer": "Prosus",
+      "buyer_country": "Netherlands",
+      "buyer_region": "Europe",
+      "deal_year": 2025,
+      "deal_status": "completed",
+      "deal_type": "take_private",
+      "source_urls": [
+        "https://www.prosus.com/news-insights/2025/prosus-gets-green-light-from-european-commission-to-close-just-eat-takeaway-dot-com-deal",
+        "https://newsroom.justeattakeaway.com/en-WW/252953-prosus-and-jet-have-obtained-all-regulatory-clearances-to-close-the-offer-for-just-eat-takeaway-com/",
+        "https://www.prosus.com/~/media/Files/P/Prosus-CORP/investors/offer-document-19-05-2025.pdf"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Major Dutch/European food delivery platform. Prosus obtained European Commission clearance for its acquisition of Just Eat Takeaway.com, with the offer expected to close after all regulatory clearances; later source snippets indicate the transaction completed in October 2025. Needs final completion source if the list requires exact closing date, but the official clearance/offer documents are strong.",
+      "dedupe_note": "Just Eat Takeaway appears in known research candidates but not known deals; separate from known Glovo/Deliveroo/Wolt entries."
+    },
+    {
+      "brand": "Grubhub",
+      "sector": "food delivery",
+      "origin_country": "USA",
+      "buyer": "Wonder Group",
+      "buyer_country": "USA",
+      "buyer_region": "USA",
+      "deal_year": 2025,
+      "deal_status": "completed",
+      "deal_type": "asset_deal",
+      "source_urls": [
+        "https://newsroom.justeattakeaway.com/en-WW/245724-just-eat-takeaway-com-completes-sale-of-grubhub/",
+        "https://newsroom.justeattakeaway.com/en-WW/243554-just-eat-takeaway-com-sells-grubhub-to-wonder/"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Not a European-origin brand, but it is a material divestment by a major European consumer platform owner, Just Eat Takeaway.com, and may be relevant for group ownership transparency. Just Eat Takeaway.com completed the sale of Grubhub to Wonder Group for enterprise value of USD 650m on 2025-01-07.",
+      "dedupe_note": "Not present in known deals. Include only if the project tracks European-owned consumer platform disposals, not just European-origin brands."
+    },
+    {
+      "brand": "Hovis",
+      "sector": "food",
+      "origin_country": "United Kingdom",
+      "buyer": "Associated British Foods / Allied Bakeries",
+      "buyer_country": "United Kingdom",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.gov.uk/government/news/cma-clears-abfs-deal-to-buy-bread-maker-hovis"
+      ],
+      "preferred_source_type": "competition_authority",
+      "confidence": "medium",
+      "why_relevant": "Well-known UK bread brand. UK CMA published on 2026-06-16 that it cleared ABF’s deal to buy Hovis after a phase 2 investigation. The source confirms regulatory clearance, but a separate completion announcement should be checked before marking completed.",
+      "dedupe_note": "Not found in known deals; new June 2026 consumer food brand lead."
+    },
+    {
+      "brand": "Radley",
+      "sector": "fashion",
+      "origin_country": "United Kingdom",
+      "buyer": "Gordon Brothers",
+      "buyer_country": "USA",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "asset_deal",
+      "source_urls": [
+        "https://www.gordonbrothers.com/press-release/gordon-brothers-acquires-radley-brand/"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Recognizable British handbag/accessories brand. Gordon Brothers announced on 2026-05-26 that it acquired the Radley brand and related intellectual property, making this a recent consumer-brand IP ownership change by a US buyer.",
+      "dedupe_note": "Not found in known deals; related to but separate from known Poundland/Gordon Brothers entry."
+    },
+    {
+      "brand": "Graze",
+      "sector": "food",
+      "origin_country": "United Kingdom",
+      "buyer": "Katjes International",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://live.euronext.com/en/products/equities/company-news/2026-02-02-katjes-international-acquires-graze-brand-unilever"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "UK-founded healthy snacking consumer brand. Katjes International announced on 2026-02-02 that it completed the acquisition of the Graze brand from Unilever, including a London production facility.",
+      "dedupe_note": "Not found in known deals; missed 2026 European consumer brand ownership change."
+    },
+    {
+      "brand": "Délifrance",
+      "sector": "food / bakery",
+      "origin_country": "France",
+      "buyer": "Vandemoortele Group",
+      "buyer_country": "Belgium",
+      "buyer_region": "Europe",
+      "deal_year": 2025,
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.gov.uk/cma-cases/vandemoortele-slash-delifrance-merger-inquiry"
+      ],
+      "preferred_source_type": "competition_authority",
+      "confidence": "medium",
+      "why_relevant": "French bakery/foodservice brand with consumer visibility. UK CMA case page states it is reviewing the completed acquisition by Vandemoortele Group of Délifrance S.A. and referred it to Phase 2 on 2026-04-22. Because CMA calls it completed but still under UK merger-control review, status should remain pending_regulatory_review for list purposes until remedies/final order are checked.",
+      "dedupe_note": "Not found in known deals."
+    },
+    {
+      "brand": "Embed",
+      "sector": "fintech",
+      "origin_country": "Netherlands",
+      "buyer": "OpenFX",
+      "buyer_country": "USA",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.openfx.com/blog/openfx-doubles-down-on-europe-with-embed-acquisition"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "Amsterdam-based embedded payments company with European payment licences. OpenFX announced on 2026-06-01 that it agreed to acquire Embed, adding Dutch PI and UK EMI regulated entities. Smaller and more B2B than the main consumer-brand scope, but relevant to European fintech/platform ownership tracking.",
+      "dedupe_note": "Not found in known deals or visible known candidates; include as lower-priority fintech infrastructure lead."
+    }
+  ],
+  "candidate_updates": [
+    {
+      "brand": "Depop",
+      "suggested_update": "Update existing completed 2021 Etsy ownership entry with a subsequent 2026 pending sale to eBay for approximately $1.2bn cash. Mark as announced/pending until a closing source is found; Etsy 10-Q says sale of 100% of Depop Limited to eBay was agreed under a Sale and Purchase Agreement.",
+      "source_urls": [
+        "https://investors.etsy.com/news-events/press-releases/detail/217/ebay-to-acquire-depop-from-etsy",
+        "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000044/etsy-20260331.htm"
+      ],
+      "confidence": "high"
+    },
+    {
+      "brand": "Just Eat Takeaway.com",
+      "suggested_update": "Move from research candidate to ownership-change candidate: Prosus offer/clearance sources support acquisition/take-private in 2025. Still obtain a final settlement/delisting or completion press release before marking high-confidence completed if the project requires exact completion evidence.",
+      "source_urls": [
+        "https://www.prosus.com/news-insights/2025/prosus-gets-green-light-from-european-commission-to-close-just-eat-takeaway-dot-com-deal",
+        "https://newsroom.justeattakeaway.com/en-WW/252953-prosus-and-jet-have-obtained-all-regulatory-clearances-to-close-the-offer-for-just-eat-takeaway-com/",
+        "https://www.prosus.com/~/media/Files/P/Prosus-CORP/investors/offer-document-19-05-2025.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "brand": "About You",
+      "suggested_update": "Move from research candidate to completed 2025 deal: Zalando completed the strategic combination with About You on 2025-07-11 and completed the final legal step/squeeze-out in November 2025.",
+      "source_urls": [
+        "https://www.webdisclosure.com/press-release/zalando-se-etr-de000zal-zalando-and-about-you-successfully-complete-transaction-and-team-up-to-lead-the-way-in-european-fashion-and-lifestyle-e-commerce-AS9CDaMS7g3",
+        "https://s205.q4cdn.com/202422753/files/doc_news/2025/Nov/06/25-11-06_ABOUT-YOU-and-Zalando-Complete-Final-Step-of-their-Strategic-Combination.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "brand": "Hugo Boss",
+      "suggested_update": "Move from research candidate to active takeover-watch item: Frasers Group launched a voluntary public takeover offer in June 2026. Do not mark completed; monitor offer document, acceptance results, BaFin publications, and Hugo Boss reasoned statement.",
+      "source_urls": [
+        "https://www.ticker.app/lse/FRAS/rns/2026-06-10/Cash-Offer-for-Hugo-Boss-AG/8292H",
+        "https://www.theindustry.fashion/frasers-group-confirms-e38-a-share-hugo-boss-takeover-offer-is-final/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "search_gaps": [
+    {
+      "area": "Hugo Boss / Frasers offer status",
+      "suggested_query": "BaFin Hugo Boss Frasers offer document acceptance results July 2026"
+    },
+    {
+      "area": "Depop / eBay closing status",
+      "suggested_query": "eBay Depop Etsy acquisition closing completed 2026 8-K CMA"
+    },
+    {
+      "area": "Just Eat Takeaway / Prosus final completion evidence",
+      "suggested_query": "Prosus Just Eat Takeaway completion settlement delisting October 2025 official"
+    },
+    {
+      "area": "CMA consumer-facing June 2026 merger cases",
+      "suggested_query": "site:gov.uk/cma-cases \"Market sector: Retail and wholesale\" \"Opened\" \"2026\" acquisition brand"
+    },
+    {
+      "area": "EU Commission recent consumer mergers",
+      "suggested_query": "site:competition-policy.ec.europa.eu/mergers \"2026\" \"acquisition\" \"retail\" \"food\" \"fashion\""
+    },
+    {
+      "area": "German takeover offers for public consumer brands",
+      "suggested_query": "site:baFin.de \"Angebotsunterlage\" \"2026\" \"HUGO BOSS\" OR \"Übernahmeangebot\" \"consumer\""
+    },
+    {
+      "area": "French/Italian/Spanish national competition authority consumer brand transactions",
+      "suggested_query": "Autorité de la concurrence acquisition marque alimentaire mode distribution 2026 OR AGCM acquisizione marchio moda retail 2026 OR CNMC adquisición plataforma marketplace 2026"
+    },
+    {
+      "area": "Known candidate public-company control checks",
+      "suggested_query": "latest annual report major shareholders Zalando ASOS Trainline Wise Revolut Klarna Vinted Bolt 2026 acquisition takeover"
+    }
+  ],
+  "status": "completed",
+  "generated_at": "2026-07-06T20:05:39.407249+00:00"
+}
