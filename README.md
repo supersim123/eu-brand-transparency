@@ -16,7 +16,6 @@
     <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-94-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-279-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
-    <a href="latest-changes.md" title="Latest update"><img src="https://img.shields.io/badge/updated-2026-07-06-informational.svg"></a>
 </p>
 
 **94** ownership records across **10** sectors.

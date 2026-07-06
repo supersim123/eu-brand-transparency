@@ -16,7 +16,6 @@
     <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-{company_count}-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-{candidate_count}-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
-    <a href="latest-changes.md" title="Latest update"><img src="https://img.shields.io/badge/updated-{last_updated}-informational.svg"></a>
 </p>
 
 **{company_count}** ownership records across **{category_count}** sectors.
