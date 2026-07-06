@@ -36,6 +36,19 @@ python scripts/validate_data.py
 python scripts/generate_readme.py
 ```
 
+## Weekly OpenAI News Research
+
+The weekly GitHub Action may generate:
+
+```text
+research/weekly_research_prompt.md
+research/weekly_research.json
+research/weekly_research_summary.md
+```
+
+Review those files manually. Move only verified, source-backed items into `data/deals.csv`.
+OpenAI output is never source evidence.
+
 ## Add a Research Candidate
 
 If ownership is not confirmed yet, add the brand to:

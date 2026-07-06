@@ -18,6 +18,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 - Public list generation: `python scripts/generate_readme.py`
 - Validation: `python scripts/validate_data.py`
 - Weekly GitHub Action: `.github/workflows/weekly-refresh.yml`
+- OpenAI news research: `python scripts/openai_news_research.py`
 
 ## Trademarks
 
