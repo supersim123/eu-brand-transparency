@@ -149,9 +149,13 @@ def main() -> None:
     prompt = build_prompt()
     PROMPT_PATH.write_text(prompt, encoding="utf-8")
 
-    payload = call_openai(api_key, prompt)
-    payload = dedupe_payload(payload)
-    payload["status"] = "completed"
+    try:
+        payload = call_openai(api_key, prompt)
+        payload = dedupe_payload(payload)
+        payload["status"] = "completed"
+    except Exception as exc:
+        payload = failed_payload(str(exc))
+        print(f"OpenAI news research failed: {exc}", file=sys.stderr)
     payload["generated_at"] = datetime.now(timezone.utc).isoformat()
 
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -311,6 +315,8 @@ def render_summary(payload: dict[str, Any]) -> str:
         "OpenAI output is review material only. Verify every ownership claim against source documents before adding it to `data/deals.csv`.",
         "",
     ]
+    if payload.get("error"):
+        lines.extend(["## Error", "", str(payload["error"]), ""])
     if payload.get("new_deal_candidates"):
         lines.extend(["## New Deal Candidates", ""])
         for item in payload["new_deal_candidates"]:
@@ -333,6 +339,16 @@ def render_summary(payload: dict[str, Any]) -> str:
             lines.append(f"- **{item.get('area', '')}**: `{item.get('suggested_query', '')}`")
         lines.append("")
     return "\n".join(lines)
+
+
+def failed_payload(error: str) -> dict[str, Any]:
+    return {
+        "status": "failed",
+        "error": error,
+        "new_deal_candidates": [],
+        "candidate_updates": [],
+        "search_gaps": [],
+    }
 
 
 def append_latest_changes(payload: dict[str, Any]) -> None:
