@@ -1,0 +1,18 @@
+rank,portal,origin_country,current_owner,owner_country,ownership_status,deal_year,deal_status,source_url,source_publisher,notes
+1,ABC Travel Service,Germany,ABC Travel Service GmbH & Co. KG,Germany,private_european,,not_known_acquired,https://www.abctravel.de/impressum,ABC Travel Service,Owner-managed German travel agency and flight booking portal
+2,Billigflug,Germany,TC Flights Germany GmbH,Germany,private_european,,not_known_acquired,https://www.billigflug.de/service/imprint/,Billigflug,Operated by TC Flights Germany GmbH in Leipzig
+3,Condor,Germany,Attestor,United Kingdom,acquired_european,2021,completed,https://condor-newsroom.condor.com/en/de/about-us/history/,Condor,German airline direct booking channel majority-owned by Attestor
+4,eDreams,Spain,eDreams ODIGEO,Spain,public_european,2014,not_known_acquired,https://www.edreamsodigeo.com/about-us/history/,eDreams ODIGEO,Spanish listed online travel group brand
+5,eSky,Poland,MCI Capital,Poland,private_european,,not_known_acquired,https://eskygroup.esky.com/,eSky Group,Polish travel booking platform and Thomas Cook owner
+6,Farera,USA,Farera,USA,private_non_european,,not_known_acquired,https://docs.farera.com/,Farera,Flight booking platform with limited public ownership data
+7,Flightnetwork,Canada,Etraveli Group,Sweden,acquired_european,2019,completed,https://www.etraveligroup.com/etraveli-group-acquires-tripstack-and-flight-network-adding-tech-capabilities-and-further-strengthening-its-global-position/,Etraveli Group,Canadian OTA acquired by Etraveli Group
+8,flighttix,Netherlands,Tix B.V.,Netherlands,private_european,,not_known_acquired,https://media.tix.fr/Privacy2019.pdf,Tix B.V.,Flight booking brand associated with Tix Gate1 Flighttix
+9,Gotogate,Sweden,Etraveli Group,Sweden,acquired_european,2017,completed,https://www.prosiebensat1.com/en/newsroom/prosiebensat1-sells-etraveli-to-cvc-capital-partners-en-337797,ProSiebenSat.1,Etraveli flight booking brand
+10,Kiwi.com,Czech Republic,General Atlantic,USA,acquired_non_european,2019,completed,https://www.generalatlantic.com/media-article/general-atlantic-announces-strategic-partnership-with-travel-platform-kiwi-com/,General Atlantic,Czech flight booking platform with General Atlantic majority ownership reported
+11,lastminute.de,Germany,lastminute.com Group,Switzerland,public_european,,not_known_acquired,https://corporate.lastminute.com/media-and-news/,lastminute.com Group,German localized lastminute.com booking portal
+12,LOL.travel,Italy,Easy Market Spa,Italy,private_european,,not_known_acquired,https://www.lol.travel/us/about-us,LOL.travel,Italian OTA operated by Easy Market Spa
+13,mytrip.com,Sweden,Etraveli Group,Sweden,acquired_european,2017,completed,https://www.etraveligroup.com/cvc-capital-partners-buys-etraveli-for-508-million-euro/,Etraveli Group,Etraveli flight booking brand
+14,Opodo,United Kingdom,eDreams ODIGEO,Spain,public_european,2011,completed,https://www.edreamsodigeo.com/our-brands/,eDreams ODIGEO,UK-origin OTA brand owned by eDreams ODIGEO
+15,Sembo,Sweden,Stena Line Travel Group,Sweden,private_european,,not_known_acquired,https://www.sembo.com/,Sembo,Swedish travel booking platform owned by Stena Line Travel Group
+16,WAYA,Iceland,Dohop,Iceland,private_european,,not_known_acquired,https://www.waya.travel/content/about-us,WAYA,Flight connection booking site powered by Dohop
+17,weg.de,Germany,lastminute.com Group,Switzerland,acquired_european,2017,completed,https://www.phocuswire.com/lastminute-buys-comvel-weg-germany,PhocusWire,German travel booking portal acquired by lastminute.com Group via Comvel

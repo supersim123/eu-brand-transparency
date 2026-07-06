@@ -1,0 +1,280 @@
+candidate_id,brand,sector,origin_country,brand_type,ownership_status,known_owner,owner_country,acquisition_status,research_priority,consumer_score,research_status,notes,source_url,source_publisher,accessed_date
+spotify,Spotify,streaming,Sweden,app,needs_research,,,needs_research,high,10,seeded,High visibility European consumer tech candidate,,,
+klarna,Klarna,fintech,Sweden,app,needs_research,,,needs_research,high,9,seeded,High visibility European fintech candidate,,,
+revolut,Revolut,fintech,United Kingdom,app,needs_research,,,needs_research,high,10,seeded,High visibility European fintech candidate,,,
+wise,Wise,fintech,United Kingdom,app,needs_research,,,needs_research,high,9,seeded,High visibility European fintech candidate,,,
+vinted,Vinted,marketplace,Lithuania,app,needs_research,,,needs_research,high,9,seeded,High visibility European marketplace candidate,,,
+zalando,Zalando,fashion,Germany,marketplace,needs_research,,,needs_research,high,10,seeded,Large European fashion marketplace candidate,,,
+asos,ASOS,fashion,United Kingdom,marketplace,needs_research,,,needs_research,high,9,seeded,Large UK fashion retailer candidate,,,
+boohoo,Boohoo,fashion,United Kingdom,retail,needs_research,,,needs_research,medium,8,seeded,UK online fashion retailer candidate,,,
+gymshark,Gymshark,fashion,United Kingdom,retail,needs_research,,,needs_research,medium,8,seeded,UK sportswear brand candidate,,,
+trainline,Trainline,mobility,United Kingdom,app,needs_research,,,needs_research,high,8,seeded,European rail ticketing app candidate,,,
+bolt,Bolt,mobility,Estonia,app,needs_research,,,needs_research,high,9,seeded,European mobility platform candidate,,,
+blablacar,BlaBlaCar,mobility,France,app,needs_research,,,needs_research,medium,8,seeded,European carpooling platform candidate,,,
+getyourguide,GetYourGuide,travel,Germany,app,needs_research,,,needs_research,medium,8,seeded,European travel marketplace candidate,,,
+omio,Omio,travel,Germany,app,needs_research,,,needs_research,medium,7,seeded,European travel booking app candidate,,,
+toogoodtogo,Too Good To Go,food,Denmark,app,needs_research,,,needs_research,high,9,seeded,European food waste app candidate,,,
+hellofresh,HelloFresh,food,Germany,retail,needs_research,,,needs_research,high,9,seeded,European meal kit company candidate,,,
+delivery_hero,Delivery Hero,food delivery,Germany,app,needs_research,,,needs_research,high,8,seeded,European delivery platform candidate,,,
+just_eat_takeaway,Just Eat Takeaway,food delivery,Netherlands,app,needs_research,,,needs_research,high,9,seeded,European delivery platform candidate,,,
+flink,Flink,grocery,Germany,app,needs_research,,,needs_research,medium,7,seeded,European quick commerce candidate,,,
+picnic,Picnic,grocery,Netherlands,app,needs_research,,,needs_research,medium,7,seeded,European online grocery candidate,,,
+oda,Oda,grocery,Norway,app,needs_research,,,needs_research,medium,6,seeded,Nordic online grocery candidate,,,
+ocado,Ocado,grocery,United Kingdom,retail,needs_research,,,needs_research,medium,8,seeded,UK online grocery and technology candidate,,,
+allegro,Allegro,marketplace,Poland,marketplace,needs_research,,,needs_research,high,9,seeded,Large Polish marketplace candidate,,,
+bol_com,Bol.com,marketplace,Netherlands,marketplace,needs_research,,,needs_research,high,9,seeded,Dutch marketplace candidate,,,
+cdiscount,Cdiscount,marketplace,France,marketplace,needs_research,,,needs_research,medium,8,seeded,French marketplace candidate,,,
+decathlon,Decathlon,retail,France,retail,needs_research,,,needs_research,high,10,seeded,Large European sports retailer candidate,,,
+ikea,IKEA,retail,Sweden,retail,needs_research,,,needs_research,high,10,seeded,Large European furniture retailer candidate,,,
+hm,H&M,fashion,Sweden,retail,needs_research,,,needs_research,high,10,seeded,Large European fashion retailer candidate,,,
+zara,Zara,fashion,Spain,retail,needs_research,,,needs_research,high,10,seeded,Large European fashion brand candidate,,,
+mango,Mango,fashion,Spain,retail,needs_research,,,needs_research,medium,9,seeded,Spanish fashion retailer candidate,,,
+lego,LEGO,toys,Denmark,retail,needs_research,,,needs_research,high,10,seeded,Large European toy brand candidate,,,
+bang_olufsen,Bang & Olufsen,electronics,Denmark,retail,needs_research,,,needs_research,medium,7,seeded,Danish electronics brand candidate,,,
+miele,Miele,household appliances,Germany,household appliances,needs_research,,,needs_research,high,9,seeded,German appliance brand candidate,,,
+bosch_home,Bosch Home,household appliances,Germany,household appliances,needs_research,,,needs_research,high,9,seeded,German appliance brand candidate,,,
+dyson,Dyson,household appliances,United Kingdom,household appliances,needs_research,,,needs_research,high,10,seeded,UK appliance brand candidate,,,
+n26,N26,fintech,Germany,app,needs_research,,,needs_research,high,8,seeded,European neobank candidate,,,
+trade_republic,Trade Republic,fintech,Germany,app,needs_research,,,needs_research,high,8,seeded,European broker app candidate,,,
+monzo,Monzo,fintech,United Kingdom,app,needs_research,,,needs_research,high,9,seeded,UK neobank candidate,,,
+starling_bank,Starling Bank,fintech,United Kingdom,app,needs_research,,,needs_research,medium,8,seeded,UK neobank candidate,,,
+qonto,Qonto,fintech,France,app,needs_research,,,needs_research,medium,7,seeded,European business banking candidate,,,
+lydia,Lydia,fintech,France,app,needs_research,,,needs_research,medium,7,seeded,French payments app candidate,,,
+bunq,Bunq,fintech,Netherlands,app,needs_research,,,needs_research,medium,7,seeded,Dutch neobank candidate,,,
+mollie,Mollie,fintech,Netherlands,app,needs_research,,,needs_research,medium,7,seeded,Dutch payments company candidate,,,
+adyen,Adyen,fintech,Netherlands,app,needs_research,,,needs_research,high,8,seeded,Dutch payments company candidate,,,
+checkout_com,Checkout.com,fintech,United Kingdom,app,needs_research,,,needs_research,medium,7,seeded,UK payments company candidate,,,
+deezer,Deezer,streaming,France,app,needs_research,,,needs_research,medium,8,seeded,French streaming service candidate,,,
+soundcloud,SoundCloud,streaming,Germany,app,needs_research,,,needs_research,medium,8,seeded,European audio platform candidate,,,
+komoot,Komoot,mobility,Germany,app,needs_research,,,needs_research,medium,7,seeded,European outdoor navigation app candidate,,,
+wetransfer,WeTransfer,productivity,Netherlands,app,needs_research,,,needs_research,medium,8,seeded,Dutch file transfer service candidate,,,
+babbel,Babbel,education,Germany,app,needs_research,,,needs_research,medium,8,seeded,German language learning app candidate,,,
+trustpilot,Trustpilot,marketplace,Denmark,app,needs_research,,,needs_research,medium,8,seeded,Danish reviews platform candidate,,,
+wallapop,Wallapop,marketplace,Spain,app,needs_research,,,needs_research,medium,8,seeded,Spanish classifieds marketplace candidate,,,
+vestiaire_collective,Vestiaire Collective,marketplace,France,app,needs_research,,,needs_research,medium,8,seeded,French resale marketplace candidate,,,
+back_market,Back Market,marketplace,France,marketplace,needs_research,,,needs_research,medium,8,seeded,French refurbished electronics marketplace candidate,,,
+leboncoin,Leboncoin,marketplace,France,marketplace,needs_research,,,needs_research,medium,8,seeded,French classifieds marketplace candidate,,,
+auto1,AUTO1,marketplace,Germany,marketplace,needs_research,,,needs_research,medium,7,seeded,German used car marketplace candidate,,,
+auto_trader_uk,Auto Trader UK,marketplace,United Kingdom,marketplace,needs_research,,,needs_research,medium,8,seeded,UK vehicle marketplace candidate,,,
+rightmove,Rightmove,real estate,United Kingdom,marketplace,needs_research,,,needs_research,high,9,seeded,UK real estate portal candidate,,,
+idealista,Idealista,real estate,Spain,marketplace,needs_research,,,needs_research,medium,8,seeded,Spanish real estate portal candidate,,,
+immowelt,Immowelt,real estate,Germany,marketplace,needs_research,,,needs_research,medium,7,seeded,German real estate portal candidate,,,
+otto,Otto,marketplace,Germany,marketplace,needs_research,,,needs_research,high,9,seeded,German retail marketplace candidate,,,
+about_you,About You,fashion,Germany,marketplace,needs_research,,,needs_research,medium,8,seeded,German fashion marketplace candidate,,,
+flix,Flix,mobility,Germany,app,needs_research,,,needs_research,high,8,seeded,European long distance mobility company candidate,,,
+ryanair,Ryanair,travel,Ireland,service,needs_research,,,needs_research,high,10,seeded,European airline candidate,,,
+easyjet,easyJet,travel,United Kingdom,service,needs_research,,,needs_research,high,10,seeded,European airline candidate,,,
+wizz_air,Wizz Air,travel,Hungary,service,needs_research,,,needs_research,medium,8,seeded,European airline candidate,,,
+tui,TUI,travel,Germany,service,public_european,Public shareholders,Germany,not_known_acquired,high,9,sourced,European travel group and publicly listed company,https://www.tuigroup.com/en/investors,TUI Group,2026-07-02
+booking_com,Booking.com,travel,Netherlands,app,acquired_non_european,Booking Holdings,USA,confirmed_deal,high,10,sourced,Dutch travel booking brand acquired by Priceline.com in 2005,https://www.sec.gov/Archives/edgar/data/1075531/000110465905033189/a05-12314_1ex99d1.htm,SEC,2026-07-02
+edreams_odigeo,eDreams ODIGEO,travel,Spain,app,needs_research,,,needs_research,medium,7,seeded,European travel booking group candidate,,,
+hostelworld,Hostelworld,travel,Ireland,app,needs_research,,,needs_research,medium,7,seeded,Irish travel marketplace candidate,,,
+secret_escapes,Secret Escapes,travel,United Kingdom,app,needs_research,,,needs_research,medium,7,seeded,UK travel deals platform candidate,,,
+loveholidays,Loveholidays,travel,United Kingdom,app,needs_research,,,needs_research,medium,7,seeded,UK travel booking platform candidate,,,
+glovo,Glovo,food delivery,Spain,app,needs_research,,,needs_research,medium,8,seeded,Spanish delivery platform candidate,,,
+carrefour,Carrefour,retail,France,retail,needs_research,,,needs_research,high,10,seeded,Large European retailer candidate,,,
+auchan,Auchan,retail,France,retail,needs_research,,,needs_research,medium,8,seeded,French retailer candidate,,,
+e_leclerc,E.Leclerc,retail,France,retail,needs_research,,,needs_research,medium,8,seeded,French retailer candidate,,,
+tesco,Tesco,retail,United Kingdom,retail,needs_research,,,needs_research,high,10,seeded,UK supermarket candidate,,,
+sainsburys,Sainsbury's,retail,United Kingdom,retail,needs_research,,,needs_research,high,9,seeded,UK supermarket candidate,,,
+marks_spencer,Marks & Spencer,retail,United Kingdom,retail,needs_research,,,needs_research,high,9,seeded,UK retailer candidate,,,
+next,Next,fashion,United Kingdom,retail,needs_research,,,needs_research,medium,8,seeded,UK fashion retailer candidate,,,
+primark,Primark,fashion,Ireland,retail,needs_research,,,needs_research,high,9,seeded,European value fashion retailer candidate,,,
+aldi,Aldi,retail,Germany,retail,needs_research,,,needs_research,high,10,seeded,German discount retailer candidate,,,
+lidl,Lidl,retail,Germany,retail,needs_research,,,needs_research,high,10,seeded,German discount retailer candidate,,,
+kaufland,Kaufland,retail,Germany,retail,needs_research,,,needs_research,medium,8,seeded,German hypermarket retailer candidate,,,
+dm_drogerie_markt,dm-drogerie markt,beauty,Germany,retail,needs_research,,,needs_research,medium,8,seeded,German drugstore chain candidate,,,
+rossmann,Rossmann,beauty,Germany,retail,needs_research,,,needs_research,medium,8,seeded,German drugstore chain candidate,,,
+freetrade,Freetrade,fintech,United Kingdom,app,needs_research,,,needs_research,medium,7,seeded,UK broker app candidate,,,
+scalable_capital,Scalable Capital,fintech,Germany,app,needs_research,,,needs_research,medium,7,seeded,German broker app candidate,,,
+raisin,Raisin,fintech,Germany,app,needs_research,,,needs_research,medium,7,seeded,German savings marketplace candidate,,,
+zopa,Zopa,fintech,United Kingdom,app,needs_research,,,needs_research,medium,7,seeded,UK fintech candidate,,,
+cd_projekt,CD Projekt,gaming,Poland,app,needs_research,,,needs_research,high,9,seeded,Polish games company candidate,,,
+paradox_interactive,Paradox Interactive,gaming,Sweden,app,needs_research,,,needs_research,medium,8,seeded,Swedish games publisher candidate,,,
+ubisoft,Ubisoft,gaming,France,app,needs_research,,,needs_research,high,10,seeded,French games publisher candidate,,,
+remedy,Remedy Entertainment,gaming,Finland,app,needs_research,,,needs_research,medium,8,seeded,Finnish games studio candidate,,,
+embracer,Embracer Group,gaming,Sweden,app,needs_research,,,needs_research,medium,8,seeded,Swedish games group candidate,,,
+lindt,Lindt,food,Switzerland,retail,needs_research,,,needs_research,high,9,seeded,Swiss chocolate brand candidate,,,
+fazer,Fazer,food,Finland,retail,needs_research,,,needs_research,medium,7,seeded,Finnish food brand candidate,,,
+ritter_sport,Ritter Sport,food,Germany,retail,needs_research,,,needs_research,medium,8,seeded,German chocolate brand candidate,,,
+barilla,Barilla,food,Italy,retail,needs_research,,,needs_research,high,9,seeded,Italian food brand candidate,,,
+ferrero,Ferrero,food,Italy,retail,needs_research,,,needs_research,high,10,seeded,Italian confectionery group candidate,,,
+lavazza,Lavazza,food,Italy,retail,needs_research,,,needs_research,medium,8,seeded,Italian coffee brand candidate,,,
+illy,Illy,food,Italy,retail,needs_research,,,needs_research,medium,8,seeded,Italian coffee brand candidate,,,
+danone,Danone,food,France,retail,needs_research,,,needs_research,high,10,seeded,French food group candidate,,,
+nestle,Nestle,food,Switzerland,retail,needs_research,,,needs_research,high,10,seeded,Swiss food group candidate,,,
+arla,Arla,food,Denmark,retail,needs_research,,,needs_research,medium,8,seeded,Danish dairy group candidate,,,
+oatly,Oatly,food,Sweden,retail,needs_research,,,needs_research,medium,8,seeded,Swedish oat drink brand candidate,,,
+prada,Prada,fashion,Italy,retail,needs_research,,,needs_research,high,10,seeded,Italian luxury fashion group candidate,,,
+gucci,Gucci,fashion,Italy,retail,needs_research,,,needs_research,high,10,seeded,Italian luxury fashion brand candidate,,,
+burberry,Burberry,fashion,United Kingdom,retail,needs_research,,,needs_research,high,10,seeded,UK luxury fashion brand candidate,,,
+mulberry,Mulberry,fashion,United Kingdom,retail,needs_research,,,needs_research,medium,8,seeded,UK luxury leather brand candidate,,,
+dr_martens,Dr. Martens,fashion,United Kingdom,retail,needs_research,,,needs_research,high,9,seeded,UK footwear brand candidate,,,
+hugo_boss,Hugo Boss,fashion,Germany,retail,needs_research,,,needs_research,high,9,seeded,German fashion brand candidate,,,
+adidas,Adidas,fashion,Germany,retail,needs_research,,,needs_research,high,10,seeded,German sportswear brand candidate,,,
+puma,Puma,fashion,Germany,retail,needs_research,,,needs_research,high,9,seeded,German sportswear brand candidate,,,
+lacoste,Lacoste,fashion,France,retail,needs_research,,,needs_research,medium,8,seeded,French fashion brand candidate,,,
+ganni,Ganni,fashion,Denmark,retail,needs_research,,,needs_research,medium,8,seeded,Danish fashion brand candidate,,,
+acne_studios,Acne Studios,fashion,Sweden,retail,needs_research,,,needs_research,medium,8,seeded,Swedish fashion brand candidate,,,
+lush,Lush,beauty,United Kingdom,retail,needs_research,,,needs_research,high,9,seeded,UK cosmetics retailer candidate,,,
+rituals,Rituals,beauty,Netherlands,retail,needs_research,,,needs_research,medium,8,seeded,Dutch cosmetics brand candidate,,,
+nivea,Nivea,beauty,Germany,retail,needs_research,,,needs_research,high,10,seeded,German skincare brand candidate,,,
+garnier,Garnier,beauty,France,retail,needs_research,,,needs_research,high,9,seeded,French beauty brand candidate,,,
+weleda,Weleda,beauty,Switzerland,retail,needs_research,,,needs_research,medium,8,seeded,Swiss natural cosmetics brand candidate,,,
+electrolux,Electrolux,household appliances,Sweden,household appliances,needs_research,,,needs_research,high,9,seeded,Swedish appliance company candidate,,,
+seb,Groupe SEB,household appliances,France,household appliances,needs_research,,,needs_research,high,9,seeded,French small appliance group candidate,,,
+delonghi,DeLonghi,household appliances,Italy,household appliances,needs_research,,,needs_research,high,9,seeded,Italian appliance brand candidate,,,
+smeg,Smeg,household appliances,Italy,household appliances,needs_research,,,needs_research,medium,8,seeded,Italian appliance brand candidate,,,
+manomano,ManoMano,marketplace,France,marketplace,needs_research,,,needs_research,medium,7,seeded,French DIY marketplace candidate,,,
+veepee,Veepee,marketplace,France,marketplace,needs_research,,,needs_research,medium,7,seeded,French ecommerce platform candidate,,,
+chrono24,Chrono24,marketplace,Germany,marketplace,needs_research,,,needs_research,medium,7,seeded,German watch marketplace candidate,,,
+agoda,Agoda,travel,Singapore,app,acquired_non_european,Booking Holdings,USA,confirmed_deal,high,9,sourced,Singapore travel booking platform owned by Booking Holdings,https://www.bookingholdings.com/brands/agoda/,Booking Holdings,2026-07-02
+kayak,KAYAK,travel,USA,app,acquired_non_european,Booking Holdings,USA,confirmed_deal,high,8,sourced,US travel metasearch platform acquired by Priceline.com in 2013,https://www.sec.gov/Archives/edgar/data/1075531/000107553113000030/kayakclosing8-k.htm,SEC,2026-07-02
+hotels_com,Hotels.com,travel,USA,app,acquired_non_european,Expedia Group,USA,confirmed_deal,medium,8,sourced,US hotel booking platform owned by Expedia Group,https://www.hotels.com/,Hotels.com,2026-07-02
+choice_hotels,Choice Hotels,travel,USA,service,public_non_european,Public shareholders,USA,not_known_acquired,medium,7,sourced,US hotel franchising and booking company included as travel landscape comparator,https://investor.choicehotels.com/financials/sec-filings/default.aspx,Choice Hotels,2026-07-02
+holidaycheck,HolidayCheck,travel,Germany,app,acquired_european,Hubert Burda Media,Germany,confirmed_deal,high,8,sourced,German-speaking travel review and booking platform majority owned by Burda,https://www.holidaycheckgroup.com/investor-relations/annual-reports/?lang=en,HolidayCheck Group,2026-07-02
+dertour,DERTOUR,travel,Germany,service,private_european,REWE Group,Germany,not_known_acquired,high,8,sourced,German travel group and REWE Group tourism division,https://www.rewe-group.com/en/company/structure-and-saleslines/der-touristik/,REWE Group,2026-07-02
+zenhotels,ZenHotels,travel,Unknown,app,unknown,Emerging Travel Group,Unknown,not_known_acquired,medium,7,sourced,Hotel booking brand operated by Emerging Travel Group with owner country requiring follow-up,https://www.emergingtravel.com/brands,Emerging Travel Group,2026-07-02
+stayforlong,Stayforlong,travel,Spain,app,private_european,Stayforlong S.L.,Spain,not_known_acquired,medium,7,sourced,Barcelona-born hotel booking platform focused on longer stays,https://www.stayforlong.com/the-brand/about-us,Stayforlong,2026-07-02
+cheapflights,Cheapflights,travel,United Kingdom,app,acquired_non_european,Booking Holdings,USA,confirmed_deal,high,8,sourced,UK flight comparison platform acquired via Momondo Group,https://ir.bookingholdings.com/news/news-details/2017/The-Priceline-Group-Completes-the-Acquisition-of-Momondo-Group-07-24-2017/default.aspx,Booking Holdings,2026-07-02
+travelfusion,Travelfusion,travel,United Kingdom,app,acquired_non_european,Trip.com Group,China,confirmed_deal,medium,5,sourced,UK flight content aggregation platform controlled by Ctrip Trip.com Group,https://www.prnewswire.com/news-releases/ctrip-announces-investment-in-travelfusion-300015904.html,PR Newswire,2026-07-02
+kiwi_com,Kiwi.com,travel,Czech Republic,app,acquired_non_european,General Atlantic,USA,confirmed_deal,high,8,sourced,Czech flight booking platform with General Atlantic majority ownership reported,https://www.generalatlantic.com/media-article/general-atlantic-announces-strategic-partnership-with-travel-platform-kiwi-com/,General Atlantic,2026-07-02
+etraveli_group,Etraveli Group,travel,Sweden,app,acquired_european,CVC Capital Partners,United Kingdom,confirmed_deal,high,7,sourced,Swedish flight-centric OTA owned by CVC with KKR minority investment,https://www.etraveligroup.com/cvc-capital-partners-buys-etraveli-for-508-million-euro/,Etraveli Group,2026-07-02
+gotogate,Gotogate,travel,Sweden,app,acquired_european,Etraveli Group,United Kingdom,confirmed_deal,medium,7,sourced,Etraveli flight booking brand,https://www.prosiebensat1.com/en/newsroom/prosiebensat1-sells-etraveli-to-cvc-capital-partners-en-337797,ProSiebenSat.1,2026-07-02
+mytrip,Mytrip,travel,Sweden,app,acquired_european,Etraveli Group,United Kingdom,confirmed_deal,medium,7,sourced,Etraveli flight booking brand requiring brand-level registry follow-up,https://www.etraveligroup.com/cvc-capital-partners-buys-etraveli-for-508-million-euro/,Etraveli Group,2026-07-02
+supersaver,Supersaver,travel,Sweden,app,acquired_european,Etraveli Group,United Kingdom,confirmed_deal,medium,6,sourced,Etraveli flight booking brand,https://www.prosiebensat1.com/en/newsroom/prosiebensat1-sells-etraveli-to-cvc-capital-partners-en-337797,ProSiebenSat.1,2026-07-02
+seat24,Seat24,travel,Sweden,app,acquired_european,Etraveli Group,United Kingdom,confirmed_deal,medium,6,sourced,Etraveli flight booking brand,https://www.prosiebensat1.com/en/newsroom/prosiebensat1-sells-etraveli-to-cvc-capital-partners-en-337797,ProSiebenSat.1,2026-07-02
+edreams, eDreams,travel,Spain,app,public_european,Public shareholders,Spain,not_known_acquired,high,8,sourced,Spanish online travel agency brand of listed eDreams ODIGEO,https://www.edreamsodigeo.com/about-us/history/,eDreams ODIGEO,2026-07-02
+opodo,Opodo,travel,United Kingdom,app,public_european,eDreams ODIGEO,Spain,confirmed_deal,high,8,sourced,UK-origin online travel agency brand owned by listed eDreams ODIGEO,https://www.edreamsodigeo.com/our-brands/,eDreams ODIGEO,2026-07-02
+go_voyages,GO Voyages,travel,France,app,public_european,eDreams ODIGEO,Spain,confirmed_deal,medium,7,sourced,French online travel brand of eDreams ODIGEO,https://www.edreamsodigeo.com/our-brands/,eDreams ODIGEO,2026-07-02
+travellink,Travellink,travel,Sweden,app,public_european,eDreams ODIGEO,Spain,confirmed_deal,medium,7,sourced,Nordic online travel brand of eDreams ODIGEO,https://www.edreamsodigeo.com/our-brands/,eDreams ODIGEO,2026-07-02
+liligo,Liligo,travel,France,app,public_european,eDreams ODIGEO,Spain,confirmed_deal,medium,7,sourced,French travel metasearch brand of eDreams ODIGEO,https://www.edreamsodigeo.com/our-brands/,eDreams ODIGEO,2026-07-02
+google_flights,Google Flights,travel,USA,app,public_non_european,Alphabet,USA,not_known_acquired,medium,9,sourced,US flight search comparator owned by Alphabet,https://www.google.com/travel/flights,Google,2026-07-02
+expedia_flights,Expedia Flights,travel,USA,app,public_non_european,Expedia Group,USA,not_known_acquired,medium,9,sourced,US travel booking brand of Expedia Group,https://www.expediagroup.com/en-us,Expedia Group,2026-07-02
+hopper,Hopper,travel,Canada,app,private_non_european,Private shareholders,Canada,not_known_acquired,medium,8,sourced,Canadian travel booking app comparator,https://www.hopper.com/,Hopper,2026-07-02
+cheapoair,CheapOair,travel,USA,app,private_non_european,Fareportal,USA,not_known_acquired,medium,7,sourced,US flight booking brand of Fareportal,https://www.cheapoair.com/,CheapOair,2026-07-02
+trip_com,Trip.com,travel,China,app,public_non_european,Trip.com Group,China,not_known_acquired,medium,9,sourced,Chinese travel booking platform and owner of Skyscanner and Travelfusion,https://www.trip.com/,Trip.com,2026-07-02
+on_the_beach,On the Beach,travel,United Kingdom,app,public_european,Public shareholders,United Kingdom,not_known_acquired,medium,7,sourced,UK listed online holiday and flight package retailer,https://www.onthebeachgroupplc.com/,On the Beach Group,2026-07-02
+lastminute_com,lastminute.com,travel,Switzerland,app,public_european,Public shareholders,Switzerland,not_known_acquired,medium,7,sourced,European online travel group and flight booking brand,https://www.lastminute.com/,lastminute.com,2026-07-02
+omio_flights,Omio Flights,travel,Germany,app,private_european,Private shareholders,Germany,not_known_acquired,medium,7,sourced,German multimodal travel booking app with flight search,https://www.omio.com/,Omio,2026-07-02
+abc_travel_service,ABC Travel Service,travel,Germany,service,private_european,ABC Travel Service GmbH & Co. KG,Germany,not_known_acquired,medium,6,sourced,German owner-managed travel agency and flight booking portal,https://www.abctravel.de/impressum,ABC Travel Service,2026-07-02
+billigflug,Billigflug,travel,Germany,app,private_european,TC Flights Germany GmbH,Germany,not_known_acquired,medium,7,sourced,German flight booking portal operated by TC Flights Germany GmbH,https://www.billigflug.de/service/imprint/,Billigflug,2026-07-02
+condor,Condor,travel,Germany,service,acquired_european,Attestor,United Kingdom,confirmed_deal,medium,8,sourced,German airline direct booking channel majority-owned by European asset manager Attestor,https://condor-newsroom.condor.com/en/de/about-us/history/,Condor,2026-07-02
+esky,eSky,travel,Poland,app,private_european,MCI Capital,Poland,not_known_acquired,high,8,sourced,Polish travel booking platform and Thomas Cook owner,https://eskygroup.esky.com/,eSky Group,2026-07-02
+farera,Farera,travel,USA,app,private_non_european,Farera,USA,not_known_acquired,medium,6,sourced,US-based flight booking platform with limited public ownership data,https://docs.farera.com/,Farera,2026-07-02
+flightnetwork,Flightnetwork,travel,Canada,app,acquired_european,Etraveli Group,Sweden,confirmed_deal,medium,7,sourced,Canadian OTA acquired by Etraveli Group in 2019,https://www.etraveligroup.com/etraveli-group-acquires-tripstack-and-flight-network-adding-tech-capabilities-and-further-strengthening-its-global-position/,Etraveli Group,2026-07-02
+flighttix,Flighttix,travel,Netherlands,app,private_european,Tix B.V.,Netherlands,not_known_acquired,medium,6,sourced,Flight booking brand associated with Tix Gate1 Flighttix with Netherlands footprint,https://media.tix.fr/Privacy2019.pdf,Tix B.V.,2026-07-02
+lastminute_de,lastminute.de,travel,Germany,app,public_european,lastminute.com Group,Switzerland,not_known_acquired,medium,7,sourced,German localized lastminute.com flight and holiday booking portal,https://corporate.lastminute.com/media-and-news/,lastminute.com Group,2026-07-02
+lol_travel,LOL.travel,travel,Italy,app,private_european,Easy Market Spa,Italy,not_known_acquired,medium,6,sourced,Italian online travel agency operated by Easy Market Spa,https://www.lol.travel/us/about-us,LOL.travel,2026-07-02
+sembo,Sembo,travel,Sweden,app,private_european,Stena Line Travel Group,Sweden,not_known_acquired,medium,7,sourced,Swedish travel booking platform owned by Stena Line Travel Group,https://www.sembo.com/,Sembo,2026-07-02
+waya,WAYA,travel,Iceland,app,private_european,Dohop,Iceland,not_known_acquired,medium,6,sourced,Icelandic flight connection booking site powered by Dohop,https://www.waya.travel/content/about-us,WAYA,2026-07-02
+weg_de,weg.de,travel,Germany,app,acquired_european,lastminute.com Group,Switzerland,confirmed_deal,medium,7,sourced,German travel booking site acquired by lastminute.com Group via Comvel,https://www.phocuswire.com/lastminute-buys-comvel-weg-germany,PhocusWire,2026-07-02
+aegean_airlines,Aegean Airlines,travel,Greece,service,public_european,Public shareholders,Greece,not_known_acquired,medium,7,sourced,Greek listed airline direct booking channel,https://en.about.aegeanair.com/investor-relations/,Aegean Airlines,2026-07-02
+air_europa,Air Europa,travel,Spain,service,private_european,Globalia and IAG minority,Spain / United Kingdom,not_known_acquired,medium,7,sourced,Spanish airline still controlled by Globalia after IAG abandoned full takeover plan,https://ec.europa.eu/commission/presscorner/detail/cs/ip_24_2306,European Commission,2026-07-02
+air_france,Air France,travel,France,service,public_european,Air France-KLM,France / Netherlands,not_known_acquired,high,9,sourced,French airline brand in listed Air France-KLM group,https://www.airfranceklm.com/en/finance/air-france-klm-capital/shareholding-structure,Air France-KLM,2026-07-02
+austrian_airlines,Austrian Airlines,travel,Austria,service,acquired_european,Lufthansa Group,Germany,confirmed_deal,medium,7,sourced,Austrian airline acquired by Lufthansa Group in 2009,https://ec.europa.eu/competition/mergers/cases/decisions/m5440_20090828_20600_en.pdf,European Commission,2026-07-02
+british_airways,British Airways,travel,United Kingdom,service,acquired_european,IAG,United Kingdom / Spain,confirmed_deal,high,9,sourced,UK airline brand under International Airlines Group,https://careers.ba.com/our-brands,British Airways,2026-07-02
+brussels_airlines,Brussels Airlines,travel,Belgium,service,acquired_european,Lufthansa Group,Germany,confirmed_deal,medium,7,sourced,Belgian airline fully integrated into Lufthansa Group from 2018,https://press.brusselsairlines.com/lufthansa-and-brussels-airlines-shaping-the-future-together,Brussels Airlines,2026-07-02
+connections_by_easyjet,Connections by easyJet,travel,United Kingdom,app,private_european,easyJet and Dohop,United Kingdom / Iceland,not_known_acquired,medium,7,sourced,easyJet self-connection booking service powered by Dohop,https://www.easyjet.com/en/help/extra-services/connections-by-easyjet,easyJet,2026-07-02
+eurowings,Eurowings,travel,Germany,service,public_european,Lufthansa Group,Germany,not_known_acquired,medium,7,sourced,German airline brand in Lufthansa Group,https://www.lufthansagroup.com/en/company.html,Lufthansa Group,2026-07-02
+expedia,Expedia,travel,USA,app,public_non_european,Expedia Group,USA,not_known_acquired,high,9,sourced,US travel booking brand of Expedia Group,https://www.expediagroup.com/en-us,Expedia Group,2026-07-02
+flugladen_de,flugladen.de,travel,Germany,app,acquired_non_european,Trip.com Group,China,confirmed_deal,medium,7,sourced,German Travix flight brand now under Trip.com Group,https://www.travix.com/,Travix,2026-07-02
+flysmarter,Flysmarter,travel,Sweden,app,private_european,FlySmarter,Sweden,not_known_acquired,medium,6,sourced,Flight OTA with Sweden contact footprint and limited public ownership data,https://www.trustpilot.com/review/flysmarter.at,Trustpilot,2026-07-02
+iberia,Iberia,travel,Spain,service,acquired_european,IAG,United Kingdom / Spain,confirmed_deal,high,9,sourced,Spanish airline brand under International Airlines Group,https://centreforaviation.com/data/profiles/airline-groups/international-airlines-group-iag,CAPA,2026-07-02
+ita_airways,ITA Airways,travel,Italy,service,acquired_european,Lufthansa Group,Germany,confirmed_deal,high,8,sourced,Italian airline became part of Lufthansa Group after 41 percent stake closed in 2025,https://newsroom.lufthansagroup.com/en/lufthansa-group-finalizes-41-percent-stake-in-ita-airways/,Lufthansa Group,2026-07-02
+kissandfly_de,Kissandfly.de,travel,Unknown,app,unknown,TTN,Unknown,not_known_acquired,medium,6,sourced,Kissandfly is described as a member of TTN holding with owner country requiring registry follow-up,https://avia.kissandfly.com/content/about.html,Kissandfly,2026-07-02
+klm,KLM,travel,Netherlands,service,acquired_european,Air France-KLM,France / Netherlands,confirmed_deal,high,9,sourced,Dutch airline brand in Air France-KLM group,https://www.airfranceklm.com/en/finance/air-france-klm-capital/shareholding-structure,Air France-KLM,2026-07-02
+lufthansa,Lufthansa,travel,Germany,service,public_european,Public shareholders,Germany,not_known_acquired,high,9,sourced,German listed airline group and direct booking channel,https://www.lufthansagroup.com/en/company.html,Lufthansa Group,2026-07-02
+oojo,oojo,travel,Netherlands,app,private_european,Trevolution Group,Netherlands / USA,not_known_acquired,medium,7,sourced,Flight OTA of Trevolution Group with Amsterdam operating footprint,https://trevolution.group/en/press/oojo-reaches-new-horizons-with-its-german-market-launch/,Trevolution Group,2026-07-02
+pegasus_airlines,Pegasus Airlines,travel,Turkey,service,public_european,Esas Holding,Turkey,not_known_acquired,medium,8,sourced,Turkish listed low-cost airline controlled by Esas Holding,https://www.pegasusinvestorrelations.com/en/corporate-governance/group-companies,Pegasus Airlines,2026-07-02
+saudia,SAUDIA,travel,Saudi Arabia,service,state_owned,Government of Saudi Arabia,Saudi Arabia,not_known_acquired,medium,8,sourced,Saudi national airline treated as state-owned for ownership mapping,https://www.saudia.com/,SAUDIA,2026-07-02
+swiss,SWISS,travel,Switzerland,service,acquired_european,Lufthansa Group,Germany,confirmed_deal,high,8,sourced,Swiss airline acquired by Lufthansa Group through 2005 transaction structure,https://ec.europa.eu/competition/mergers/cases/decisions/m3770_20050704_20212_en.pdf,European Commission,2026-07-02
+tap_air_portugal,TAP Air Portugal,travel,Portugal,service,state_owned,Portuguese state,Portugal,not_known_acquired,high,8,sourced,Portuguese state-owned airline undergoing privatization process,https://newsroom.lufthansagroup.com/en/lufthansa-group-intends-to-play-an-active-role-in-the-privatization-of-tap-air-portugal/,Lufthansa Group,2026-07-02
+united_airlines,United Airlines,travel,USA,service,public_non_european,Public shareholders,USA,not_known_acquired,high,9,sourced,US listed airline direct booking channel,https://ir.united.com/,United Airlines,2026-07-02
+vueling,Vueling,travel,Spain,service,acquired_european,IAG,United Kingdom / Spain,confirmed_deal,medium,8,sourced,Spanish low-cost airline brand under International Airlines Group,https://centreforaviation.com/data/profiles/airline-groups/international-airlines-group-iag,CAPA,2026-07-02
+arbio,Arbio,travel,Germany,platform,needs_research,,,needs_research,high,8,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+arcube,Arcube,travel,United Kingdom,software,needs_research,,,needs_research,medium,6,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+drimer,Drimer,travel,Spain,platform,needs_research,,,needs_research,high,8,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+holacamp,HolaCamp,travel,Spain,service,needs_research,,,needs_research,high,8,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+kolet,Kolet,travel,France,app,needs_research,,,needs_research,high,8,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+layla_ai,Layla AI,travel,Germany,app,needs_research,,,needs_research,high,9,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+nomade_nation,Nomade Nation,travel,Spain,brand,needs_research,,,needs_research,medium,7,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+understory,Understory,travel,Denmark,software,needs_research,,,needs_research,medium,6,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+weebora,Weebora,travel,Italy,platform,needs_research,,,needs_research,medium,7,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+wingbits,Wingbits,travel,Sweden,platform,needs_research,,,needs_research,medium,6,sourced,Travel tech startup from EU-Startups 2025 seed list,https://www.eu-startups.com/2025/07/everyone-on-board-10-promising-european-startups-navigating-the-future-of-travel/,EU-Startups,2026-07-02
+juicy_marbles,Juicy Marbles,foodtech,Slovenia,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+groots,Groots,foodtech,Spain,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+la_vie,La Vie,foodtech,France,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+revo_foods,Revo Foods,foodtech,Austria,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+hooked,Hooked,foodtech,Sweden,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+les_miraculeux,Les Miraculeux,foodtech,France,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+nourish3d,Nourish3d,foodtech,United Kingdom,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+bosque_foods,Bosque Foods,foodtech,Germany,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+formo,Formo,foodtech,Germany,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+divaks,Divaks,foodtech,Lithuania,brand,needs_research,,,needs_research,medium,7,sourced,Foodtech startup from EU-Startups 2022 seed list,https://www.eu-startups.com/2022/11/10-european-startups-shaping-the-future-of-food-with-tech/,EU-Startups,2026-07-02
+gorillas,Gorillas,grocery delivery,Germany,app,needs_research,,,needs_research,high,9,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+razor_group,Razor Group,e-commerce,Germany,company,needs_research,,,needs_research,medium,7,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+foodpanda,Foodpanda,food delivery,Germany,app,needs_research,,,needs_research,high,9,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+commercetools,Commercetools,e-commerce infrastructure,Germany,software,needs_research,,,needs_research,medium,6,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+billie,Billie,fintech,Germany,service,needs_research,,,needs_research,medium,7,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+grover,Grover,electronics rental,Germany,platform,needs_research,,,needs_research,high,8,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+berlin_brands_group,Berlin Brands Group,consumer goods,Germany,company,needs_research,,,needs_research,medium,7,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+flixbus,FlixBus,mobility,Germany,app,needs_research,,,needs_research,high,9,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+hive,Hive,e-commerce logistics,Germany,software,needs_research,,,needs_research,medium,6,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+yababa,Yababa,grocery delivery,Germany,app,needs_research,,,needs_research,medium,7,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+spryker_systems,Spryker Systems,e-commerce infrastructure,Germany,software,needs_research,,,needs_research,medium,6,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+productsup,Productsup,e-commerce infrastructure,Germany,software,needs_research,,,needs_research,medium,5,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+chronext,CHRONEXT,luxury marketplace,Germany,marketplace,needs_research,,,needs_research,medium,7,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+elopage,Elopage,creator commerce,Germany,platform,needs_research,,,needs_research,medium,6,sourced,German e-commerce seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-e-commerce-startups-and-companies-in-germany/,EU-Startups,2026-07-02
+satispay,Satispay,fintech,Italy,app,needs_research,,,needs_research,medium,8,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+h_farm,H-FARM,fintech,Italy,company,needs_research,,,needs_research,medium,5,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+ventis,Ventis,fintech,Italy,marketplace,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+criptalia,Criptalia,fintech,Italy,platform,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+walliance,Walliance,fintech,Italy,platform,needs_research,,,needs_research,medium,7,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+fintastico,Fintastico,fintech,Italy,platform,needs_research,,,needs_research,medium,5,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+young_platform,Young Platform,fintech,Italy,app,needs_research,,,needs_research,medium,7,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+mioassicuratore,MioAssicuratore,fintech,Italy,platform,needs_research,,,needs_research,medium,7,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+axyon_ai,Axyon AI,fintech,Italy,software,needs_research,,,needs_research,medium,5,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+mdotm,MDOTM,fintech,Italy,software,needs_research,,,needs_research,medium,5,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+finscience,FinScience,fintech,Italy,software,needs_research,,,needs_research,medium,5,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+switcho,Switcho,fintech,Italy,app,needs_research,,,needs_research,medium,7,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+vitesicure,ViteSicure,fintech,Italy,service,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+moneymour,Moneymour,fintech,Italy,service,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+epiphany,Epiphany,fintech,Italy,software,needs_research,,,needs_research,medium,5,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+soisy,Soisy,fintech,Italy,service,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+borsadelcredito_it,BorsadelCredito.it,fintech,Italy,marketplace,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+growish,Growish,fintech,Italy,service,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+workinvoice,Workinvoice,fintech,Italy,platform,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+crowdfundme,CrowdFundMe,fintech,Italy,platform,needs_research,,,needs_research,medium,6,sourced,Italian fintech seed from EU-Startups 2021 list,https://www.eu-startups.com/69-top-fintech-startups-and-companies-in-italy-2021/,EU-Startups,2026-07-02
+lookiero,Lookiero,fashion,France,service,needs_research,,,needs_research,high,8,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+showroomprive,Showroomprive,fashion,France,platform,needs_research,,,needs_research,high,8,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+storefront,Storefront,fashion,France,marketplace,needs_research,,,needs_research,medium,6,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+planity,Planity,fashion,France,platform,needs_research,,,needs_research,high,8,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+wethenew,Wethenew,fashion,France,marketplace,needs_research,,,needs_research,high,8,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+arianee,Arianee,fashion,France,software,needs_research,,,needs_research,medium,5,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+lvmh,LVMH,fashion,France,company,needs_research,,,needs_research,high,10,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+heuritech,Heuritech,fashion,France,software,needs_research,,,needs_research,medium,5,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+smallable,Smallable,fashion,France,platform,needs_research,,,needs_research,medium,7,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+patatam,Patatam,fashion,France,marketplace,needs_research,,,needs_research,medium,6,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+sarenza,Sarenza,fashion,France,platform,needs_research,,,needs_research,high,8,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+stockly,Stockly,fashion,France,software,needs_research,,,needs_research,medium,5,sourced,French fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/101-top-fashion-startups-and-companies-in-france-2021/,EU-Startups,2026-07-02
+combyne,COMBYNE,fashion,Germany,app,needs_research,,,needs_research,medium,7,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+stylight,STYLIGHT,fashion,Germany,platform,needs_research,,,needs_research,high,8,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+global_savings_group,GLOBAL SAVINGS GROUP,fashion,Germany,platform,needs_research,,,needs_research,medium,7,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+oonique,OONIQUE,fashion,Germany,brand,needs_research,,,needs_research,medium,5,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+21diamonds,21DIAMONDS,fashion,Germany,platform,needs_research,,,needs_research,medium,6,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+mytheresa,MYTHERESA,fashion,Germany,platform,needs_research,,,needs_research,high,9,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+jaimie_jacobs,JAIMIE JACOBS,fashion,Germany,brand,needs_research,,,needs_research,medium,5,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+limango,LIMANGO,fashion,Germany,platform,needs_research,,,needs_research,high,8,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+kelkoo_group,KELKOO GROUP,fashion,Germany,platform,needs_research,,,needs_research,medium,7,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+tristyle_group,TRISTYLE GROUP,fashion,Germany,company,needs_research,,,needs_research,medium,6,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+mybestbrands,MYBESTBRANDS,fashion,Germany,platform,needs_research,,,needs_research,medium,6,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+ludwig_beck,LUDWIG BECK,fashion,Germany,retailer,needs_research,,,needs_research,medium,6,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+stylefruits,STYLEFRUITS,fashion,Germany,platform,needs_research,,,needs_research,medium,7,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+vehns_group,VEHNS GROUP,fashion,Germany,company,needs_research,,,needs_research,medium,6,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+keepoala,KEEPOALA,fashion,Germany,app,needs_research,,,needs_research,medium,5,sourced,Munich fashion seed from EU-Startups 2021 list,https://www.eu-startups.com/39-top-fashion-startups-and-companies-in-munich/,EU-Startups,2026-07-02
+pennylane,Pennylane,fintech,France,app,needs_research,,,needs_research,medium,7,sourced,Fintech teaser company from EU-Startups 2021 Europe list,https://www.eu-startups.com/2021/06/top-50-europes-hottest-fintech-startups-in-2021/,EU-Startups,2026-07-02
+vivid_money,Vivid Money,fintech,Germany,app,needs_research,,,needs_research,high,8,sourced,Fintech teaser company from EU-Startups 2021 Europe list,https://www.eu-startups.com/2021/06/top-50-europes-hottest-fintech-startups-in-2021/,EU-Startups,2026-07-02
+primer,Primer,fintech,United Kingdom,app,needs_research,,,needs_research,medium,7,sourced,Fintech teaser company from EU-Startups 2021 Europe list,https://www.eu-startups.com/2021/06/top-50-europes-hottest-fintech-startups-in-2021/,EU-Startups,2026-07-02
+moss,Moss,fintech,Germany,app,needs_research,,,needs_research,medium,7,sourced,Fintech teaser company from EU-Startups 2021 Europe list,https://www.eu-startups.com/2021/06/top-50-europes-hottest-fintech-startups-in-2021/,EU-Startups,2026-07-02
+zilch,Zilch,fintech,United Kingdom,app,needs_research,,,needs_research,high,8,sourced,Fintech teaser company from EU-Startups 2021 Europe list,https://www.eu-startups.com/2021/06/top-50-europes-hottest-fintech-startups-in-2021/,EU-Startups,2026-07-02

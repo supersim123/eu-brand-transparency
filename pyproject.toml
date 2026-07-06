@@ -1,0 +1,7 @@
+[project]
+name = "eu-brand-transparency"
+version = "0.1.0"
+description = "Source-backed transparency list showing who owns well-known European brands, apps, and platforms."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
