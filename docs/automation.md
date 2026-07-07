@@ -10,10 +10,13 @@ Schedule: Saturday 04:00 UTC
 
 The workflow:
 
-1. runs OpenAI-assisted news research when `OPENAI_API_KEY` is available
-2. validates CSV data
-3. regenerates `README.md` and `latest-changes.md`
-4. opens a pull request with generated changes
+1. validates CSV data
+2. regenerates `README.md` and `latest-changes.md`
+3. runs OpenAI-assisted news research for new leads
+4. audits the generated README with OpenAI
+5. stops before pull-request creation when the audit returns `STOP`
+6. runs the repository tests
+7. opens a pull request with generated changes
 
 OpenAI research writes review material to:
 
@@ -24,6 +27,24 @@ research/weekly_research_summary.md
 ```
 
 These files are leads only. OpenAI output is never treated as source evidence and does not automatically add public ownership records to the README.
+
+The weekly research prompt is built from:
+
+```text
+data/deals.csv
+data/company_candidates.csv
+data/buyer_watchlist.csv
+data/seed_lists.csv
+```
+
+The README audit writes:
+
+```text
+reports/readme_audit.json
+reports/readme_audit.md
+```
+
+The audit is a quality gate for the generated public list. It checks visible README issues such as malformed tables, missing flags, broken favicon markup, very long owner names, and suspicious source mismatches visible from the available source evidence.
 
 ## Secret Safety
 
@@ -44,4 +65,5 @@ Optional repository variable:
 
 ```text
 OPENAI_MODEL=gpt-5.5
+OPENAI_AUDIT_MODEL=gpt-5.5
 ```

@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-94-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-98-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-279-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**94** ownership records across **10** sectors.
+**98** ownership records across **10** sectors.
 
 ---
 
@@ -26,16 +26,16 @@
 
 ## Contents
 
-- [Travel & Booking](#travel--booking) _9 records_
+- [Travel & Booking](#travel--booking) _10 records_
 - [Mobility & Auto](#mobility--auto) _13 records_
 - [Retail & E-Commerce](#retail--e-commerce) _9 records_
 - [Fashion & Beauty](#fashion--beauty) _13 records_
-- [Food Delivery & Grocery](#food-delivery--grocery) _4 records_
+- [Food Delivery & Grocery](#food-delivery--grocery) _5 records_
 - [Fintech & Payments](#fintech--payments) _6 records_
 - [Gaming](#gaming) _13 records_
-- [Consumer Apps & Software](#consumer-apps--software) _17 records_
+- [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
-- [Marketplaces](#marketplaces) _7 records_
+- [Marketplaces](#marketplaces) _8 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -50,6 +50,7 @@
 | <img src="https://www.google.com/s2/favicons?domain=www.cheapflights.com&sz=32" width="18" height="18" alt=""> **Cheapflights** | 🇬🇧 United Kingdom | 🇺🇸 Booking Holdings | 2017 | [European Commission](https://ec.europa.eu/competition/mergers/cases/decisions/m8416_913_3.pdf) |
 | <img src="https://www.google.com/s2/favicons?domain=www.momondo.com&sz=32" width="18" height="18" alt=""> **momondo** | 🇩🇰 Denmark | 🇺🇸 Booking Holdings | 2017 | [Booking Holdings](https://ir.bookingholdings.com/news/news-details/2017/The-Priceline-Group-Agrees-to-Acquire-Momondo-Group-02-07-2017/default.aspx) |
 | <img src="https://www.google.com/s2/favicons?domain=www.kiwi.com&sz=32" width="18" height="18" alt=""> **Kiwi.com** | 🇨🇿 Czech Republic | 🇺🇸 General Atlantic | 2019 | [PhocusWire](https://www.phocuswire.com/kiwi-com-sells-to-General-Atlantic) |
+| <img src="https://www.google.com/s2/favicons?domain=www.flugladen.de&sz=32" width="18" height="18" alt=""> **flugladen.de** | 🇩🇪 Germany | 🇨🇳 Trip.com Group | 2020 | [Travix](https://www.travix.com/press/travix-part-of-trip-com-group/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.roompot.com&sz=32" width="18" height="18" alt=""> **Roompot** | 🇳🇱 Netherlands | 🇺🇸 KKR | 2020 | [PAI Partners](https://www.paipartners.com/case-study/roompot/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.vfsglobal.com&sz=32" width="18" height="18" alt=""> **VFS Global** | 🇨🇭 Switzerland | 🇺🇸 Blackstone | 2022 | [EQT Group](https://eqtgroup.com/en/about/current-portfolio/kuoni-group-vfs-global) |
 | <img src="https://www.google.com/s2/favicons?domain=www.travelfusion.com&sz=32" width="18" height="18" alt=""> **Travelfusion** | 🇬🇧 United Kingdom | 🇨🇳 Ctrip | 2015 | [SEC / Ctrip](https://www.sec.gov/Archives/edgar/data/1269238/000110465917023278/a16-23154_120f.htm) |
@@ -112,6 +113,7 @@
 | <img src="https://www.google.com/s2/favicons?domain=wolt.com&sz=32" width="18" height="18" alt=""> **Wolt** | 🇫🇮 Finland | 🇺🇸 DoorDash | 2022 | [DoorDash](https://www.prnewswire.com/news-releases/doordash-completes-acquisition-of-wolt-301558456.html) |
 | <img src="https://www.google.com/s2/favicons?domain=glovoapp.com&sz=32" width="18" height="18" alt=""> **Glovo** | 🇪🇸 Spain | 🇩🇪 Delivery Hero | 2022 | [Delivery Hero](https://www.deliveryhero.com/newsroom/delivery-hero-welcomes-glovo-to-the-group-all-closing-actions-taken/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.upfield.com&sz=32" width="18" height="18" alt=""> **Upfield** | 🇳🇱 Netherlands | 🇺🇸 KKR | 2018 | [Simpson Thacher](https://www.stblaw.com/about-us/news/view/2018/07/16/kkr-closes-acquisition-of-unilever-spreads-business) |
+| <img src="https://www.google.com/s2/favicons?domain=www.oatly.com&sz=32" width="18" height="18" alt=""> **Oatly** | 🇸🇪 Sweden | 🇧🇪 🇨🇳 Verlinvest and China Resources | 2016 | [Verlinvest](https://www.verlinvest.com/insights/verlinvest-and-china-resources-invest-in-oatly/) |
 
 ## Fintech & Payments
 
@@ -154,6 +156,7 @@
 | <img src="https://www.google.com/s2/favicons?domain=www.underarmour.com&sz=32" width="18" height="18" alt=""> **Endomondo** | 🇩🇰 Denmark | 🇺🇸 Under Armour | 2015 | [PR Newswire](https://www.prnewswire.com/news-releases/under-armour-acquires-endomondo-and-myfitnesspal-to-establish-the-worlds-largest-digital-health-and-fitness-community-300030949.html) |
 | <img src="https://www.google.com/s2/favicons?domain=www.microsoft.com&sz=32" width="18" height="18" alt=""> **Wunderlist** | 🇩🇪 Germany | 🇺🇸 Microsoft | 2015 | [Microsoft](https://blogs.microsoft.com/blog/2015/06/02/welcome-6wunderkinder-microsoft-acquires-wunderlist/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.blinkist.com&sz=32" width="18" height="18" alt=""> **Blinkist** | 🇩🇪 Germany | 🇦🇺 Go1 | 2023 | [Go1](https://www.go1.com/blog/go1-acquires-blinkist-launching-a-new-model-of-learning) |
+| <img src="https://www.google.com/s2/favicons?domain=soundcloud.com&sz=32" width="18" height="18" alt=""> **SoundCloud** | 🇩🇪 Germany | 🇺🇸 🇸🇬 The Raine Group and Temasek | 2017 | [SoundCloud](https://www.prnewswire.com/news-releases/soundcloud-secures-significant-investment-led-by-the-raine-group-and-temasek-300503319.html) |
 | <img src="https://www.google.com/s2/favicons?domain=zen.ly&sz=32" width="18" height="18" alt=""> **Zenly** | 🇫🇷 France | 🇺🇸 Snap | 2017 | [TechCrunch](https://techcrunch.com/2017/06/21/snapchat-buys-zenly/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.busuu.com&sz=32" width="18" height="18" alt=""> **Busuu** | 🇬🇧 United Kingdom | 🇺🇸 Chegg | 2022 | [Chegg](https://investor.chegg.com/Press-Releases/press-release-details/2021/Chegg-to-Enter-Rapidly-Expanding-Digital-Language-Learning-Market-with-Acquisition-of-Busuu/default.aspx) |
 | <img src="https://www.google.com/s2/favicons?domain=www.nutmeg.com&sz=32" width="18" height="18" alt=""> **Nutmeg** | 🇬🇧 United Kingdom | 🇺🇸 JPMorgan Chase | 2021 | [J.P. Morgan Personal Investing](https://www.personalinvesting.jpmorgan.com/about) |
@@ -180,6 +183,7 @@
 | <img src="https://www.google.com/s2/favicons?domain=www.zoopla.co.uk&sz=32" width="18" height="18" alt=""> **Zoopla** | 🇬🇧 United Kingdom | 🇺🇸 Silver Lake | 2018 | [Zoopla](https://www.zoopla.co.uk/press/releases/zpg-group-midyear-report/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.farfetch.com&sz=32" width="18" height="18" alt=""> **Farfetch** | 🇬🇧 United Kingdom | 🇰🇷 Coupang | 2024 | [Coupang](https://ir.aboutcoupang.com/news-events/news/news-details/2024/Coupang-Completes-Acquisition-of-Farfetch/default.aspx) |
 | <img src="https://www.google.com/s2/favicons?domain=www.onthemarket.com&sz=32" width="18" height="18" alt=""> **OnTheMarket** | 🇬🇧 United Kingdom | 🇺🇸 CoStar Group | 2023 | [CoStar Group](https://www.costargroup.com/press-room/2023/costar-group-completes-acquisition-onthemarketcom-overwhelming-97-shareholder) |
+| <img src="https://www.google.com/s2/favicons?domain=www.wallapop.com&sz=32" width="18" height="18" alt=""> **Wallapop** | 🇪🇸 Spain | 🇰🇷 NAVER | 2026 | [NAVER](https://www.navercorp.com/en/media/pressReleasesDetail?seq=33164) |
 | <img src="https://www.google.com/s2/favicons?domain=adevinta.com&sz=32" width="18" height="18" alt=""> **Adevinta** | 🇳🇴 Norway | 🇬🇧 🇺🇸 Permira and Blackstone | 2024 | [Adevinta](https://adevinta.com/press-releases/adevinta-asa-ade-completion-of-the-voluntary-offer-for-all-issued-and-outstanding-ordinary-class-a-shares-in-adevinta-asa/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.seedrs.com&sz=32" width="18" height="18" alt=""> **Seedrs** | 🇬🇧 United Kingdom | 🇺🇸 Republic | 2022 | [UKTN](https://www.uktech.news/funding/crowdfunding/republic-completes-seedrs-acquisition-20220901) |
 | <img src="https://www.google.com/s2/favicons?domain=www.notonthehighstreet.com&sz=32" width="18" height="18" alt=""> **Notonthehighstreet** | 🇬🇧 United Kingdom | 🇺🇸 Great Hill Partners | 2021 | [Arma Partners](https://www.armapartners.com/deals/arma-partners-advises-great-hill-partners-on-its-acquisition-of-notonthehighstreet/) |

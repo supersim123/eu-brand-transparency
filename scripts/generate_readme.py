@@ -38,6 +38,7 @@ COUNTRY_FLAGS = {
     "Romania": "RO",
     "Saudi Arabia": "SA",
     "Serbia": "RS",
+    "Singapore": "SG",
     "Slovenia": "SI",
     "South Korea": "KR",
     "South Africa": "ZA",

@@ -30,6 +30,17 @@ jobs:
           OPENAI_TIMEOUT_SECONDS: "900"
           OPENAI_REASONING_EFFORT: low
         run: python scripts/openai_news_research.py
+      - name: Audit generated README
+        if: github.event_name == 'schedule' || github.actor == 'supersim123'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+          OPENAI_AUDIT_MODEL: ${{ vars.OPENAI_AUDIT_MODEL || vars.OPENAI_MODEL || 'gpt-5.5' }}
+          OPENAI_TIMEOUT_SECONDS: "900"
+          OPENAI_REASONING_EFFORT: low
+        run: python scripts/audit_readme.py --fail-on-stop
+      - name: Run tests
+        run: python -m unittest discover -s tests
       - name: Create update pull request
         uses: peter-evans/create-pull-request@v7
         with:

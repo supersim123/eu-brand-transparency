@@ -231,6 +231,16 @@ def build_prompt() -> str:
         ["brand", "sector", "origin_country", "ownership_status", "known_owner", "research_priority"],
         int(os.getenv("OPENAI_RESEARCH_MAX_CANDIDATES", "120")),
     )
+    buyer_watchlist = compact_rows(
+        read_optional(DATA_DIR / "buyer_watchlist.csv"),
+        ["buyer", "buyer_country", "buyer_region", "buyer_type", "priority", "lead_notes"],
+        int(os.getenv("OPENAI_RESEARCH_MAX_BUYERS", "80")),
+    )
+    seed_lists = compact_rows(
+        read_optional(DATA_DIR / "seed_lists.csv"),
+        ["seed_list_id", "publisher", "title", "sector", "geography", "url"],
+        int(os.getenv("OPENAI_RESEARCH_MAX_SEED_LISTS", "40")),
+    )
     return f"""# EU Brand Transparency Weekly News Research
 
 Date window:
@@ -247,6 +257,12 @@ Known deals:
 
 Known research candidates:
 {known_candidates}
+
+Buyer watchlist:
+{buyer_watchlist}
+
+Seed-list sources:
+{seed_lists}
 
 Search priorities:
 - Large consumer-facing European brands and apps.
