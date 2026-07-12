@@ -5,7 +5,7 @@ This file is generated for the weekly transparency-list update PR.
 ## Current Snapshot
 
 - Public ownership records: 97
-- Research candidates: 279
+- Research candidates: 502
 - High-confidence records: 75
 - Non-European owners: 94
 

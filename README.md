@@ -14,7 +14,7 @@
 
 <p align="center">
     <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-97-blue.svg"></a>
-    <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-279-lightgrey.svg"></a>
+    <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
@@ -191,7 +191,7 @@
 
 These are not public ownership claims yet. They are the working queue for future source checks.
 
-Research queue: **279 candidates** from **93 seed-list entries**.
+Research queue: **502 candidates** from **93 seed-list entries**.
 
 Working data: [`data/company_candidates.csv`](data/company_candidates.csv).
 
