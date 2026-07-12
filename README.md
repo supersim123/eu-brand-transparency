@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-98-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-97-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-279-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**98** ownership records across **10** sectors.
+**97** ownership records across **10** sectors.
 
 ---
 
@@ -27,7 +27,7 @@
 ## Contents
 
 - [Travel & Booking](#travel--booking) _10 records_
-- [Mobility & Auto](#mobility--auto) _13 records_
+- [Mobility & Auto](#mobility--auto) _12 records_
 - [Retail & E-Commerce](#retail--e-commerce) _9 records_
 - [Fashion & Beauty](#fashion--beauty) _13 records_
 - [Food Delivery & Grocery](#food-delivery--grocery) _5 records_
@@ -64,7 +64,6 @@
 | <img src="https://www.google.com/s2/favicons?domain=www.leboncoin.fr&sz=32" width="18" height="18" alt=""> **Leboncoin Auto** | 🇫🇷 France | 🇺🇸 🇬🇧 🇳🇴 Adevinta consortium | 2024 | [Adevinta](https://adevinta.com/press-releases/adevinta-asa-ade-completion-of-the-voluntary-offer-for-all-issued-and-outstanding-ordinary-class-a-shares-in-adevinta-asa/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.free-now.com&sz=32" width="18" height="18" alt=""> **FREENOW** | 🇩🇪 Germany | 🇺🇸 Lyft | 2025 | [Lyft](https://investor.lyft.com/news-events-presentations/press-releases/detail/96/lyft-goes-global-freenow-acquisition-complete) |
 | <img src="https://www.google.com/s2/favicons?domain=www.lacentrale.fr&sz=32" width="18" height="18" alt=""> **La Centrale** | 🇫🇷 France | 🇺🇸 Providence Equity Partners | 2021 | [Providence Equity Partners](https://www.provequity.com/portfolio/la-centrale) |
-| <img src="https://www.google.com/s2/favicons?domain=www.willhaben.at&sz=32" width="18" height="18" alt=""> **willhaben Auto** | 🇦🇹 Austria | 🇦🇹 🇸🇪 Styria / Sprints Capital | 2025 | [Austrian Federal Competition Authority](https://www.bwb.gv.at/en/merger_control/merger/6919) |
 | <img src="https://www.google.com/s2/favicons?domain=www.autovit.ro&sz=32" width="18" height="18" alt=""> **Autovit.ro** | 🇷🇴 Romania | 🇳🇱 🇿🇦 Prosus / Naspers | 2010 | [Prosus](https://www.olxgroup.com/news/olx-group-continues-strong-performance-as-motors-real-estate-and-jobs-drive-growth/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.otomoto.pl&sz=32" width="18" height="18" alt=""> **Otomoto** | 🇵🇱 Poland | 🇳🇱 🇿🇦 Prosus / Naspers | 2010 | [Prosus](https://www.prosus.com/news-insights/2025/prosus-olx-group-agrees-to-acquire-la-centrale-a-leading-motors-classifieds-platform-in-france) |
 | <img src="https://www.google.com/s2/favicons?domain=www.marktplaats.nl&sz=32" width="18" height="18" alt=""> **Marktplaats Auto** | 🇳🇱 Netherlands | 🇺🇸 🇬🇧 🇳🇴 Adevinta consortium | 2024 | [Adevinta](https://adevinta.com/press-releases/adevinta-asa-ade-completion-of-the-voluntary-offer-for-all-issued-and-outstanding-ordinary-class-a-shares-in-adevinta-asa/) |
