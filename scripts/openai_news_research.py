@@ -221,15 +221,20 @@ def extract_output_text(response_payload: dict[str, Any]) -> str:
 
 def build_prompt() -> str:
     today = datetime.now(timezone.utc).date().isoformat()
+    candidate_limit = int(os.getenv("OPENAI_RESEARCH_MAX_CANDIDATES", "120"))
+    candidate_rows, candidate_note = select_candidate_rows(
+        read_optional(DATA_DIR / "company_candidates.csv"),
+        candidate_limit,
+    )
     known_deals = compact_rows(
         read_csv(DATA_DIR / "deals.csv"),
         ["brand", "sector", "origin_country", "buyer", "buyer_country", "year", "deal_status"],
         int(os.getenv("OPENAI_RESEARCH_MAX_DEALS", "120")),
     )
     known_candidates = compact_rows(
-        read_optional(DATA_DIR / "company_candidates.csv"),
+        candidate_rows,
         ["brand", "sector", "origin_country", "ownership_status", "known_owner", "research_priority"],
-        int(os.getenv("OPENAI_RESEARCH_MAX_CANDIDATES", "120")),
+        candidate_limit,
     )
     buyer_watchlist = compact_rows(
         read_optional(DATA_DIR / "buyer_watchlist.csv"),
@@ -256,6 +261,7 @@ Known deals:
 {known_deals}
 
 Known research candidates:
+{candidate_note}
 {known_candidates}
 
 Buyer watchlist:
@@ -283,6 +289,70 @@ Output:
 """
 
 
+def select_candidate_rows(rows: list[dict[str, str]], max_rows: int) -> tuple[list[dict[str, str]], str]:
+    if max_rows <= 0 or not rows:
+        return [], "- Candidate selection: none"
+
+    unresolved = [row for row in rows if is_unresolved_candidate(row)]
+    resolved = [row for row in rows if not is_unresolved_candidate(row)]
+    high_priority = sorted(
+        [row for row in unresolved if row.get("research_priority") == "high"],
+        key=candidate_sort_key,
+    )
+    rotating_pool = sorted(
+        [row for row in unresolved if row.get("research_priority") != "high"],
+        key=candidate_sort_key,
+    )
+
+    week_index = int(os.getenv("OPENAI_RESEARCH_ROTATION_WEEK", str(current_iso_week_index())))
+    high_limit = min(len(high_priority), max_rows // 2)
+    selected = rotating_slice(high_priority, high_limit, week_index) if high_limit else []
+    remaining = max_rows - len(selected)
+
+    if remaining > 0 and rotating_pool:
+        selected.extend(rotating_slice(rotating_pool, remaining, week_index))
+
+    if len(selected) < max_rows and len(high_priority) > high_limit:
+        selected.extend(row for row in high_priority[high_limit:] if row not in selected)
+        selected = selected[:max_rows]
+
+    if len(selected) < max_rows and resolved:
+        selected.extend(row for row in sorted(resolved, key=candidate_sort_key) if row not in selected)
+        selected = selected[:max_rows]
+
+    note = (
+        "- Candidate selection: rotating unresolved candidates, not the first CSV rows. "
+        f"Selected {len(selected)} of {len(rows)} total candidates. "
+        f"Unresolved pool: {len(unresolved)}. "
+        f"High-priority rotating share: {min(high_limit, len(selected))}. "
+        f"Rotation week index: {week_index}."
+    )
+    return selected, note
+
+
+def is_unresolved_candidate(row: dict[str, str]) -> bool:
+    if row.get("acquisition_status") == "needs_research":
+        return True
+    return row.get("ownership_status") in {"needs_research", "unknown"}
+
+
+def candidate_sort_key(row: dict[str, str]) -> tuple[int, str, str]:
+    return (-safe_int(row.get("consumer_score")), row.get("origin_country", ""), row.get("brand", ""))
+
+
+def current_iso_week_index() -> int:
+    today = datetime.now(timezone.utc).date()
+    year, week, _ = today.isocalendar()
+    return year * 53 + week
+
+
+def rotating_slice(rows: list[dict[str, str]], size: int, week_index: int) -> list[dict[str, str]]:
+    if size >= len(rows):
+        return rows
+    start = (week_index * size) % len(rows)
+    return [rows[(start + offset) % len(rows)] for offset in range(size)]
+
+
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
@@ -303,6 +373,13 @@ def compact_rows(rows: list[dict[str, str]], columns: list[str], max_rows: int) 
     if len(rows) > max_rows:
         lines.append(f"- ... {len(rows) - max_rows} more rows omitted")
     return "\n".join(lines) if lines else "- none"
+
+
+def safe_int(value: str | None) -> int:
+    try:
+        return int(value or 0)
+    except ValueError:
+        return 0
 
 
 def dedupe_payload(payload: dict[str, Any]) -> dict[str, Any]:
