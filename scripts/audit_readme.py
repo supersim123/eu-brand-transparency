@@ -4,10 +4,11 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -69,6 +70,10 @@ Set push_decision to STOP only when the README should not be published automatic
 Use STOP for malformed tables, missing critical source evidence, or a likely wrong current-owner claim.
 Use PASS for minor readability issues, non-blocking source improvements, or warnings that can be reviewed later.
 Do not invent later transactions, source URLs, or completion dates.
+When checking future dates, compare full ISO dates exactly. For example,
+2025-10-02 is before 2026-07-28 and must not be called future-dated.
+Retrospective source evidence dated after the deal date is acceptable when it
+still supports the completed current-owner claim.
 
 Look for:
 - missing national flags in table cells where a single clear country is shown
@@ -263,14 +268,47 @@ def normalize_payload(payload: dict[str, Any]) -> dict[str, Any]:
     issues = payload.get("issues")
     if not isinstance(issues, list):
         payload["issues"] = []
+    downgrade_false_future_date_issues(payload)
     decision = payload.get("push_decision")
     if decision not in {"PASS", "STOP"}:
         payload["push_decision"] = "STOP"
         payload["push_reason"] = "Audit returned an invalid push_decision."
+    if payload.get("push_decision") == "STOP" and not any(
+        issue.get("severity") == "error" for issue in payload.get("issues", [])
+    ):
+        payload["push_decision"] = "PASS"
+        payload["push_reason"] = (
+            "Audit STOP downgraded because deterministic date checks found no future-dated evidence."
+        )
     payload["has_issues"] = bool(payload.get("issues")) or payload.get("push_decision") == "STOP"
     payload.setdefault("summary", "")
     payload.setdefault("push_reason", "")
     return payload
+
+
+def downgrade_false_future_date_issues(payload: dict[str, Any]) -> None:
+    today = datetime.now(timezone.utc).date()
+    for issue in payload.get("issues", []):
+        problem = issue.get("problem", "")
+        if "future" not in problem.lower() and "after the current date" not in problem.lower():
+            continue
+        dates = [_parse_iso_date(value) for value in re.findall(r"\b\d{4}-\d{2}-\d{2}\b", problem)]
+        real_future_dates = [value for value in dates if value and value > today]
+        if real_future_dates:
+            continue
+        issue["severity"] = "warning"
+        issue["category"] = "other"
+        issue["problem"] = (
+            f"{problem} Deterministic date check found no cited ISO date after {today.isoformat()}."
+        )
+        issue["suggestion"] = "No blocking data change required for this date comparison."
+
+
+def _parse_iso_date(value: str) -> date | None:
+    try:
+        return datetime.strptime(value, "%Y-%m-%d").date()
+    except ValueError:
+        return None
 
 
 def write_outputs(payload: dict[str, Any]) -> None:

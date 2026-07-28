@@ -251,7 +251,7 @@ def _table_row(row: dict[str, str], source_index: dict[str, list[dict[str, str]]
     owner_name = row.get("display_owner") or row.get("buyer", "")
     owner_country = row.get("display_owner_country") or row.get("buyer_country", "")
     owner = f"{_flag(owner_country)} {owner_name}".strip()
-    source = _primary_source_link(row.get("deal_id", ""), source_index)
+    source = _primary_source_link(row, source_index)
     return f"| {brand} | {founded} | {owner} | {row.get('year', '')} | {source} |"
 
 
@@ -277,27 +277,18 @@ def _favicon_url(row: dict[str, str]) -> str:
 
 
 def _source_index(sources: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
-    sorted_sources = sorted(
-        sources,
-        key=lambda row: (
-            row.get("deal_id", ""),
-            -_int(row.get("reliability_score")),
-            row.get("published_date", ""),
-            row.get("source_type", ""),
-        ),
-        reverse=False,
-    )
     index: dict[str, list[dict[str, str]]] = defaultdict(list)
-    for source in sorted_sources:
+    for source in sources:
         index[source.get("deal_id", "")].append(source)
     return index
 
 
-def _primary_source_link(deal_id: str, source_index: dict[str, list[dict[str, str]]]) -> str:
+def _primary_source_link(row: dict[str, str], source_index: dict[str, list[dict[str, str]]]) -> str:
+    deal_id = row.get("deal_id", "")
     sources = source_index.get(deal_id, [])
     if not sources:
         return ""
-    source = sources[0]
+    source = min(sources, key=lambda source_row: _source_sort_key(row, source_row))
     return f"[{source.get('publisher', '')}]({source.get('url', '')})"
 
 
@@ -357,6 +348,77 @@ def _int(value: str | None) -> int:
         return int(value or 0)
     except ValueError:
         return 0
+
+
+def _source_sort_key(deal: dict[str, str], source: dict[str, str]) -> tuple[int, int, str, str]:
+    return (
+        _completion_preference(deal, source),
+        -_int(source.get("reliability_score")),
+        _source_date_distance(deal, source),
+        source.get("published_date", ""),
+    )
+
+
+def _completion_preference(deal: dict[str, str], source: dict[str, str]) -> int:
+    if deal.get("deal_status") != "completed":
+        return 0
+    return 0 if _has_completion_signal(source) else 1
+
+
+def _has_completion_signal(source: dict[str, str]) -> bool:
+    text = " ".join(
+        [
+            source.get("title", ""),
+            source.get("summary", ""),
+        ]
+    ).lower()
+    pending_phrases = (
+        "completion estimated",
+        "completion is estimated",
+        "completion was estimated",
+        "estimated for",
+        "expected completion",
+        "expected to complete",
+    )
+    if any(phrase in text for phrase in pending_phrases):
+        return False
+    signals = (
+        "completed",
+        "completes",
+        "completion",
+        "closing",
+        "closes",
+        "closed",
+        "becomes effective",
+        "became effective",
+    )
+    return any(signal in text for signal in signals)
+
+
+def _source_date_distance(deal: dict[str, str], source: dict[str, str]) -> int:
+    deal_date = _date_ordinal(deal.get("deal_date")) or _year_midpoint(deal.get("year"))
+    source_date = _date_ordinal(source.get("published_date"))
+    if deal_date is None or source_date is None:
+        return 99999999
+    return abs(source_date - deal_date)
+
+
+def _year_midpoint(value: str | None) -> int | None:
+    try:
+        year = int(value or "")
+    except ValueError:
+        return None
+    return _date_ordinal(f"{year}-07-01")
+
+
+def _date_ordinal(value: str | None) -> int | None:
+    if not value:
+        return None
+    try:
+        year, month, day = value.split("-", 2)
+        return datetime(int(year), int(month), int(day), tzinfo=timezone.utc).date().toordinal()
+    except ValueError:
+        return None
 
 
 if __name__ == "__main__":

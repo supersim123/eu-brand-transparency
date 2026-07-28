@@ -24,6 +24,11 @@ class GenerateReadmeTest(unittest.TestCase):
         self.assertIn("## Contents", readme)
         self.assertIn("## Research Candidates", readme)
         self.assertIn("Wrote README.md", result.stdout)
+        self.assertIn("https://investors.globalpayments.com/news-events/press-releases/detail/498/", readme)
+        self.assertIn("https://blogs.microsoft.com/blog/2023/10/13/", readme)
+        self.assertIn("https://adevinta.com/press-releases/adevinta-asa-ade-completion-of-the-voluntary-offer", readme)
+        self.assertIn("https://www.catalannews.com/business/item/south-koreas-naver-completes-acquisition-of-wallapop", readme)
+        self.assertIn("https://www.videogameschronicle.com/news/sega-has-completed-its-acquisition-of-rovio/", readme)
 
 
 if __name__ == "__main__":
