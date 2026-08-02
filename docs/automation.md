@@ -32,10 +32,11 @@ The first research pass produces leads only. The independent verification pass w
 
 ```text
 research/weekly_verification.json
+research/weekly_verification_raw.json
 research/weekly_verification_summary.md
 ```
 
-The verifier opens source links and searches for independent evidence. It approves only completed deals with current-owner evidence and at least one source rated 4 or 5. Approved records are normalized and added automatically; rejected or uncertain records remain in the research report and do not reach the README.
+The verifier opens source links and searches for independent evidence. It approves only completed deals with current-owner evidence and at least one source rated 4 or 5. Approved records are normalized and added automatically; rejected or uncertain records remain in the research report and do not reach the README. The raw structured response is retained separately so schema or deterministic-validation failures can be diagnosed without weakening the publication gate.
 
 The weekly research prompt is built from:
 

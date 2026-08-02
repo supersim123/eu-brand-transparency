@@ -5,7 +5,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.apply_verified_research import apply_verified_payload, prepare_deal
+from scripts.apply_verified_research import (
+    APPROVED_DEAL_SCHEMA,
+    apply_verified_payload,
+    persist_raw_output,
+    prepare_deal,
+)
 
 
 DEAL_FIELDS = [
@@ -176,6 +181,22 @@ class ApplyVerifiedResearchTest(unittest.TestCase):
         self.assertEqual(result, {"added": 0, "updated": 0, "superseded": 0})
         self.assertEqual(self.deals_path.read_bytes(), before_deals)
         self.assertEqual(self.sources_path.read_bytes(), before_sources)
+
+    def test_openai_schema_requires_iso_calendar_dates(self) -> None:
+        properties = APPROVED_DEAL_SCHEMA["properties"]
+
+        self.assertEqual(properties["deal_date"]["format"], "date")
+        self.assertEqual(
+            properties["sources"]["items"]["properties"]["published_date"]["format"],
+            "date",
+        )
+
+    def test_raw_verification_output_is_preserved(self) -> None:
+        path = Path(self.temp_dir.name) / "weekly_verification_raw.json"
+
+        persist_raw_output('{"decision":"PASS"}', path)
+
+        self.assertEqual(path.read_text(encoding="utf-8"), '{"decision":"PASS"}\n')
 
     @staticmethod
     def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, str]]) -> None:
