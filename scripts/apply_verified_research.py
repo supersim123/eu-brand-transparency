@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import io
 import json
 import os
 import re
@@ -322,6 +323,11 @@ def apply_verified_payload(
     if not deal_fields or not source_fields:
         raise ValueError("data CSV headers are missing")
 
+    ensure_no_extra_columns(deal_rows, deals_path)
+    ensure_no_extra_columns(source_rows, sources_path)
+    original_deal_rows = [row.copy() for row in deal_rows]
+    original_source_rows = [row.copy() for row in source_rows]
+
     approved = payload.get("approved_deals", [])
     prepared = [prepare_deal(item) for item in approved]
     ensure_unique_approvals(prepared)
@@ -411,8 +417,12 @@ def apply_verified_payload(
             )
             source_rows.append(source_row)
 
-    write_csv(deals_path, deal_fields, deal_rows)
-    write_csv(sources_path, source_fields, source_rows)
+    write_csv_preserving_rows(
+        deals_path, deal_fields, original_deal_rows, deal_rows, "deal_id"
+    )
+    write_csv_preserving_rows(
+        sources_path, source_fields, original_source_rows, source_rows, "source_id"
+    )
     return {"added": added, "updated": updated, "superseded": superseded}
 
 
@@ -562,11 +572,64 @@ def read_csv(path: Path) -> tuple[list[dict[str, str]], list[str] | None]:
         return list(reader), reader.fieldnames
 
 
-def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, str]]) -> None:
+def ensure_no_extra_columns(rows: list[dict[str, str]], path: Path) -> None:
+    for index, row in enumerate(rows, start=2):
+        if row.get(None):  # type: ignore[arg-type]
+            raise ValueError(f"{path.name} row {index} has unquoted extra columns")
+
+
+def write_csv_preserving_rows(
+    path: Path,
+    fieldnames: list[str],
+    original_rows: list[dict[str, str]],
+    rows: list[dict[str, str]],
+    key_field: str,
+) -> None:
+    with path.open(newline="", encoding="utf-8") as handle:
+        original_lines = handle.readlines()
+    if len(original_lines) != len(original_rows) + 1:
+        raise ValueError(f"{path.name} contains unsupported multiline CSV records")
+
+    rows_by_key = {row[key_field]: row for row in rows}
+    original_keys = {row[key_field] for row in original_rows}
+    preferred_ending = line_ending(original_lines[-1]) if original_lines else "\n"
+    output = [original_lines[0]]
+
+    for original_row, original_line in zip(original_rows, original_lines[1:]):
+        key = original_row[key_field]
+        replacement = rows_by_key.get(key)
+        if replacement is None:
+            continue
+        if projected_row(original_row, fieldnames) == projected_row(replacement, fieldnames):
+            output.append(original_line)
+            continue
+        output.append(serialize_row(replacement, fieldnames) + line_ending(original_line, preferred_ending))
+
+    for row in rows:
+        if row[key_field] not in original_keys:
+            output.append(serialize_row(row, fieldnames) + preferred_ending)
+
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(rows)
+        handle.write("".join(output))
+
+
+def projected_row(row: dict[str, str], fieldnames: list[str]) -> dict[str, str]:
+    return {field: row.get(field, "") for field in fieldnames}
+
+
+def serialize_row(row: dict[str, str], fieldnames: list[str]) -> str:
+    handle = io.StringIO(newline="")
+    writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="")
+    writer.writerow(projected_row(row, fieldnames))
+    return handle.getvalue()
+
+
+def line_ending(line: str, fallback: str = "\n") -> str:
+    if line.endswith("\r\n"):
+        return "\r\n"
+    if line.endswith("\n"):
+        return "\n"
+    return fallback
 
 
 def stop(reason: str) -> None:

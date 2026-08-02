@@ -198,6 +198,18 @@ class ApplyVerifiedResearchTest(unittest.TestCase):
 
         self.assertEqual(path.read_text(encoding="utf-8"), '{"decision":"PASS"}\n')
 
+    def test_adding_deal_preserves_existing_csv_bytes(self) -> None:
+        self.write_csv(self.deals_path, DEAL_FIELDS, [old_deal()])
+        original = self.deals_path.read_bytes()
+
+        apply_verified_payload(
+            {"approved_deals": [approved_deal(brand="Another Example")]},
+            self.deals_path,
+            self.sources_path,
+        )
+
+        self.assertTrue(self.deals_path.read_bytes().startswith(original))
+
     @staticmethod
     def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, str]]) -> None:
         with path.open("w", newline="", encoding="utf-8") as handle:

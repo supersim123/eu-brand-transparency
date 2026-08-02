@@ -64,6 +64,7 @@ def main() -> None:
             continue
         rows, fieldnames = _read_csv(path)
         tables[filename] = rows
+        errors.extend(_extra_columns(rows, filename))
         missing = sorted(columns - set(fieldnames or []))
         if missing:
             errors.append(f"{filename} missing columns: {', '.join(missing)}")
@@ -105,6 +106,14 @@ def _duplicates(rows: list[dict[str, str]], column: str, label: str) -> list[str
     if not duplicates:
         return []
     return [f"{label} duplicate {column}: " + ", ".join(duplicates)]
+
+
+def _extra_columns(rows: list[dict[str, str]], label: str) -> list[str]:
+    errors = []
+    for index, row in enumerate(rows, start=2):
+        if row.get(None):
+            errors.append(f"{label} row {index}: unquoted delimiter created extra columns")
+    return errors
 
 
 def _validate_deals(rows: list[dict[str, str]]) -> list[str]:
