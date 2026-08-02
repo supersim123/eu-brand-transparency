@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-95-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-99-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**95** ownership records across **10** sectors.
+**99** ownership records across **10** sectors.
 
 ---
 
@@ -29,7 +29,7 @@
 - [Travel & Booking](#travel--booking) _10 records_
 - [Mobility & Auto](#mobility--auto) _12 records_
 - [Retail & E-Commerce](#retail--e-commerce) _9 records_
-- [Fashion & Beauty](#fashion--beauty) _13 records_
+- [Fashion & Beauty](#fashion--beauty) _17 records_
 - [Food Delivery & Grocery](#food-delivery--grocery) _4 records_
 - [Fintech & Payments](#fintech--payments) _6 records_
 - [Gaming](#gaming) _12 records_
@@ -103,6 +103,10 @@
 | <img src="https://www.google.com/s2/favicons?domain=www.g-star.com&sz=32" width="18" height="18" alt=""> **G-Star RAW** | 🇳🇱 Netherlands | 🇺🇸 WHP Global | 2024 | [citybiz](https://www.citybiz.co/article/502896/whp-global-closes-g-star-raw-brand-acquisition/) |
 | <img src="https://www.google.com/s2/favicons?domain=pinarello.com&sz=32" width="18" height="18" alt=""> **Pinarello** | 🇮🇹 Italy | 🇺🇸 L Catterton | 2016 | [L Catterton](https://www.lcatterton.com/pdf/2016-LCatterton-Acquires-Pinarello.pdf) |
 | <img src="https://www.google.com/s2/favicons?domain=www.scotch-soda.com&sz=32" width="18" height="18" alt=""> **Scotch & Soda** | 🇳🇱 Netherlands | 🇺🇸 Bluestar Alliance | 2023 | [Retail Dive](https://www.retaildive.com/news/scotch-soda-acquired-bluestar-alliance/646039/) |
+| **Creed** | 🇫🇷 France | 🇫🇷 L'Oréal | 2026 | [L'Oréal Finance](https://www.loreal-finance.com/system/files/2026-03/PR%20-%20L%E2%80%99Ore%CC%81al%20completes%20the%20acquisition%20of%20Kering%20Beaute%CC%81%20%20-%2020260331.pdf) |
+| **Versace** | 🇮🇹 Italy | 🇮🇹 Prada Group | 2025 | [Prada Group](https://www.pradagroup.com/en/news-media/news-section/25-12-02-pradagroup-versace-closing.html) |
+| **Baume & Mercier** | 🇨🇭 Switzerland | 🇮🇹 Damiani Group | 2026 | [Richemont](https://www.richemont.com/news-media/press-releases-news/richemont-and-the-damiani-group-announce-the-completion-of-the-acquisition-of-baume-mercier-by-the-damiani-group/) |
+| **Charvet** | 🇫🇷 France | 🇬🇧 🇫🇷 Chanel | 2026 | [Vogue Business / Vogue](https://www.vogue.com/article/chanel-acquires-charvet) |
 
 ## Food Delivery & Grocery
 
