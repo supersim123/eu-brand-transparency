@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import json
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -98,7 +99,9 @@ CATEGORY_MAP = {
 
 
 def main() -> None:
-    deals = _public_deals(_read_csv(_deals_path()))
+    deals = _read_csv(DATA_DIR / "deals.csv")
+    deals = _merge_review_metadata(deals, _read_optional(DATA_DIR / "reviewed_deals.csv"))
+    deals = _public_deals(deals)
     sources = _read_csv(DATA_DIR / "sources.csv")
     candidates = _read_optional(DATA_DIR / "company_candidates.csv")
     seed_entries = _read_optional(DATA_DIR / "seed_list_entries.csv")
@@ -109,11 +112,6 @@ def main() -> None:
     LATEST_CHANGES_PATH.write_text(_render_latest_changes(deals, candidates), encoding="utf-8")
     print(f"Wrote {README_PATH.relative_to(ROOT)}")
     print(f"Wrote {LATEST_CHANGES_PATH.relative_to(ROOT)}")
-
-
-def _deals_path() -> Path:
-    reviewed = DATA_DIR / "reviewed_deals.csv"
-    return reviewed if reviewed.exists() and reviewed.stat().st_size > 0 else DATA_DIR / "deals.csv"
 
 
 def _read_csv(path: Path) -> list[dict[str, str]]:
@@ -142,6 +140,21 @@ def _public_deals(rows: list[dict[str, str]]) -> list[dict[str, str]]:
             row.get("brand", ""),
         ),
     )
+
+
+def _merge_review_metadata(
+    deals: list[dict[str, str]], reviewed: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    review_index = {row["deal_id"]: row for row in reviewed if row.get("deal_id")}
+    merged = []
+    for deal in deals:
+        combined = deal.copy()
+        review = review_index.get(deal.get("deal_id", ""), {})
+        for field in ("curation_score", "suggested_reddit_ready"):
+            if review.get(field):
+                combined[field] = review[field]
+        merged.append(combined)
+    return merged
 
 
 def _merge_by_brand(rows: list[dict[str, str]], extras: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -188,26 +201,64 @@ def _render_latest_changes(deals: list[dict[str, str]], candidates: list[dict[st
     now = datetime.now(timezone.utc).date().isoformat()
     high_confidence = sum(1 for row in deals if row.get("confidence") == "high")
     non_european = sum(1 for row in deals if row.get("buyer_region") in {"USA", "China", "Other"})
-    return "\n".join(
-        [
-            f"# Latest Changes ({now})",
-            "",
-            "This file is generated for the weekly transparency-list update PR.",
-            "",
-            "## Current Snapshot",
-            "",
-            f"- Public ownership records: {len(deals)}",
-            f"- Research candidates: {len(candidates)}",
-            f"- High-confidence records: {high_confidence}",
-            f"- Non-European owners: {non_european}",
-            "",
-            "## Review Notes",
-            "",
-            "- Confirm every new ownership claim with source evidence before adding it to `data/deals.csv`.",
-            "- Regenerate the list with `python scripts/generate_readme.py` after data changes.",
-            "",
-        ]
-    )
+    lines = [
+        f"# Latest Changes ({now})",
+        "",
+        "This file is generated for the weekly transparency-list update PR.",
+        "",
+        "## Current Snapshot",
+        "",
+        f"- Public ownership records: {len(deals)}",
+        f"- Research candidates: {len(candidates)}",
+        f"- High-confidence records: {high_confidence}",
+        f"- Non-European owners: {non_european}",
+        "",
+        "## Publication Gate",
+        "",
+        "- New records are published only after independent OpenAI verification finds completion evidence.",
+        "- The generated README receives a separate OpenAI audit before automatic merge.",
+        "",
+    ]
+    research = _read_json(ROOT / "research" / "weekly_research.json")
+    if research.get("status") == "completed":
+        lines.extend(
+            [
+                "## Weekly OpenAI News Research",
+                "",
+                f"- New deal candidates: {len(research.get('new_deal_candidates', []))}",
+                f"- Candidate updates: {len(research.get('candidate_updates', []))}",
+                f"- Search gaps: {len(research.get('search_gaps', []))}",
+                "- Details: `research/weekly_research_summary.md`",
+                "",
+            ]
+        )
+    verification = _read_json(ROOT / "research" / "weekly_verification.json")
+    if verification.get("decision"):
+        applied = verification.get("applied", {})
+        lines.extend(
+            [
+                "## OpenAI Publication Verification",
+                "",
+                f"- Decision: {verification.get('decision')}",
+                f"- Approved deals: {len(verification.get('approved_deals', []))}",
+                f"- Rejected candidates: {len(verification.get('rejected_candidates', []))}",
+                f"- Applied records: {applied.get('added', 0)} added, "
+                f"{applied.get('updated', 0)} updated, {applied.get('superseded', 0)} superseded",
+                "- Details: `research/weekly_verification_summary.md`",
+                "",
+            ]
+        )
+    return "\n".join(lines)
+
+
+def _read_json(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
 
 
 def _template(name: str) -> str:

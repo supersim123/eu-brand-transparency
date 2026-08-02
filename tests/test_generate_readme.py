@@ -5,11 +5,29 @@ import sys
 import unittest
 from pathlib import Path
 
+from scripts.generate_readme import _merge_review_metadata, _public_deals
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class GenerateReadmeTest(unittest.TestCase):
+    def test_canonical_deal_is_public_without_reviewed_snapshot_row(self) -> None:
+        canonical = [
+            {
+                "deal_id": "new_2026",
+                "brand": "New Brand",
+                "deal_status": "completed",
+                "reddit_ready": "yes",
+                "consumer_score": "8",
+                "year": "2026",
+            }
+        ]
+
+        merged = _merge_review_metadata(canonical, [])
+
+        self.assertEqual([row["deal_id"] for row in _public_deals(merged)], ["new_2026"])
+
     def test_generate_readme_completes_and_keeps_core_sections(self) -> None:
         result = subprocess.run(
             [sys.executable, "scripts/generate_readme.py"],

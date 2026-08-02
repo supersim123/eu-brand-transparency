@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import sys
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 
@@ -63,6 +64,7 @@ def main() -> None:
             continue
         rows, fieldnames = _read_csv(path)
         tables[filename] = rows
+        errors.extend(_extra_columns(rows, filename))
         missing = sorted(columns - set(fieldnames or []))
         if missing:
             errors.append(f"{filename} missing columns: {', '.join(missing)}")
@@ -106,13 +108,21 @@ def _duplicates(rows: list[dict[str, str]], column: str, label: str) -> list[str
     return [f"{label} duplicate {column}: " + ", ".join(duplicates)]
 
 
+def _extra_columns(rows: list[dict[str, str]], label: str) -> list[str]:
+    errors = []
+    for index, row in enumerate(rows, start=2):
+        if row.get(None):
+            errors.append(f"{label} row {index}: unquoted delimiter created extra columns")
+    return errors
+
+
 def _validate_deals(rows: list[dict[str, str]]) -> list[str]:
     errors = []
     for index, row in enumerate(rows, start=2):
         for column, allowed in ALLOWED.items():
             if row.get(column) not in allowed:
                 errors.append(f"deals.csv row {index}: invalid {column}={row.get(column)!r}")
-        errors.extend(_int_range(row, index, "year", 2005, 2026))
+        errors.extend(_int_range(row, index, "year", 2005, date.today().year))
         errors.extend(_int_range(row, index, "consumer_score", 0, 10))
     return errors
 

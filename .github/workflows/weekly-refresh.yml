@@ -2,6 +2,12 @@ name: weekly-refresh
 
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Run all checks without creating or merging a pull request"
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: "0 4 * * 6"
 
@@ -20,8 +26,6 @@ jobs:
           python-version: "3.12"
       - name: Validate data
         run: python scripts/validate_data.py
-      - name: Regenerate public list
-        run: python scripts/generate_readme.py
       - name: Run OpenAI news research
         if: github.event_name == 'schedule' || github.actor == 'supersim123'
         env:
@@ -30,6 +34,19 @@ jobs:
           OPENAI_TIMEOUT_SECONDS: "900"
           OPENAI_REASONING_EFFORT: low
         run: python scripts/openai_news_research.py
+      - name: Verify and apply researched deals
+        if: github.event_name == 'schedule' || github.actor == 'supersim123'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+          OPENAI_VERIFY_MODEL: ${{ vars.OPENAI_VERIFY_MODEL || vars.OPENAI_MODEL || 'gpt-5.5' }}
+          OPENAI_TIMEOUT_SECONDS: "900"
+          OPENAI_VERIFY_REASONING_EFFORT: medium
+        run: python scripts/apply_verified_research.py
+      - name: Validate updated data
+        run: python scripts/validate_data.py
+      - name: Regenerate public list
+        run: python scripts/generate_readme.py
       - name: Audit generated README
         if: github.event_name == 'schedule' || github.actor == 'supersim123'
         env:
@@ -41,7 +58,22 @@ jobs:
         run: python scripts/audit_readme.py --fail-on-stop
       - name: Run tests
         run: python -m unittest discover -s tests
+      - name: Upload dry-run results
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.dry_run
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-refresh-dry-run
+          if-no-files-found: warn
+          path: |
+            README.md
+            latest-changes.md
+            data/deals.csv
+            data/sources.csv
+            research/
+            reports/
       - name: Create update pull request
+        if: github.event_name != 'workflow_dispatch' || inputs.dry_run != true
+        id: update_pr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -51,3 +83,8 @@ jobs:
           title: "Weekly EU Brand Transparency update"
           body-path: latest-changes.md
           labels: automated, weekly-refresh
+      - name: Merge verified update
+        if: steps.update_pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --squash --delete-branch "${{ steps.update_pr.outputs.pull-request-number }}"

@@ -46,8 +46,9 @@ research/weekly_research.json
 research/weekly_research_summary.md
 ```
 
-Review those files manually. Move only verified, source-backed items into `data/deals.csv`.
-OpenAI output is never source evidence.
+The scheduled workflow independently verifies those leads with OpenAI web search. Only completed,
+source-backed ownership changes approved by that second pass are added to `data/deals.csv` and
+`data/sources.csv`. OpenAI itself is never recorded as source evidence.
 
 ## Add a Research Candidate
 

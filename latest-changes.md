@@ -1,4 +1,4 @@
-# Latest Changes (2026-07-28)
+# Latest Changes (2026-08-02)
 
 This file is generated for the weekly transparency-list update PR.
 
@@ -9,7 +9,7 @@ This file is generated for the weekly transparency-list update PR.
 - High-confidence records: 75
 - Non-European owners: 92
 
-## Review Notes
+## Publication Gate
 
-- Confirm every new ownership claim with source evidence before adding it to `data/deals.csv`.
-- Regenerate the list with `python scripts/generate_readme.py` after data changes.
+- New records are published only after independent OpenAI verification finds completion evidence.
+- The generated README receives a separate OpenAI audit before automatic merge.
