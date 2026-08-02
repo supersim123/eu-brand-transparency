@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import sys
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 
@@ -112,7 +113,7 @@ def _validate_deals(rows: list[dict[str, str]]) -> list[str]:
         for column, allowed in ALLOWED.items():
             if row.get(column) not in allowed:
                 errors.append(f"deals.csv row {index}: invalid {column}={row.get(column)!r}")
-        errors.extend(_int_range(row, index, "year", 2005, 2026))
+        errors.extend(_int_range(row, index, "year", 2005, date.today().year))
         errors.extend(_int_range(row, index, "consumer_score", 0, 10))
     return errors
 

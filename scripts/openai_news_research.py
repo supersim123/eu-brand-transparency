@@ -17,7 +17,6 @@ RESEARCH_DIR = ROOT / "research"
 PROMPT_PATH = RESEARCH_DIR / "weekly_research_prompt.md"
 OUTPUT_PATH = RESEARCH_DIR / "weekly_research.json"
 SUMMARY_PATH = RESEARCH_DIR / "weekly_research_summary.md"
-LATEST_CHANGES_PATH = ROOT / "latest-changes.md"
 
 DEFAULT_MODEL = "gpt-5.5"
 
@@ -160,8 +159,6 @@ def main() -> None:
 
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     SUMMARY_PATH.write_text(render_summary(payload), encoding="utf-8")
-    append_latest_changes(payload)
-
     print(f"Wrote {PROMPT_PATH.relative_to(ROOT)}")
     print(f"Wrote {OUTPUT_PATH.relative_to(ROOT)}")
     print(f"Wrote {SUMMARY_PATH.relative_to(ROOT)}")
@@ -405,7 +402,7 @@ def render_summary(payload: dict[str, Any]) -> str:
         f"- Candidate updates: **{len(payload.get('candidate_updates', []))}**",
         f"- Search gaps: **{len(payload.get('search_gaps', []))}**",
         "",
-        "OpenAI output is review material only. Verify every ownership claim against source documents before adding it to `data/deals.csv`.",
+        "Research candidates are not published until a second OpenAI pass independently verifies completion and current ownership against source documents.",
         "",
     ]
     if payload.get("error"):
@@ -442,25 +439,6 @@ def failed_payload(error: str) -> dict[str, Any]:
         "candidate_updates": [],
         "search_gaps": [],
     }
-
-
-def append_latest_changes(payload: dict[str, Any]) -> None:
-    if not LATEST_CHANGES_PATH.exists():
-        return
-    text = LATEST_CHANGES_PATH.read_text(encoding="utf-8").rstrip()
-    addition = "\n".join(
-        [
-            "",
-            "## Weekly OpenAI News Research",
-            "",
-            f"- New deal candidates: {len(payload.get('new_deal_candidates', []))}",
-            f"- Candidate updates: {len(payload.get('candidate_updates', []))}",
-            f"- Search gaps: {len(payload.get('search_gaps', []))}",
-            "- Review: `research/weekly_research_summary.md`",
-            "",
-        ]
-    )
-    LATEST_CHANGES_PATH.write_text(text + "\n" + addition, encoding="utf-8")
 
 
 if __name__ == "__main__":
