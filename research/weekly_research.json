@@ -1,0 +1,172 @@
+{
+  "new_deal_candidates": [
+    {
+      "brand": "Hugo Boss",
+      "sector": "fashion",
+      "origin_country": "Germany",
+      "buyer": "Frasers Group",
+      "buyer_country": "United Kingdom",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "pending_takeover",
+      "source_urls": [
+        "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-informs-about-unsolicited-voluntary-takeover-offer-by-frasers-group-plc",
+        "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202603740",
+        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918"
+      ],
+      "preferred_source_type": "regulator",
+      "confidence": "high",
+      "why_relevant": "High-priority unresolved candidate. Frasers launched a voluntary public takeover offer for all Hugo Boss shares not already held by it; EU notification says Frasers would acquire sole control of the whole of Hugo Boss, and Frasers later announced the merger-control condition was satisfied on 2026-07-27. Target board recommended shareholders not accept, so final ownership outcome still needs offer-result follow-up.",
+      "dedupe_note": "Not in known_deals; present in known_candidates as needs_research."
+    },
+    {
+      "brand": "Baume & Mercier",
+      "sector": "fashion",
+      "origin_country": "Switzerland",
+      "buyer": "Damiani Group",
+      "buyer_country": "Italy",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.richemont.com/news-media/press-releases-news/richemont-and-the-damiani-group-announce-the-completion-of-the-acquisition-of-baume-mercier-by-the-damiani-group/",
+        "https://www.richemont.com/media/nptjffbx/richemont-and-the-damiani-group-sign-agreement-to-acquire-baume-mercier.pdf"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Well-known Swiss watch brand changed ownership from Richemont to Italy's Damiani Group. Official Richemont release says the parties completed Damiani Group's acquisition of 100% of Baume & Mercier on 2026-07-01 after the January 2026 agreement.",
+      "dedupe_note": "Absent from known_deals."
+    },
+    {
+      "brand": "Rail Europe",
+      "sector": "travel",
+      "origin_country": "France",
+      "buyer": "Omio Group",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.omio.com/corporate/newsroom/press-releases/omio-group-to-acquire-rail-europe-to-consolidate-the-ground-transportation-landscape/"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Consumer-facing rail booking and distribution platform. Omio announced on 2026-07-16 that it had entered an agreement to acquire Rail Europe, which would join Omio's B2C booking platform, B2B distribution business and Rome2Rio brand on completion.",
+      "dedupe_note": "Absent from known_deals; related travel-platform consolidation but not duplicative of existing Etraveli/Booking or Omio-adjacent entries."
+    },
+    {
+      "brand": "Creed / Kering Beauté",
+      "sector": "beauty",
+      "origin_country": "France",
+      "buyer": "L'Oréal",
+      "buyer_country": "France",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.loreal.com/en/press-release/group/loreal-completes-the-acquisition-of-kering-beaute/",
+        "https://www.loreal-finance.com/eng/press-release/kering-and-loreal-forge-alliance-beauty-and-wellness"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Material ownership change in European luxury beauty: L'Oréal completed acquisition of Kering Beauté, including the House of Creed, on 2026-03-31, plus 50-year exclusive beauty licences for major Kering houses. Not within the last 30 days but high-confidence missed 2026 consumer-brand deal.",
+      "dedupe_note": "Absent from known_deals; note this is an asset/beauty-division deal rather than acquisition of Kering fashion houses themselves."
+    },
+    {
+      "brand": "Versace",
+      "sector": "fashion",
+      "origin_country": "Italy",
+      "buyer": "Prada Group",
+      "buyer_country": "Italy",
+      "buyer_region": "Europe",
+      "deal_year": 2025,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.pradagroup.com/en/news-media/news-section/25-12-02-pradagroup-versace-closing.html",
+        "https://www.pradagroup.com/en/news-media/news-section/25-04-10-pradagroup-versace.html"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Large, well-known European luxury fashion brand changed ownership from Capri Holdings to Prada Group. Prada announced agreement on 2025-04-10 and completion on 2025-12-02 after regulatory clearances. High-confidence missed 2015+ deal absent from current known_deals.",
+      "dedupe_note": "Absent from known_deals."
+    },
+    {
+      "brand": "Charvet",
+      "sector": "fashion",
+      "origin_country": "France",
+      "buyer": "Chanel",
+      "buyer_country": "France / United Kingdom",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.vogue.com/article/chanel-acquires-charvet",
+        "https://www.irishtimes.com/business/2026/07/02/chanel-acquires-charles-haugheys-shirtmaker-charvet/",
+        "https://www.ansa.it/sito/notizie/cultura/moda/2026/07/02/chanel-ha-acquisito-la-storica-camiceria-charvet_c670deba-19fc-4198-ba4c-a4a97d87bccf.html"
+      ],
+      "preferred_source_type": "reliable_media",
+      "confidence": "medium",
+      "why_relevant": "Historic Paris shirtmaker and consumer luxury brand reportedly acquired by Chanel in early July 2026. Multiple reputable media reports cite company statements, but no primary Chanel/Charvet transaction release was found in this pass, so confidence is medium.",
+      "dedupe_note": "Absent from known_deals."
+    }
+  ],
+  "candidate_updates": [
+    {
+      "brand": "Skroutz",
+      "suggested_update": "Keep as pending/announced rather than completed unless a closing source is found. Blackstone's 2026-05-11 official release confirms a definitive agreement to acquire a majority stake from CVC, but this pass did not find an official completion notice by 2026-08-02.",
+      "source_urls": [
+        "https://www.blackstone.com/news/press/blackstone-to-acquire-skroutz-greeces-leading-online-marketplace-from-cvc/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "brand": "Hugo Boss",
+      "suggested_update": "Move from unresolved candidate to active pending-takeover/announced lead. EU notification and Frasers announcement show the takeover would confer sole control and that EU merger-clearance condition was satisfied on 2026-07-27; still needs tender/settlement outcome monitoring.",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202603740",
+        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918",
+        "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "search_gaps": [
+    {
+      "area": "Hugo Boss final tender result and settlement",
+      "suggested_query": "Hugo Boss Frasers final acceptance result settlement takeover offer August 2026 official"
+    },
+    {
+      "area": "Skroutz closing confirmation",
+      "suggested_query": "Blackstone Skroutz acquisition completed closing competition approval 2026"
+    },
+    {
+      "area": "Catawiki potential sale process",
+      "suggested_query": "Catawiki sale process Permira Accel acquisition Reuters July 2026 official"
+    },
+    {
+      "area": "Charvet primary-source confirmation",
+      "suggested_query": "Chanel Charvet acquisition official press release July 2026 100% Colban family"
+    },
+    {
+      "area": "Omio / Rail Europe regulatory status",
+      "suggested_query": "Omio Rail Europe acquisition completed regulatory approval 2026"
+    },
+    {
+      "area": "Nordic Leisure Travel Group acquisition status",
+      "suggested_query": "Norwegian Air Shuttle Nordic Leisure Travel Group acquisition completion approval 2026"
+    },
+    {
+      "area": "European travel retail and foodservice concessions consolidation",
+      "suggested_query": "Areas acquisition The Restaurant Group Concessions completed UK travel retail July 2026"
+    }
+  ],
+  "status": "completed",
+  "generated_at": "2026-08-02T11:17:12.435837+00:00"
+}
