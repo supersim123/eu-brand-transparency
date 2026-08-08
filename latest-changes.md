@@ -1,4 +1,4 @@
-# Latest Changes (2026-08-02)
+# Latest Changes (2026-08-08)
 
 This file is generated for the weekly transparency-list update PR.
 
@@ -7,7 +7,7 @@ This file is generated for the weekly transparency-list update PR.
 - Public ownership records: 99
 - Research candidates: 502
 - High-confidence records: 79
-- Non-European owners: 92
+- Non-European owners: 90
 
 ## Publication Gate
 
