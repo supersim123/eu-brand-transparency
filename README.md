@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-99-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-103-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**99** ownership records across **10** sectors.
+**103** ownership records across **11** sectors.
 
 ---
 
@@ -29,13 +29,14 @@
 - [Travel & Booking](#travel--booking) _10 records_
 - [Mobility & Auto](#mobility--auto) _12 records_
 - [Retail & E-Commerce](#retail--e-commerce) _9 records_
-- [Fashion & Beauty](#fashion--beauty) _17 records_
+- [Fashion & Beauty](#fashion--beauty) _18 records_
 - [Food Delivery & Grocery](#food-delivery--grocery) _4 records_
 - [Fintech & Payments](#fintech--payments) _6 records_
 - [Gaming](#gaming) _12 records_
 - [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
-- [Marketplaces](#marketplaces) _8 records_
+- [Marketplaces](#marketplaces) _7 records_
+- [Other](#other) _4 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -107,6 +108,7 @@
 | **Versace** | 🇮🇹 Italy | 🇮🇹 Prada Group | 2025 | [Prada Group](https://www.pradagroup.com/en/news-media/news-section/25-12-02-pradagroup-versace-closing.html) |
 | **Baume & Mercier** | 🇨🇭 Switzerland | 🇮🇹 Damiani Group | 2026 | [Richemont](https://www.richemont.com/news-media/press-releases-news/richemont-and-the-damiani-group-announce-the-completion-of-the-acquisition-of-baume-mercier-by-the-damiani-group/) |
 | **Charvet** | 🇫🇷 France | 🇬🇧 🇫🇷 Chanel | 2026 | [Vogue Business / Vogue](https://www.vogue.com/article/chanel-acquires-charvet) |
+| **Sessùn** | 🇫🇷 France | 🇮🇹 Quadrivio Group / Lifestyle Fund II | 2024 | [Quadrivio Group](https://www.quadriviogroup.com/en/media/press-releases/lifestyle-fund-ii-acquires-french-brand-sessun) |
 
 ## Food Delivery & Grocery
 
@@ -180,7 +182,6 @@
 
 | Brand | Founded in | Current owner | Deal year | Source |
 |---|---|---|---:|---|
-| <img src="https://www.google.com/s2/favicons?domain=www.depop.com&sz=32" width="18" height="18" alt=""> **Depop** | 🇬🇧 United Kingdom | 🇺🇸 Etsy | 2021 | [Etsy](https://investors.etsy.com/news-events/press-releases/detail/74/etsy-completes-acquisition-of-depop-the-global-fashion-resale-marketplace-for-gen-z) |
 | <img src="https://www.google.com/s2/favicons?domain=www.zoopla.co.uk&sz=32" width="18" height="18" alt=""> **Zoopla** | 🇬🇧 United Kingdom | 🇺🇸 Silver Lake | 2018 | [Zoopla](https://www.zoopla.co.uk/press/releases/zpg-group-midyear-report/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.farfetch.com&sz=32" width="18" height="18" alt=""> **Farfetch** | 🇬🇧 United Kingdom | 🇰🇷 Coupang | 2024 | [Coupang](https://ir.aboutcoupang.com/news-events/news/news-details/2024/Coupang-Completes-Acquisition-of-Farfetch/default.aspx) |
 | <img src="https://www.google.com/s2/favicons?domain=www.onthemarket.com&sz=32" width="18" height="18" alt=""> **OnTheMarket** | 🇬🇧 United Kingdom | 🇺🇸 CoStar Group | 2023 | [CoStar Group](https://www.costargroup.com/press-room/2023/costar-group-completes-acquisition-onthemarketcom-overwhelming-97-shareholder) |
@@ -188,6 +189,15 @@
 | <img src="https://www.google.com/s2/favicons?domain=adevinta.com&sz=32" width="18" height="18" alt=""> **Adevinta** | 🇳🇴 Norway | 🇬🇧 🇺🇸 Permira-Blackstone-led consortium | 2024 | [Adevinta](https://adevinta.com/press-releases/adevinta-asa-ade-completion-of-the-voluntary-offer-for-all-issued-and-outstanding-ordinary-class-a-shares-in-adevinta-asa/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.seedrs.com&sz=32" width="18" height="18" alt=""> **Seedrs** | 🇬🇧 United Kingdom | 🇺🇸 Republic | 2022 | [UKTN](https://www.uktech.news/funding/crowdfunding/republic-completes-seedrs-acquisition-20220901) |
 | <img src="https://www.google.com/s2/favicons?domain=www.notonthehighstreet.com&sz=32" width="18" height="18" alt=""> **Notonthehighstreet** | 🇬🇧 United Kingdom | 🇺🇸 Great Hill Partners | 2021 | [Arma Partners](https://www.armapartners.com/deals/arma-partners-advises-great-hill-partners-on-its-acquisition-of-notonthehighstreet/) |
+
+## Other
+
+| Brand | Founded in | Current owner | Deal year | Source |
+|---|---|---|---:|---|
+| <img src="https://www.google.com/s2/favicons?domain=www.depop.com&sz=32" width="18" height="18" alt=""> **Depop** | 🇬🇧 United Kingdom | eBay Inc. | 2026 | [eBay Inc.](https://www.ebayinc.com/stories/news/ebay-completes-acquisition-of-depop/) |
+| **Les Secrets de Loly** | 🇫🇷 France | 🇮🇹 Quadrivio Group / Lifestyle Fund II | 2026 | [Weinberg Capital Partners](https://www.weinbergcapital.com/en/all-news/les-secrets-de-loly-enters-a-new-growth-cycle-with-the-arrival-of-new-shareholders-including-weinberg-capital-partners/) |
+| **Hydraid** | 🇩🇪 Germany | 🇩🇪 Schwabe Group | 2026 | [Schwabe Group](https://www.schwabe-group.com/en/schwabe-acquires-majority-stake-hydraid) |
+| **VADO** | 🇩🇪 Germany | 🇦🇹 legero united | 2026 | [legero united](https://legero-united.com/en/press-archive/legero-united-acquires-vado-family-run-businesses-join-forces-vado-founder-hermann-meyer-joins-the-executive-board-as-chief-product-officer/) |
 
 ## Research Candidates
 

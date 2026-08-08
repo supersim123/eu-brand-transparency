@@ -4,9 +4,9 @@ This file is generated for the weekly transparency-list update PR.
 
 ## Current Snapshot
 
-- Public ownership records: 99
+- Public ownership records: 103
 - Research candidates: 502
-- High-confidence records: 79
+- High-confidence records: 83
 - Non-European owners: 90
 
 ## Publication Gate
@@ -16,15 +16,15 @@ This file is generated for the weekly transparency-list update PR.
 
 ## Weekly OpenAI News Research
 
-- New deal candidates: 6
-- Candidate updates: 2
-- Search gaps: 7
+- New deal candidates: 8
+- Candidate updates: 4
+- Search gaps: 8
 - Details: `research/weekly_research_summary.md`
 
 ## OpenAI Publication Verification
 
 - Decision: PASS
-- Approved deals: 4
-- Rejected candidates: 3
-- Applied records: 4 added, 0 updated, 0 superseded
+- Approved deals: 5
+- Rejected candidates: 6
+- Applied records: 5 added, 0 updated, 1 superseded
 - Details: `research/weekly_verification_summary.md`

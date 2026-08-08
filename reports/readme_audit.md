@@ -1,12 +1,12 @@
 # README Audit
 
-- Generated at: `2026-08-02T11:19:06.706026+00:00`
+- Generated at: `2026-08-08T08:31:32.800184+00:00`
 - Decision: **PASS**
-- Summary: README structure and tables look publishable. One row uses a source link that is weaker than the available evidence for the control/majority-stake claim.
-- Reason: No malformed tables, missing critical evidence, or likely wrong current-owner claims were found. The issue is a non-blocking source improvement.
+- Summary: One notable issue found: a current-owner cell with a single clear country is missing its national flag. The tables otherwise appear well-formed and the ownership claims shown are supported by the provided evidence.
+- Reason: The README is publishable; the issue is a minor formatting/data consistency fix, not a blocking table or source-evidence problem.
 
 ## Issues
 
-- **warning / source** at `Fashion & Beauty → Ganni`
-  Problem: The linked PR Newswire source describes L Catterton partnering with/investing in Ganni, but the README row presents L Catterton as current owner. The available Clearwater source more directly states that L Catterton acquired a majority stake.
-  Suggestion: Change the Ganni source link to the Clearwater International source, or add it as the supporting source for the row.
+- **warning / missing_flag** at `Other table, Depop row, Current owner cell`
+  Problem: The current owner is shown as `eBay Inc.` without a national flag, while eBay is a single clear U.S. owner and other U.S. owners are flagged.
+  Suggestion: Change the cell to `🇺🇸 eBay Inc.`.

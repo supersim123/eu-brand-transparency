@@ -1,172 +1,224 @@
 {
   "new_deal_candidates": [
     {
-      "brand": "Hugo Boss",
+      "brand": "HUGO BOSS",
       "sector": "fashion",
       "origin_country": "Germany",
-      "buyer": "Frasers Group",
+      "buyer": "Frasers Group plc",
       "buyer_country": "United Kingdom",
       "buyer_region": "Europe",
       "deal_year": 2026,
-      "deal_status": "announced",
+      "deal_status": "pending_regulatory_review",
       "deal_type": "pending_takeover",
       "source_urls": [
         "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-informs-about-unsolicited-voluntary-takeover-offer-by-frasers-group-plc",
         "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202603740",
-        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918"
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52026M12514"
       ],
       "preferred_source_type": "regulator",
       "confidence": "high",
-      "why_relevant": "High-priority unresolved candidate. Frasers launched a voluntary public takeover offer for all Hugo Boss shares not already held by it; EU notification says Frasers would acquire sole control of the whole of Hugo Boss, and Frasers later announced the merger-control condition was satisfied on 2026-07-27. Target board recommended shareholders not accept, so final ownership outcome still needs offer-result follow-up.",
-      "dedupe_note": "Not in known_deals; present in known_candidates as needs_research."
+      "why_relevant": "HUGO BOSS is a well-known German consumer fashion brand in the known_candidates list. The European Commission notice says Frasers would acquire sole control of the whole of Hugo Boss by public bid announced on 10 June 2026; Hugo Boss official releases confirm the unsolicited voluntary takeover offer and board recommendation not to accept it.",
+      "dedupe_note": "Not in known_deals. Present in known_candidates as needs_research; this is a material ownership-change lead rather than a static shareholder update."
     },
     {
-      "brand": "Baume & Mercier",
-      "sector": "fashion",
-      "origin_country": "Switzerland",
-      "buyer": "Damiani Group",
-      "buyer_country": "Italy",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "completed",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://www.richemont.com/news-media/press-releases-news/richemont-and-the-damiani-group-announce-the-completion-of-the-acquisition-of-baume-mercier-by-the-damiani-group/",
-        "https://www.richemont.com/media/nptjffbx/richemont-and-the-damiani-group-sign-agreement-to-acquire-baume-mercier.pdf"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Well-known Swiss watch brand changed ownership from Richemont to Italy's Damiani Group. Official Richemont release says the parties completed Damiani Group's acquisition of 100% of Baume & Mercier on 2026-07-01 after the January 2026 agreement.",
-      "dedupe_note": "Absent from known_deals."
-    },
-    {
-      "brand": "Rail Europe",
-      "sector": "travel",
+      "brand": "TheFork",
+      "sector": "travel / restaurant booking platform",
       "origin_country": "France",
-      "buyer": "Omio Group",
-      "buyer_country": "Germany",
-      "buyer_region": "Europe",
+      "buyer": "American Express",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
       "deal_year": 2026,
       "deal_status": "announced",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://www.omio.com/corporate/newsroom/press-releases/omio-group-to-acquire-rail-europe-to-consolidate-the-ground-transportation-landscape/"
+        "https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Consumer-facing rail booking and distribution platform. Omio announced on 2026-07-16 that it had entered an agreement to acquire Rail Europe, which would join Omio's B2C booking platform, B2B distribution business and Rome2Rio brand on completion.",
-      "dedupe_note": "Absent from known_deals; related travel-platform consolidation but not duplicative of existing Etraveli/Booking or Omio-adjacent entries."
+      "why_relevant": "TheFork is a major European restaurant reservation and dining platform with French origins. Tripadvisor announced on 15 June 2026 that it entered into a put option agreement to sell TheFork to American Express for $700 million in cash.",
+      "dedupe_note": "Not in known_deals. This is a 2026 current-owner change from Tripadvisor to American Express, subject to completion conditions."
     },
     {
-      "brand": "Creed / Kering Beauté",
-      "sector": "beauty",
-      "origin_country": "France",
-      "buyer": "L'Oréal",
-      "buyer_country": "France",
+      "brand": "VADO",
+      "sector": "fashion / footwear",
+      "origin_country": "Germany",
+      "buyer": "legero united",
+      "buyer_country": "Austria",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://www.loreal.com/en/press-release/group/loreal-completes-the-acquisition-of-kering-beaute/",
-        "https://www.loreal-finance.com/eng/press-release/kering-and-loreal-forge-alliance-beauty-and-wellness"
+        "https://legero-united.com/en/press-archive/"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "VADO is a German children’s footwear consumer brand. legero united’s press archive states that on 10 July 2026 it acquired the German children’s footwear brand VADO, expanding its brand portfolio and strengthening its position in the European children’s footwear market.",
+      "dedupe_note": "Not in known_deals. Smaller than the highest-priority global consumer brands, but a clear European consumer-brand acquisition in the 30-day window."
+    },
+    {
+      "brand": "Hydraid",
+      "sector": "food / functional hydration",
+      "origin_country": "Germany",
+      "buyer": "Schwabe Group",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "majority_stake",
+      "source_urls": [
+        "https://www.schwabe-group.com/en/schwabe-acquires-majority-stake-hydraid"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Material ownership change in European luxury beauty: L'Oréal completed acquisition of Kering Beauté, including the House of Creed, on 2026-03-31, plus 50-year exclusive beauty licences for major Kering houses. Not within the last 30 days but high-confidence missed 2026 consumer-brand deal.",
-      "dedupe_note": "Absent from known_deals; note this is an asset/beauty-division deal rather than acquisition of Kering fashion houses themselves."
+      "why_relevant": "Hydraid is a German direct-to-consumer functional sports hydration brand with broad retail availability in dm, Budni, Rossmann and Müller. Schwabe announced on 16 July 2026 that it acquired a majority stake in Hydraid in early July.",
+      "dedupe_note": "Not in known_deals. Consumer relevance is solid but brand awareness may be lower than large-platform targets."
     },
     {
-      "brand": "Versace",
-      "sector": "fashion",
-      "origin_country": "Italy",
-      "buyer": "Prada Group",
+      "brand": "Artdeco Cosmetics Group",
+      "sector": "beauty",
+      "origin_country": "Germany",
+      "buyer": "Sodalis Group",
       "buyer_country": "Italy",
       "buyer_region": "Europe",
-      "deal_year": 2025,
-      "deal_status": "completed",
-      "deal_type": "acquisition",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "majority_stake",
       "source_urls": [
-        "https://www.pradagroup.com/en/news-media/news-section/25-12-02-pradagroup-versace-closing.html",
-        "https://www.pradagroup.com/en/news-media/news-section/25-04-10-pradagroup-versace.html"
+        "https://www.sodalisgroup.com/en/news/welcome-artdeco"
       ],
       "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Large, well-known European luxury fashion brand changed ownership from Capri Holdings to Prada Group. Prada announced agreement on 2025-04-10 and completion on 2025-12-02 after regulatory clearances. High-confidence missed 2015+ deal absent from current known_deals.",
-      "dedupe_note": "Absent from known_deals."
+      "confidence": "medium",
+      "why_relevant": "Artdeco is a German make-up and beauty brand group. Sodalis Group announced an agreement to acquire a majority stake in Artdeco Cosmetics Group, describing Artdeco as a recognised beauty company with a strong make-up portfolio and heritage in Germany.",
+      "dedupe_note": "Not in known_deals. Source page did not expose a publication date in search results; include as a lead but verify closing date/status manually."
     },
     {
-      "brand": "Charvet",
-      "sector": "fashion",
+      "brand": "Essential Parfums",
+      "sector": "beauty / fragrance",
       "origin_country": "France",
-      "buyer": "Chanel",
-      "buyer_country": "France / United Kingdom",
+      "buyer": "Style Capital SGR",
+      "buyer_country": "Italy",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
-      "deal_type": "acquisition",
+      "deal_type": "majority_stake",
       "source_urls": [
-        "https://www.vogue.com/article/chanel-acquires-charvet",
-        "https://www.irishtimes.com/business/2026/07/02/chanel-acquires-charles-haugheys-shirtmaker-charvet/",
-        "https://www.ansa.it/sito/notizie/cultura/moda/2026/07/02/chanel-ha-acquisito-la-storica-camiceria-charvet_c670deba-19fc-4198-ba4c-a4a97d87bccf.html"
+        "https://www.leadersleague.com/en/news/style-capital-sgr-acquires-stake-in-essential-parfums"
       ],
       "preferred_source_type": "reliable_media",
       "confidence": "medium",
-      "why_relevant": "Historic Paris shirtmaker and consumer luxury brand reportedly acquired by Chanel in early July 2026. Multiple reputable media reports cite company statements, but no primary Chanel/Charvet transaction release was found in this pass, so confidence is medium.",
-      "dedupe_note": "Absent from known_deals."
+      "why_relevant": "Essential Parfums is a French artistic perfumery consumer brand. Leaders League reported that Style Capital SGR acquired a stake in Essential Parfums SAS and that closing was completed on 7 July 2026 in Paris.",
+      "dedupe_note": "Not in known_deals. Media source says 'stake' but does not clearly establish majority/control in the snippet; retain only as medium-confidence lead pending official confirmation."
+    },
+    {
+      "brand": "Les Secrets de Loly",
+      "sector": "beauty / haircare",
+      "origin_country": "France",
+      "buyer": "Quadrivio Group",
+      "buyer_country": "Italy",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "majority_stake",
+      "source_urls": [
+        "https://www.beautyindependent.com/quadrivio-group-majority-stake-fast-growing-textured-haircare-brand-les-secrets-de-loly/"
+      ],
+      "preferred_source_type": "reliable_media",
+      "confidence": "medium",
+      "why_relevant": "Les Secrets de Loly is a French textured haircare consumer brand with strong Sephora presence. Beauty Independent reported in March 2026 that Quadrivio Group acquired a majority stake in the brand.",
+      "dedupe_note": "Not in known_deals. Outside the 30-day window but a plausible missed 2026 European beauty control deal; seek company or fund release for higher confidence."
+    },
+    {
+      "brand": "Sessùn",
+      "sector": "fashion",
+      "origin_country": "France",
+      "buyer": "Quadrivio Group / Lifestyle Fund II",
+      "buyer_country": "Italy",
+      "buyer_region": "Europe",
+      "deal_year": 2024,
+      "deal_status": "completed",
+      "deal_type": "majority_stake",
+      "source_urls": [
+        "https://www.quadriviogroup.com/sites/default/files/comunicato-stampa/file/2024-09/PRESS-RELEASE-SESSUN-10-9-24_0.pdf"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Sessùn is a French fashion consumer brand with stores/corners across multiple European countries. Quadrivio’s official press release states that Lifestyle Fund II acquired a majority stake in Sessùn in September 2024.",
+      "dedupe_note": "Not in known_deals. Older missed deal from 2015 onward; relevant to European fashion brand ownership transparency."
     }
   ],
   "candidate_updates": [
     {
-      "brand": "Skroutz",
-      "suggested_update": "Keep as pending/announced rather than completed unless a closing source is found. Blackstone's 2026-05-11 official release confirms a definitive agreement to acquire a majority stake from CVC, but this pass did not find an official completion notice by 2026-08-02.",
+      "brand": "Depop",
+      "suggested_update": "Update known_deals: current owner changed again. eBay announced a definitive agreement on 18 February 2026 to acquire Depop from Etsy for approximately $1.2 billion in cash; the UK CMA cleared the anticipated acquisition on 15 July 2026. Etsy’s 16 July 2026 8-K indicates closing was fixed for the later of 30 July 2026 or the second business day after conditions were satisfied. Mark as eBay / USA, 2026, completed if eBay’s completion press release is verified; otherwise pending/announced with CMA clearance.",
       "source_urls": [
-        "https://www.blackstone.com/news/press/blackstone-to-acquire-skroutz-greeces-leading-online-marketplace-from-cvc/"
+        "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-to-Acquire-Depop-from-Etsy/default.aspx",
+        "https://www.gov.uk/cma-cases/ebay-slash-depop-merger-inquiry",
+        "https://investors.etsy.com/sec-filings/all-sec-filings/content/0001370637-26-000066/etsy-20260712.htm"
       ],
       "confidence": "high"
     },
     {
-      "brand": "Hugo Boss",
-      "suggested_update": "Move from unresolved candidate to active pending-takeover/announced lead. EU notification and Frasers announcement show the takeover would confer sole control and that EU merger-clearance condition was satisfied on 2026-07-27; still needs tender/settlement outcome monitoring.",
+      "brand": "HUGO BOSS",
+      "suggested_update": "Move from known_candidates to active deal watch. Frasers’ voluntary public takeover offer is a live 2026 control transaction; EU merger filing M.12514 states Frasers will acquire sole control of Hugo Boss if the bid succeeds. Hugo Boss board has recommended shareholders not accept the offer, so status should be pending_takeover/pending_regulatory_review rather than completed.",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202603740",
-        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918",
-        "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer"
+        "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-informs-about-unsolicited-voluntary-takeover-offer-by-frasers-group-plc",
+        "https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52026M12514"
+      ],
+      "confidence": "high"
+    },
+    {
+      "brand": "Skroutz",
+      "suggested_update": "Known_deals currently marks Blackstone/Skroutz as 2026 pending_regulatory_review. No completion source was found in this pass; keep pending unless official Blackstone, CVC, or competition-authority completion notice appears.",
+      "source_urls": [
+        "https://www.blackstone.com/news/press/blackstone-to-acquire-skroutz-greeces-leading-online-marketplace-from-cvc/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "brand": "Baume & Mercier",
+      "suggested_update": "Known_deals already includes Baume & Mercier as completed in 2026; official Richemont release confirms completion on 1 July 2026 after the 22 January 2026 agreement. No change needed except ensuring completion date/source is attached.",
+      "source_urls": [
+        "https://www.richemont.com/news-media/press-releases-news/richemont-and-the-damiani-group-announce-the-completion-of-the-acquisition-of-baume-mercier-by-the-damiani-group/"
       ],
       "confidence": "high"
     }
   ],
   "search_gaps": [
     {
-      "area": "Hugo Boss final tender result and settlement",
-      "suggested_query": "Hugo Boss Frasers final acceptance result settlement takeover offer August 2026 official"
+      "area": "Depop completion confirmation",
+      "suggested_query": "site:ebayinc.com/stories/news eBay completes acquisition of Depop July 2026"
     },
     {
-      "area": "Skroutz closing confirmation",
-      "suggested_query": "Blackstone Skroutz acquisition completed closing competition approval 2026"
+      "area": "HUGO BOSS takeover result",
+      "suggested_query": "site:group.hugoboss.com Frasers Hugo Boss takeover offer result August 2026 acceptance period"
     },
     {
-      "area": "Catawiki potential sale process",
-      "suggested_query": "Catawiki sale process Permira Accel acquisition Reuters July 2026 official"
+      "area": "TheFork regulatory and closing status",
+      "suggested_query": "American Express TheFork Tripadvisor acquisition completion regulatory approval 2026"
     },
     {
-      "area": "Charvet primary-source confirmation",
-      "suggested_query": "Chanel Charvet acquisition official press release July 2026 100% Colban family"
+      "area": "Artdeco official date and transaction status",
+      "suggested_query": "Sodalis Artdeco Cosmetics Group majority stake acquisition date closing 2026"
     },
     {
-      "area": "Omio / Rail Europe regulatory status",
-      "suggested_query": "Omio Rail Europe acquisition completed regulatory approval 2026"
+      "area": "Marionnaud possible sale",
+      "suggested_query": "Bogart Marionnaud acquisition exclusive negotiations July 2026 official"
     },
     {
-      "area": "Nordic Leisure Travel Group acquisition status",
-      "suggested_query": "Norwegian Air Shuttle Nordic Leisure Travel Group acquisition completion approval 2026"
+      "area": "European beauty-control deals July 2026",
+      "suggested_query": "site:epcnews.eu/category/ma July 2026 acquisition majority stake European beauty brand"
     },
     {
-      "area": "European travel retail and foodservice concessions consolidation",
-      "suggested_query": "Areas acquisition The Restaurant Group Concessions completed UK travel retail July 2026"
+      "area": "Recent EU merger notifications consumer brands",
+      "suggested_query": "site:eur-lex.europa.eu 2026M acquisition fashion retail beauty marketplace Case M. July 2026"
+    },
+    {
+      "area": "Buyer watchlist recent consumer deals",
+      "suggested_query": "Blackstone KKR Hellman Friedman Carlyle Bain acquire European consumer brand July August 2026 official press release"
     }
   ],
   "status": "completed",
-  "generated_at": "2026-08-02T11:17:12.435837+00:00"
+  "generated_at": "2026-08-08T08:29:47.983900+00:00"
 }
