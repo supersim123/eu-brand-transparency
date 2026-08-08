@@ -1,39 +1,46 @@
 # Weekly OpenAI News Research
 
-- Generated at: `2026-08-02T11:17:12.435837+00:00`
+- Generated at: `2026-08-08T08:29:47.983900+00:00`
 - Status: `completed`
-- New deal candidates: **6**
-- Candidate updates: **2**
-- Search gaps: **7**
+- New deal candidates: **8**
+- Candidate updates: **4**
+- Search gaps: **8**
 
 Research candidates are not published until a second OpenAI pass independently verifies completion and current ownership against source documents.
 
 ## New Deal Candidates
 
-- **Hugo Boss** -> Frasers Group (2026, high)
-  Sources: https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-informs-about-unsolicited-voluntary-takeover-offer-by-frasers-group-plc, https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202603740, https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918
-- **Baume & Mercier** -> Damiani Group (2026, high)
-  Sources: https://www.richemont.com/news-media/press-releases-news/richemont-and-the-damiani-group-announce-the-completion-of-the-acquisition-of-baume-mercier-by-the-damiani-group/, https://www.richemont.com/media/nptjffbx/richemont-and-the-damiani-group-sign-agreement-to-acquire-baume-mercier.pdf
-- **Rail Europe** -> Omio Group (2026, high)
-  Sources: https://www.omio.com/corporate/newsroom/press-releases/omio-group-to-acquire-rail-europe-to-consolidate-the-ground-transportation-landscape/
-- **Creed / Kering Beauté** -> L'Oréal (2026, high)
-  Sources: https://www.loreal.com/en/press-release/group/loreal-completes-the-acquisition-of-kering-beaute/, https://www.loreal-finance.com/eng/press-release/kering-and-loreal-forge-alliance-beauty-and-wellness
-- **Versace** -> Prada Group (2025, high)
-  Sources: https://www.pradagroup.com/en/news-media/news-section/25-12-02-pradagroup-versace-closing.html, https://www.pradagroup.com/en/news-media/news-section/25-04-10-pradagroup-versace.html
-- **Charvet** -> Chanel (2026, medium)
-  Sources: https://www.vogue.com/article/chanel-acquires-charvet, https://www.irishtimes.com/business/2026/07/02/chanel-acquires-charles-haugheys-shirtmaker-charvet/, https://www.ansa.it/sito/notizie/cultura/moda/2026/07/02/chanel-ha-acquisito-la-storica-camiceria-charvet_c670deba-19fc-4198-ba4c-a4a97d87bccf.html
+- **HUGO BOSS** -> Frasers Group plc (2026, high)
+  Sources: https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-informs-about-unsolicited-voluntary-takeover-offer-by-frasers-group-plc, https://group.hugoboss.com/en/newsroom/news/news-detail/hugo-boss-issues-reasoned-statement-recommending-shareholders-not-to-accept-frasers-groups-takeover-offer, https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52026M12514
+- **TheFork** -> American Express (2026, high)
+  Sources: https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700
+- **VADO** -> legero united (2026, medium)
+  Sources: https://legero-united.com/en/press-archive/
+- **Hydraid** -> Schwabe Group (2026, high)
+  Sources: https://www.schwabe-group.com/en/schwabe-acquires-majority-stake-hydraid
+- **Artdeco Cosmetics Group** -> Sodalis Group (2026, medium)
+  Sources: https://www.sodalisgroup.com/en/news/welcome-artdeco
+- **Essential Parfums** -> Style Capital SGR (2026, medium)
+  Sources: https://www.leadersleague.com/en/news/style-capital-sgr-acquires-stake-in-essential-parfums
+- **Les Secrets de Loly** -> Quadrivio Group (2026, medium)
+  Sources: https://www.beautyindependent.com/quadrivio-group-majority-stake-fast-growing-textured-haircare-brand-les-secrets-de-loly/
+- **Sessùn** -> Quadrivio Group / Lifestyle Fund II (2024, high)
+  Sources: https://www.quadriviogroup.com/sites/default/files/comunicato-stampa/file/2024-09/PRESS-RELEASE-SESSUN-10-9-24_0.pdf
 
 ## Candidate Updates
 
-- **Skroutz**: Keep as pending/announced rather than completed unless a closing source is found. Blackstone's 2026-05-11 official release confirms a definitive agreement to acquire a majority stake from CVC, but this pass did not find an official completion notice by 2026-08-02.
-- **Hugo Boss**: Move from unresolved candidate to active pending-takeover/announced lead. EU notification and Frasers announcement show the takeover would confer sole control and that EU merger-clearance condition was satisfied on 2026-07-27; still needs tender/settlement outcome monitoring.
+- **Depop**: Update known_deals: current owner changed again. eBay announced a definitive agreement on 18 February 2026 to acquire Depop from Etsy for approximately $1.2 billion in cash; the UK CMA cleared the anticipated acquisition on 15 July 2026. Etsy’s 16 July 2026 8-K indicates closing was fixed for the later of 30 July 2026 or the second business day after conditions were satisfied. Mark as eBay / USA, 2026, completed if eBay’s completion press release is verified; otherwise pending/announced with CMA clearance.
+- **HUGO BOSS**: Move from known_candidates to active deal watch. Frasers’ voluntary public takeover offer is a live 2026 control transaction; EU merger filing M.12514 states Frasers will acquire sole control of Hugo Boss if the bid succeeds. Hugo Boss board has recommended shareholders not accept the offer, so status should be pending_takeover/pending_regulatory_review rather than completed.
+- **Skroutz**: Known_deals currently marks Blackstone/Skroutz as 2026 pending_regulatory_review. No completion source was found in this pass; keep pending unless official Blackstone, CVC, or competition-authority completion notice appears.
+- **Baume & Mercier**: Known_deals already includes Baume & Mercier as completed in 2026; official Richemont release confirms completion on 1 July 2026 after the 22 January 2026 agreement. No change needed except ensuring completion date/source is attached.
 
 ## Search Gaps
 
-- **Hugo Boss final tender result and settlement**: `Hugo Boss Frasers final acceptance result settlement takeover offer August 2026 official`
-- **Skroutz closing confirmation**: `Blackstone Skroutz acquisition completed closing competition approval 2026`
-- **Catawiki potential sale process**: `Catawiki sale process Permira Accel acquisition Reuters July 2026 official`
-- **Charvet primary-source confirmation**: `Chanel Charvet acquisition official press release July 2026 100% Colban family`
-- **Omio / Rail Europe regulatory status**: `Omio Rail Europe acquisition completed regulatory approval 2026`
-- **Nordic Leisure Travel Group acquisition status**: `Norwegian Air Shuttle Nordic Leisure Travel Group acquisition completion approval 2026`
-- **European travel retail and foodservice concessions consolidation**: `Areas acquisition The Restaurant Group Concessions completed UK travel retail July 2026`
+- **Depop completion confirmation**: `site:ebayinc.com/stories/news eBay completes acquisition of Depop July 2026`
+- **HUGO BOSS takeover result**: `site:group.hugoboss.com Frasers Hugo Boss takeover offer result August 2026 acceptance period`
+- **TheFork regulatory and closing status**: `American Express TheFork Tripadvisor acquisition completion regulatory approval 2026`
+- **Artdeco official date and transaction status**: `Sodalis Artdeco Cosmetics Group majority stake acquisition date closing 2026`
+- **Marionnaud possible sale**: `Bogart Marionnaud acquisition exclusive negotiations July 2026 official`
+- **European beauty-control deals July 2026**: `site:epcnews.eu/category/ma July 2026 acquisition majority stake European beauty brand`
+- **Recent EU merger notifications consumer brands**: `site:eur-lex.europa.eu 2026M acquisition fashion retail beauty marketplace Case M. July 2026`
+- **Buyer watchlist recent consumer deals**: `Blackstone KKR Hellman Friedman Carlyle Bain acquire European consumer brand July August 2026 official press release`
