@@ -141,8 +141,8 @@ Rules:
 def main() -> None:
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     if not api_key:
-        print("OPENAI_API_KEY is not set. Skipping OpenAI news research.")
-        return
+        print("OPENAI_API_KEY is not set. OpenAI news research cannot run.", file=sys.stderr)
+        raise SystemExit(2)
 
     RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
     prompt = build_prompt()
@@ -162,6 +162,8 @@ def main() -> None:
     print(f"Wrote {PROMPT_PATH.relative_to(ROOT)}")
     print(f"Wrote {OUTPUT_PATH.relative_to(ROOT)}")
     print(f"Wrote {SUMMARY_PATH.relative_to(ROOT)}")
+    if payload.get("status") != "completed":
+        raise SystemExit(2)
 
 
 def call_openai(api_key: str, prompt: str) -> dict[str, Any]:
