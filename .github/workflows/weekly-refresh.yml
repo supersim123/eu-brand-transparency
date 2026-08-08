@@ -58,12 +58,13 @@ jobs:
         run: python scripts/audit_readme.py --fail-on-stop
       - name: Run tests
         run: python -m unittest discover -s tests
-      - name: Upload dry-run results
-        if: always() && github.event_name == 'workflow_dispatch' && inputs.dry_run
+      - name: Upload refresh results
+        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.dry_run))
         uses: actions/upload-artifact@v4
         with:
-          name: weekly-refresh-dry-run
+          name: weekly-refresh-results
           if-no-files-found: warn
+          retention-days: 14
           path: |
             README.md
             latest-changes.md
