@@ -1,16 +1,16 @@
 {
   "has_issues": true,
-  "summary": "One notable issue found: a current-owner cell with a single clear country is missing its national flag. The tables otherwise appear well-formed and the ownership claims shown are supported by the provided evidence.",
+  "summary": "Found one minor README formatting/data presentation issue. Tables are well-formed and the ownership claims appear supported by the provided evidence, so publishing can proceed.",
   "push_decision": "PASS",
-  "push_reason": "The README is publishable; the issue is a minor formatting/data consistency fix, not a blocking table or source-evidence problem.",
+  "push_reason": "Only a non-blocking missing country flag was found; no malformed tables or likely wrong current-owner claims were visible.",
   "issues": [
     {
       "severity": "warning",
       "category": "missing_flag",
       "location": "Other table, Depop row, Current owner cell",
-      "problem": "The current owner is shown as `eBay Inc.` without a national flag, while eBay is a single clear U.S. owner and other U.S. owners are flagged.",
-      "suggestion": "Change the cell to `🇺🇸 eBay Inc.`."
+      "problem": "The owner is shown as `eBay Inc.` without a country flag, while other single-country owners are consistently flagged and eBay is a clear U.S. owner.",
+      "suggestion": "Change the Current owner cell to `🇺🇸 eBay Inc.`."
     }
   ],
-  "generated_at": "2026-08-08T08:31:32.800184+00:00"
+  "generated_at": "2026-08-15T04:35:55.468788+00:00"
 }
