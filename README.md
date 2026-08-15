@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-103-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-108-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**103** ownership records across **11** sectors.
+**108** ownership records across **11** sectors.
 
 ---
 
@@ -30,13 +30,13 @@
 - [Mobility & Auto](#mobility--auto) _12 records_
 - [Retail & E-Commerce](#retail--e-commerce) _9 records_
 - [Fashion & Beauty](#fashion--beauty) _18 records_
-- [Food Delivery & Grocery](#food-delivery--grocery) _4 records_
+- [Food Delivery & Grocery](#food-delivery--grocery) _5 records_
 - [Fintech & Payments](#fintech--payments) _6 records_
 - [Gaming](#gaming) _12 records_
 - [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
 - [Marketplaces](#marketplaces) _7 records_
-- [Other](#other) _4 records_
+- [Other](#other) _8 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -118,6 +118,7 @@
 | <img src="https://www.google.com/s2/favicons?domain=wolt.com&sz=32" width="18" height="18" alt=""> **Wolt** | 🇫🇮 Finland | 🇺🇸 DoorDash | 2022 | [DoorDash](https://www.prnewswire.com/news-releases/doordash-completes-acquisition-of-wolt-301558456.html) |
 | <img src="https://www.google.com/s2/favicons?domain=glovoapp.com&sz=32" width="18" height="18" alt=""> **Glovo** | 🇪🇸 Spain | 🇩🇪 Delivery Hero | 2022 | [Delivery Hero](https://www.deliveryhero.com/newsroom/delivery-hero-welcomes-glovo-to-the-group-all-closing-actions-taken/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.upfield.com&sz=32" width="18" height="18" alt=""> **Upfield** | 🇳🇱 Netherlands | 🇺🇸 KKR | 2018 | [Simpson Thacher](https://www.stblaw.com/about-us/news/view/2018/07/16/kkr-closes-acquisition-of-unilever-spreads-business) |
+| **Just Eat Takeaway.com** | 🇳🇱 Netherlands | 🇳🇱 🇿🇦 Prosus / Naspers | 2025 | [Naspers / Prosus / Just Eat Takeaway.com](https://www.naspers.com/news-insights/regulatory-updates/2025/final-results-of-prosus-offer-for-just-eat-takeaway-com) |
 
 ## Fintech & Payments
 
@@ -195,9 +196,13 @@
 | Brand | Founded in | Current owner | Deal year | Source |
 |---|---|---|---:|---|
 | <img src="https://www.google.com/s2/favicons?domain=www.depop.com&sz=32" width="18" height="18" alt=""> **Depop** | 🇬🇧 United Kingdom | eBay Inc. | 2026 | [eBay Inc.](https://www.ebayinc.com/stories/news/ebay-completes-acquisition-of-depop/) |
+| **ABOUT YOU** | 🇩🇪 Germany | 🇩🇪 Zalando | 2025 | [ABOUT YOU / Zalando](https://corporate.aboutyou.de/app/uploads/2025/07/25-07-11_Zalando-and-ABOUT-YOU-Successfully-Complete-Transaction-and-Team-Up-to-Lead-the-Way-in-European-Fashion-and-Lifestyle-E-commerce.pdf) |
 | **Les Secrets de Loly** | 🇫🇷 France | 🇮🇹 Quadrivio Group / Lifestyle Fund II | 2026 | [Weinberg Capital Partners](https://www.weinbergcapital.com/en/all-news/les-secrets-de-loly-enters-a-new-growth-cycle-with-the-arrival-of-new-shareholders-including-weinberg-capital-partners/) |
+| **Viktor&Rolf** | 🇳🇱 Netherlands | 🇮🇹 OTB Group | 2026 | [OTB Group](https://www.otb.net/en/news/otb-acquires-100-of-viktor-and-rolf) |
+| **Tendam** | 🇪🇸 Spain | Multiply Group | 2025 | [Multiply Group](https://www.businesswire.com/news/home/20250723669640/en/Multiply-Group-Completes-Acquisition-of-Tendam-Doubling-Operational-EBITDA-and-Expanding-Global-Footprint) |
 | **Hydraid** | 🇩🇪 Germany | 🇩🇪 Schwabe Group | 2026 | [Schwabe Group](https://www.schwabe-group.com/en/schwabe-acquires-majority-stake-hydraid) |
 | **VADO** | 🇩🇪 Germany | 🇦🇹 legero united | 2026 | [legero united](https://legero-united.com/en/press-archive/legero-united-acquires-vado-family-run-businesses-join-forces-vado-founder-hermann-meyer-joins-the-executive-board-as-chief-product-officer/) |
+| **Luxe Collective** | 🇬🇧 United Kingdom | 🇺🇸 FASHIONPHILE | 2025 | [FASHIONPHILE](https://www.prnewswire.com/news-releases/fashionphile-acquires-luxe-collective-marking-entry-into-the-uk-luxury-resale-market-302582792.html) |
 
 ## Research Candidates
 

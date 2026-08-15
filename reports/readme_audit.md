@@ -1,12 +1,12 @@
 # README Audit
 
-- Generated at: `2026-08-08T08:31:32.800184+00:00`
+- Generated at: `2026-08-15T04:35:55.468788+00:00`
 - Decision: **PASS**
-- Summary: One notable issue found: a current-owner cell with a single clear country is missing its national flag. The tables otherwise appear well-formed and the ownership claims shown are supported by the provided evidence.
-- Reason: The README is publishable; the issue is a minor formatting/data consistency fix, not a blocking table or source-evidence problem.
+- Summary: Found one minor README formatting/data presentation issue. Tables are well-formed and the ownership claims appear supported by the provided evidence, so publishing can proceed.
+- Reason: Only a non-blocking missing country flag was found; no malformed tables or likely wrong current-owner claims were visible.
 
 ## Issues
 
 - **warning / missing_flag** at `Other table, Depop row, Current owner cell`
-  Problem: The current owner is shown as `eBay Inc.` without a national flag, while eBay is a single clear U.S. owner and other U.S. owners are flagged.
-  Suggestion: Change the cell to `🇺🇸 eBay Inc.`.
+  Problem: The owner is shown as `eBay Inc.` without a country flag, while other single-country owners are consistently flagged and eBay is a clear U.S. owner.
+  Suggestion: Change the Current owner cell to `🇺🇸 eBay Inc.`.

@@ -1,25 +1,24 @@
 # Weekly OpenAI Verification
 
-- Generated at: `2026-08-08T08:31:28.923687+00:00`
+- Generated at: `2026-08-15T04:35:44.426429+00:00`
 - Decision: **PASS**
 - Approved deals: **5**
-- Rejected candidates: **6**
-- Applied: 5 added, 0 updated, 1 superseded
-- Summary: Approved 5 records after independent verification: Depop’s completed 2026 sale from Etsy to eBay; VADO’s 2026 acquisition by legero united; Schwabe Group’s 2026 majority stake in Hydraid; Quadrivio/Lifestyle Fund II’s 2026 majority acquisition of Les Secrets de Loly; and Quadrivio/Lifestyle Fund II’s 2024 majority acquisition of Sessùn. Rejected pending, announced-only, minority-only, duplicate/no-change, or date-ambiguous candidates.
+- Rejected candidates: **5**
+- Applied: 5 added, 0 updated, 0 superseded
+- Summary: Approved 5 completed ownership records after independent web verification. Rejected pending/announced deals and update-only items where no new completed transfer of control could be verified as of 2026-08-15.
 
 ## Approved
 
-- **Depop** -> eBay Inc.: Completed change of control is directly supported by an official eBay completion release, with regulator and SEC evidence supporting clearance and closing mechanics.
-- **VADO** -> legero united: Official buyer-side evidence directly supports the acquisition and current integration of VADO into legero united’s brand portfolio.
-- **Hydraid** -> Schwabe Group: Official buyer-side source directly confirms a completed majority-stake acquisition and current ownership/control by Schwabe Group.
-- **Les Secrets de Loly** -> Quadrivio Group / Lifestyle Fund II: Official fund and co-investor releases support both completion and majority-control transfer to Quadrivio/Lifestyle Fund II.
-- **Sessùn** -> Quadrivio Group / Lifestyle Fund II: Official Quadrivio source directly confirms a completed majority-stake acquisition, ownership result, seller context, and founder rollover.
+- **ABOUT YOU** -> Zalando: Official ABOUT YOU/Zalando releases directly confirm completed control acquisition and final squeeze-out/delisting; current owner is Zalando SE.
+- **Just Eat Takeaway.com** -> Prosus / Naspers: Official JET/Naspers releases confirm the offer became unconditional, settlement date, resulting Prosus/MIH Bidco ownership, and Naspers majority ownership of Prosus.
+- **Tendam** -> Multiply Group: A company-issued Business Wire release explicitly confirms completion, the 67.91% majority interest, and the ownership chain through Castellano Investments to Tendam Brands.
+- **Viktor&Rolf** -> OTB Group: OTB’s official release directly confirms completion of the 100% acquisition and the brand’s place in the OTB portfolio.
+- **Luxe Collective** -> FASHIONPHILE: Official FASHIONPHILE-distributed release and FASHIONPHILE’s own site confirm the completed asset acquisition and launch of FASHIONPHILE UK.
 
 ## Rejected
 
-- **HUGO BOSS**: Rejected as not completed as of 2026-08-08. Evidence shows a voluntary public takeover offer by Frasers with EU merger control clearance and offer condition satisfaction, but the offer remained open for acceptance until 2026-08-13; no completed transfer of control was verified.
-- **TheFork**: Rejected as announced/proposed only. Tripadvisor’s 2026-06-15 release describes a put option/proposed sale to American Express expected to close before the end of 2026, subject to labor consultation, regulatory approvals, and other closing conditions.
-- **Artdeco Cosmetics Group**: Rejected for this pass due candidate inconsistency and completion-date ambiguity. Independent checks indicate the relevant Sodalis/Artdeco transaction was a 2024 majority-stake deal, not a 2026 deal; official Sodalis pages support agreement/current portfolio status, but the opened sources did not establish a single unambiguous full ISO completion date suitable for approval under the gate rules.
-- **Essential Parfums**: Rejected as minority-only / no control transfer. Independent source from Aramis states the founders retained a majority stake and Style Capital entered as a minority shareholder, contradicting the candidate’s majority-stake/control claim.
-- **Skroutz**: Rejected/no update. The supplied update itself says no completion source was found; no completed transfer beyond the existing pending-regulatory-review row was verified.
-- **Baume & Mercier**: Rejected as duplicate/no change. Existing row baume_mercier_2026 already records the completed 2026 transfer to Damiani Group; candidate update requests only source attachment/confirmation, not a new ownership row.
+- **InPost**: Rejected: the verified official sources describe a conditional recommended offer announced on 2026-02-09 with expected completion in the second half of 2026; no completed transfer of control was verified by 2026-08-15.
+- **Roberto Cavalli**: Rejected: sources confirm definitive/binding agreements and expected closing in Q2 or early H2 2026, but not a completed closing or final current ownership chain as of 2026-08-15.
+- **Saturn / MediaMarktSaturn / CECONOMY**: Rejected as a new approval: this is an update-only item. The transaction should remain pending_regulatory_review because the cited materials indicate regulatory review/in-depth investigation rather than completed JD.com control.
+- **Skroutz**: Rejected as a new approval: no fresh official completion source was provided or found; maintain existing pending_regulatory_review status until a regulator, Blackstone, Skroutz, CPPIB or BC Partners confirms closing.
+- **Depop**: Rejected as a new approval/update: existing rows already include depop_2021 and depop_2026. If depop_2026 has official completion support in the master file, it supersedes depop_2021; no additional weekly candidate record is needed.
