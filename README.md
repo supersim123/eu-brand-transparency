@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-108-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-112-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**108** ownership records across **11** sectors.
+**112** ownership records across **11** sectors.
 
 ---
 
@@ -36,7 +36,7 @@
 - [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
 - [Marketplaces](#marketplaces) _7 records_
-- [Other](#other) _8 records_
+- [Other](#other) _12 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -195,6 +195,10 @@
 
 | Brand | Founded in | Current owner | Deal year | Source |
 |---|---|---|---:|---|
+| **Auchan Hungary** | Hungary | Indotek Group | 2026 | [Indotek Group](https://indotekgroup.com/pl/indotek-group-acquires-remaining-53-stake-in-auchan-hungary-assumes-full-ownership/) |
+| **Bogner** | 🇩🇪 Germany | 🇩🇪 Katjes International via Katjes Quiet Luxury | 2025 | [Katjes International](https://katjes-international.de/en/assets/files/press-releases/20250901-katjes-international-closes-majority-stake-acquisition-in-bogner-pr.pdf) |
+| **Habitat** | 🇬🇧 United Kingdom / France operations | 🇫🇷 Vente-unique.com | 2026 | [Vente-unique.com / CAFOM via Euronext](https://live.euronext.com/sites/default/files/company_press_releases/attachments/2026/03/30/cpr05_actus_97246_FR0010766667.pdf) |
+| **Recharge / Recharge.com / Startselect.com** | 🇳🇱 Netherlands | 🇸🇬 Coda | 2025 | [Coda](https://www.coda.co/press/coda-completes-recharge-acquisition-expanding-global-reach/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.depop.com&sz=32" width="18" height="18" alt=""> **Depop** | 🇬🇧 United Kingdom | eBay Inc. | 2026 | [eBay Inc.](https://www.ebayinc.com/stories/news/ebay-completes-acquisition-of-depop/) |
 | **ABOUT YOU** | 🇩🇪 Germany | 🇩🇪 Zalando | 2025 | [ABOUT YOU / Zalando](https://corporate.aboutyou.de/app/uploads/2025/07/25-07-11_Zalando-and-ABOUT-YOU-Successfully-Complete-Transaction-and-Team-Up-to-Lead-the-Way-in-European-Fashion-and-Lifestyle-E-commerce.pdf) |
 | **Les Secrets de Loly** | 🇫🇷 France | 🇮🇹 Quadrivio Group / Lifestyle Fund II | 2026 | [Weinberg Capital Partners](https://www.weinbergcapital.com/en/all-news/les-secrets-de-loly-enters-a-new-growth-cycle-with-the-arrival-of-new-shareholders-including-weinberg-capital-partners/) |

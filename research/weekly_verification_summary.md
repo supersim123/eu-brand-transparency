@@ -1,24 +1,24 @@
 # Weekly OpenAI Verification
 
-- Generated at: `2026-08-15T04:35:44.426429+00:00`
+- Generated at: `2026-08-22T04:36:36.059426+00:00`
 - Decision: **PASS**
-- Approved deals: **5**
-- Rejected candidates: **5**
-- Applied: 5 added, 0 updated, 0 superseded
-- Summary: Approved 5 completed ownership records after independent web verification. Rejected pending/announced deals and update-only items where no new completed transfer of control could be verified as of 2026-08-15.
+- Approved deals: **4**
+- Rejected candidates: **6**
+- Applied: 4 added, 0 updated, 0 superseded
+- Summary: Verified all weekly candidates independently. Approved four completed, consumer-facing European brand/operator ownership records: Auchan Hungary, Habitat brand rights, Recharge/Recharge.com/Startselect.com, and Bogner. Rejected pending or not-yet-completed items, non-European/B2B-only platform items, uncertain eMAG completion/update items, and duplicate Les Secrets de Loly update.
 
 ## Approved
 
-- **ABOUT YOU** -> Zalando: Official ABOUT YOU/Zalando releases directly confirm completed control acquisition and final squeeze-out/delisting; current owner is Zalando SE.
-- **Just Eat Takeaway.com** -> Prosus / Naspers: Official JET/Naspers releases confirm the offer became unconditional, settlement date, resulting Prosus/MIH Bidco ownership, and Naspers majority ownership of Prosus.
-- **Tendam** -> Multiply Group: A company-issued Business Wire release explicitly confirms completion, the 67.91% majority interest, and the ownership chain through Castellano Investments to Tendam Brands.
-- **Viktor&Rolf** -> OTB Group: OTB’s official release directly confirms completion of the 100% acquisition and the brand’s place in the OTB portfolio.
-- **Luxe Collective** -> FASHIONPHILE: Official FASHIONPHILE-distributed release and FASHIONPHILE’s own site confirm the completed asset acquisition and launch of FASHIONPHILE UK.
+- **Auchan Hungary** -> Indotek Group: Consumer-facing grocery/hypermarket operator in Europe; official Indotek release and issuer-distributed release explicitly confirm the acquisition of the remaining 53% stake and resulting 100% ownership on 2026-06-26.
+- **Habitat** -> Vente-unique.com: Consumer-facing home furnishings brand; official Euronext/issuer release states CAFOM sold the Habitat brands to Vente-unique.com for €11 million and identifies Vente-unique.com as a CAFOM subsidiary.
+- **Recharge / Recharge.com / Startselect.com** -> Coda: European, consumer-facing prepaid payments and digital goods storefront; official Coda and Recharge releases explicitly confirm completion and continued operation of the Recharge brands under Coda.
+- **Bogner** -> Katjes International via Katjes Quiet Luxury: Consumer-facing German luxury sports fashion brand; official Katjes and Bogner releases confirm closing, the 60% stake, the direct acquisition vehicle and retained family stake.
 
 ## Rejected
 
-- **InPost**: Rejected: the verified official sources describe a conditional recommended offer announced on 2026-02-09 with expected completion in the second half of 2026; no completed transfer of control was verified by 2026-08-15.
-- **Roberto Cavalli**: Rejected: sources confirm definitive/binding agreements and expected closing in Q2 or early H2 2026, but not a completed closing or final current ownership chain as of 2026-08-15.
-- **Saturn / MediaMarktSaturn / CECONOMY**: Rejected as a new approval: this is an update-only item. The transaction should remain pending_regulatory_review because the cited materials indicate regulatory review/in-depth investigation rather than completed JD.com control.
-- **Skroutz**: Rejected as a new approval: no fresh official completion source was provided or found; maintain existing pending_regulatory_review status until a regulator, Blackstone, Skroutz, CPPIB or BC Partners confirms closing.
-- **Depop**: Rejected as a new approval/update: existing rows already include depop_2021 and depop_2026. If depop_2026 has official completion support in the master file, it supersedes depop_2021; no additional weekly candidate record is needed.
+- **eMAG / Dante International**: Rejected for now: the European Commission source confirms regulatory approval on 2026-08-07, and prior EU notice described Naspers/Prosus/MIH as acquiring sole control, but no high-reliability official source was found that explicitly confirms transaction closing after approval and the resulting current ownership as of 2026-08-22.
+- **Aroma-Zone**: Rejected as not completed: Partners Group and Eurazeo sources describe exclusivity/contemplated majority acquisition and use conditional language; no completion/closing source found.
+- **Instaleap**: Rejected because it is not a European-origin consumer-facing brand/app/platform; the official Instacart source confirms an acquisition, but Instaleap is described as a global grocery technology enablement platform with Colombia/global roots and B2B retailer customers.
+- **Kompass**: Rejected as outside consumer-facing scope: official source confirms Expandi acquired 100% of Kompass, but the business is a B2B directory/data/media/marketing platform rather than a consumer-facing European brand or service.
+- **eMAG Bulgaria**: Rejected update: the EC approval concerns Naspers acquiring sole control of Dante International/eMAG, but the Bulgaria-specific ownership chain and post-approval closing were not verified from high-reliability official sources.
+- **Les Secrets de Loly**: Rejected as duplicate/update-only: an existing completed 2026 row already records Quadrivio Group / Lifestyle Fund II ownership; no new ownership change to add.
