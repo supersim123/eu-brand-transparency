@@ -1,12 +1,21 @@
 # README Audit
 
-- Generated at: `2026-08-15T04:35:55.468788+00:00`
+- Generated at: `2026-08-22T04:36:49.233171+00:00`
 - Decision: **PASS**
-- Summary: Found one minor README formatting/data presentation issue. Tables are well-formed and the ownership claims appear supported by the provided evidence, so publishing can proceed.
-- Reason: Only a non-blocking missing country flag was found; no malformed tables or likely wrong current-owner claims were visible.
+- Summary: README is structurally publishable. I found a few minor flag/readability issues in the Other table, but no malformed tables or blocking ownership/source problems.
+- Reason: Tables render consistently and the ownership claims are supported by the provided evidence. Issues are minor presentation fixes.
 
 ## Issues
 
-- **warning / missing_flag** at `Other table, Depop row, Current owner cell`
-  Problem: The owner is shown as `eBay Inc.` without a country flag, while other single-country owners are consistently flagged and eBay is a clear U.S. owner.
-  Suggestion: Change the Current owner cell to `🇺🇸 eBay Inc.`.
+- **warning / missing_flag** at `Other table, Auchan Hungary row`
+  Problem: The Founded in cell shows a single clear country as plain text: "Hungary". The Current owner cell also lacks a country flag while other owner cells generally include one.
+  Suggestion: Change to `🇭🇺 Hungary` and, if consistent with the data, prefix Indotek Group with `🇭🇺`.
+- **warning / missing_flag** at `Other table, Depop row`
+  Problem: The Current owner cell shows `eBay Inc.` without a country flag, unlike similar US-owner rows.
+  Suggestion: Change owner display to `🇺🇸 eBay Inc.`.
+- **warning / missing_flag** at `Other table, Tendam row`
+  Problem: The Current owner cell shows `Multiply Group` without a country flag, while the table otherwise uses owner-country flags.
+  Suggestion: Add the appropriate owner-country flag for Multiply Group if it is present in the source data.
+- **info / long_name** at `Other table, Recharge row`
+  Problem: The brand name `Recharge / Recharge.com / Startselect.com` is long and makes the table harder to scan.
+  Suggestion: Consider shortening the display name to `Recharge` and leaving associated brands to the source/data notes if needed.

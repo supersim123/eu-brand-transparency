@@ -1,200 +1,198 @@
 {
   "new_deal_candidates": [
     {
-      "brand": "InPost",
-      "sector": "e-commerce logistics / parcel lockers",
-      "origin_country": "Poland",
-      "buyer": "Consortium of Advent International, FedEx, A&R Investments and PPF Group",
-      "buyer_country": "USA / USA / Poland / Czech Republic",
+      "brand": "eMAG / Dante International",
+      "sector": "retail / e-commerce marketplace",
+      "origin_country": "Romania",
+      "buyer": "Naspers Limited",
+      "buyer_country": "South Africa",
       "buyer_region": "Other",
       "deal_year": 2026,
-      "deal_status": "announced",
-      "deal_type": "pending_takeover",
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "acquisition",
       "source_urls": [
-        "https://newsroom.fedex.com/newsroom/global-english/inpost-advent-fedex-a-r-and-ppf-announce-agreement-on-recommended-all-cash-offer-for-all-issued-and-outstanding-shares-at-an-offer-price-of-eur-15-60-per-share",
-        "https://www.businesswire.com/news/home/20260208585540/en/InPost-Advent-FedEx-AR-and-PPF-Announce-Agreement-on-Recommended-All-Cash-Offer-for-All-Issued-and-Outstanding-InPost-Shares-at-an-Offer-Price-of-EUR-15.60-Per-Share",
-        "https://www.sec.gov/Archives/edgar/data/1048911/000110465926012106/tm265575d1_8k.htm",
-        "https://inpost.eu/sites/default/files/2026-05/InPost%20-%20Position%20Statement%20%2022.05.2026_0.pdf"
+        "https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi"
       ],
-      "preferred_source_type": "official_press_release",
+      "preferred_source_type": "competition_authority",
       "confidence": "high",
-      "why_relevant": "Large Poland-origin consumer-facing parcel-locker and e-commerce delivery platform; February 2026 recommended all-cash offer would take the listed European platform under a mixed consortium including US strategic and PE buyers.",
-      "dedupe_note": "Not found in known_deals; add as new pending/announced takeover unless already tracked elsewhere under logistics."
+      "why_relevant": "European Commission notice dated 2026-08-07 states it approved Naspers Limited's acquisition of sole control over Dante International S.A. (eMAG), a Romanian retail/e-commerce business. This appears consumer-facing and relevant to marketplace/retail ownership transparency, and is absent from known_deals except for the unresolved eMAG Bulgaria candidate.",
+      "dedupe_note": "Not a duplicate of known eMAG Bulgaria candidate: this is a control-change lead for Dante International/eMAG at group level, which likely affects eMAG operations including Bulgaria but should be verified at subsidiary/brand scope."
     },
     {
-      "brand": "ABOUT YOU",
-      "sector": "fashion e-commerce / marketplace",
-      "origin_country": "Germany",
-      "buyer": "Zalando",
-      "buyer_country": "Germany",
+      "brand": "Aroma-Zone",
+      "sector": "beauty / wellness / self-care",
+      "origin_country": "France",
+      "buyer": "Partners Group",
+      "buyer_country": "Switzerland",
       "buyer_region": "Europe",
-      "deal_year": 2025,
-      "deal_status": "completed",
-      "deal_type": "take_private",
-      "source_urls": [
-        "https://corporate.aboutyou.de/en/newsroom/press-releases",
-        "https://aboutyou2024ir.q4web.com/English/investor-relations/financial-news/news-details/2025/ABOUT-YOU-and-Zalando-Complete-Final-Step-of-their-Strategic-Combination/default.aspx",
-        "https://s205.q4cdn.com/202422753/files/doc_news/2025/25-07-11_Zalando-and-ABOUT-YOU-Successfully-Complete-Transaction-and-Team-Up-to-Lead-the-Way-in-European-Fashion-and-Lifestyle-E-commerce.pdf",
-        "https://s205.q4cdn.com/202422753/files/doc_news/2025/Nov/06/25-11-06_ABOUT-YOU-and-Zalando-Complete-Final-Step-of-their-Strategic-Combination.pdf"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Well-known German online fashion retailer/platform; Zalando completed the transaction in July 2025 and the squeeze-out/delisting final step in November 2025, making this a high-confidence missed consumer marketplace deal.",
-      "dedupe_note": "Not present in known_deals. Buyer is European, so lower geopolitical priority than US/China deals but highly relevant for European consumer platform consolidation."
-    },
-    {
-      "brand": "Just Eat Takeaway.com",
-      "sector": "food delivery",
-      "origin_country": "Netherlands",
-      "buyer": "Prosus / Naspers",
-      "buyer_country": "Netherlands / South Africa",
-      "buyer_region": "Other",
-      "deal_year": 2025,
-      "deal_status": "completed",
-      "deal_type": "take_private",
-      "source_urls": [
-        "https://www.prosus.com/news-insights/2025/prosus-to-acquire-just-eat-takeaway",
-        "https://www.prosus.com/news-insights/2025/prosus-gets-green-light-from-european-commission-to-close-just-eat-takeaway-dot-com-deal",
-        "https://newsroom.justeattakeaway.com/en-WW/255533-final-results-of-prosus-offer-for-just-eat-takeaway-com/",
-        "https://www.justeattakeaway.com/about/our-story/default.aspx",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025M11936"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Major Netherlands-origin European food-delivery platform owner, acquired/taken private by Prosus in 2025 after EU clearance. Known_deals include Deliveroo but not JET itself.",
-      "dedupe_note": "Add only if the list tracks parent platforms as brands; avoid duplicating individual local brands unless separately researched."
-    },
-    {
-      "brand": "Tendam",
-      "sector": "fashion / apparel retail",
-      "origin_country": "Spain",
-      "buyer": "Multiply Group",
-      "buyer_country": "United Arab Emirates",
-      "buyer_region": "Other",
-      "deal_year": 2025,
-      "deal_status": "completed",
-      "deal_type": "majority_stake",
-      "source_urls": [
-        "https://www.businesswire.com/news/home/20250723669640/en/Multiply-Group-Completes-Acquisition-of-Tendam-Doubling-Operational-EBITDA-and-Expanding-Global-Footprint"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Large Spanish apparel group behind consumer retail brands including Cortefiel, Springfield, Women’secret, Pedro del Hierro and others; UAE-listed Multiply completed acquisition of a majority stake in July 2025.",
-      "dedupe_note": "Not found in known_deals. Consider whether to enter parent brand Tendam and/or major retail banners separately."
-    },
-    {
-      "brand": "Roberto Cavalli",
-      "sector": "fashion / luxury",
-      "origin_country": "Italy",
-      "buyer": "Marquee Brands with The Level Group / DAMAC strategic partnership",
-      "buyer_country": "USA / Italy / United Arab Emirates",
-      "buyer_region": "Other",
       "deal_year": 2026,
       "deal_status": "announced",
       "deal_type": "majority_stake",
       "source_urls": [
-        "https://www.businesswire.com/news/home/20260520070705/en/Marquee-Brands-Enters-Strategic-Partnership-With-DAMAC-Group-for-a-Majority-Interest-in-Roberto-Cavalli",
-        "https://www.businesswire.com/news/home/20260528904408/en/Roberto-Cavalli-Global-Restructuring-Marquee-Brands-and-The-Level-Group-Lead-the-Strategic-Acquisition-of-the-Italian-Luxury-Brand"
+        "https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Partners Group announced on 2026-08-06 that it entered into exclusivity to acquire Aroma-Zone, described as a fast-growing natural beauty, wellness and self-care brand in Europe, from Eurazeo. The release states the transaction would be a majority acquisition via Partners Group's direct private equity program.",
+      "dedupe_note": "Absent from known_deals and known_candidates provided."
+    },
+    {
+      "brand": "Auchan Hungary",
+      "sector": "retail / grocery / hypermarkets",
+      "origin_country": "Hungary",
+      "buyer": "Indotek Group",
+      "buyer_country": "Hungary",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/indotek-group-acquires-remaining-53-stake-in-auchan-hungary-assumes-full-ownership-302811185.html"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "medium",
-      "why_relevant": "Well-known Italian luxury fashion brand; 2026 announcements describe a strategic acquisition/control transaction involving US brand-management company Marquee Brands, Italian operating partner The Level Group, and DAMAC-related interests.",
-      "dedupe_note": "Ownership structure appears complex and restructuring-related; mark medium until closing/definitive control percentages are confirmed from court, registry, or offer documents."
+      "why_relevant": "Indotek Group announced on 2026-06-26 it acquired the remaining 53% stake in Auchan Magyarország Kft. from Auchan Retail International, increasing ownership from 47% to 100%. The business includes Auchan Hungary hypermarkets and long-term brand licence/procurement arrangements with the wider Auchan network.",
+      "dedupe_note": "Not a global Auchan ownership change; country-level operator/control change only. Include if the dataset tracks national retail brand operators/franchises."
     },
     {
-      "brand": "Viktor&Rolf",
-      "sector": "fashion / luxury",
+      "brand": "Instaleap",
+      "sector": "grocery technology / retail enablement platform",
+      "origin_country": "Colombia / global with European operations",
+      "buyer": "Instacart",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://company.instacart.fr/pressreleases/instacart-acquires-instaleap-to-accelerate-global-expansion-of-its-enterprise-platform"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "Instacart announced on 2026-04-14 that it acquired Instaleap, a grocery enablement and fulfillment technology platform with retailer and marketplace customers in nearly 30 countries and a growing presence in Europe. Relevant to grocery/retail platform ownership, but not a European-origin brand.",
+      "dedupe_note": "Not in known_deals. Marked medium because origin is not clearly European despite European market relevance."
+    },
+    {
+      "brand": "Habitat",
+      "sector": "home furnishings / household retail",
+      "origin_country": "United Kingdom / France operations",
+      "buyer": "Vente-unique.com",
+      "buyer_country": "France",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "asset_deal",
+      "source_urls": [
+        "https://live.euronext.com/en/products/equities/company-news/2026-03-30-vente-uniquecom-acquires-habitat-brands-cafom-group"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "CAFOM announced on 2026-03-30 the sale of Habitat brands in France and internationally to its subsidiary Vente-unique.com for €11 million, giving Vente-unique.com full access to the Habitat brand platform for online European furniture/home furnishings markets.",
+      "dedupe_note": "Potentially internal group transaction because Vente-unique.com is described as a CAFOM subsidiary. Include only if brand/IP-level ownership transfers are tracked separately from ultimate group ownership."
+    },
+    {
+      "brand": "Recharge / Recharge.com / Startselect.com",
+      "sector": "fintech / prepaid payments / digital goods marketplace",
       "origin_country": "Netherlands",
-      "buyer": "OTB Group",
-      "buyer_country": "Italy",
+      "buyer": "Coda",
+      "buyer_country": "Singapore",
+      "buyer_region": "Other",
+      "deal_year": 2025,
+      "deal_status": "announced",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/coda-accelerates-global-expansion-with-acquisition-of-european-payments-platform-recharge-302506664.html"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "Coda announced on 2025-07-16 that it signed a definitive agreement to acquire Amsterdam-headquartered Recharge, described as Europe's leading prepaid payments platform and operator of consumer digital storefronts including Recharge.com and Startselect.com. This is a missed consumer-facing fintech/marketplace deal from 2015 onward.",
+      "dedupe_note": "Absent from known_deals and known_candidates provided; completion status needs follow-up."
+    },
+    {
+      "brand": "Bogner",
+      "sector": "fashion / luxury apparel",
+      "origin_country": "Germany",
+      "buyer": "Katjes International via Katjes Quiet Luxury",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2025,
+      "deal_status": "announced",
+      "deal_type": "majority_stake",
+      "source_urls": [
+        "https://katjes-international.de/en/assets/files/press-releases/20250801-katjes-international-acquires-majority-stake-in-the-bogner-group-pm.pdf"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Katjes International announced on 2025-08-01 that its wholly owned subsidiary Katjes Quiet Luxury signed an agreement to acquire 60% of Willy Bogner GmbH, described as Germany's largest family-owned luxury apparel brand. This appears to be a relevant missed European fashion majority-stake transaction.",
+      "dedupe_note": "Absent from known_deals and known_candidates provided."
+    },
+    {
+      "brand": "Kompass",
+      "sector": "B2B marketplace / directory / business data platform",
+      "origin_country": "France",
+      "buyer": "Expandi Limited",
+      "buyer_country": "United Kingdom",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://www.otb.net/en/news/otb-acquires-100-of-viktor-and-rolf"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Dutch couture/luxury brand; OTB completed acquisition of the remaining stake in June 2026, moving from majority ownership to 100% ownership.",
-      "dedupe_note": "Not present in known_deals. This is an incremental ownership change because OTB already held majority control; include only if full-ownership changes are in scope."
-    },
-    {
-      "brand": "Luxe Collective",
-      "sector": "fashion resale marketplace",
-      "origin_country": "United Kingdom",
-      "buyer": "FASHIONPHILE",
-      "buyer_country": "USA",
-      "buyer_region": "USA",
-      "deal_year": 2025,
-      "deal_status": "completed",
-      "deal_type": "asset_deal",
-      "source_urls": [
-        "https://www.prnewswire.com/news-releases/fashionphile-acquires-luxe-collective-marking-entry-into-the-uk-luxury-resale-market-302582792.html"
+        "https://www.webdisclosure.com/press-release/expandi-group-etr-expandi-limited-acquires-kompass-to-create-leading-european-b2b-data-media-and-ai-powered-marketing-platform-YYDsanWxYDY"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "medium",
-      "why_relevant": "UK-origin luxury resale marketplace/social-commerce brand assets acquired by US luxury resale company FASHIONPHILE in October 2025, marking its UK platform launch.",
-      "dedupe_note": "Not in known_deals. Treat as lower priority because the source describes acquisition of IP, customer database and social channels rather than full company acquisition."
+      "why_relevant": "Expandi Limited announced on 2026-03-03 the acquisition of 100% of Kompass, describing Kompass.com as a localized European B2B marketplace/directory platform with substantial traffic and global reach. Consumer relevance is weaker than retail/travel/fashion, but it fits marketplace/platform ownership tracking if B2B platforms are in scope.",
+      "dedupe_note": "Absent from known_deals and known_candidates provided; include only if B2B marketplaces/directories are accepted."
     }
   ],
   "candidate_updates": [
     {
-      "brand": "Saturn / MediaMarktSaturn / CECONOMY",
-      "suggested_update": "Material regulatory update: European Commission Foreign Subsidies Regulation materials state that Case FS.100253 JD.COM / CECONOMY entered an in-depth investigation opened on 28 May 2026 and was ongoing at publication. Keep status as pending_regulatory_review rather than completed.",
+      "brand": "eMAG Bulgaria",
+      "suggested_update": "Update unresolved eMAG Bulgaria candidate to reflect the European Commission's 2026-08-07 approval of Naspers Limited acquiring sole control of Dante International S.A. (eMAG). Manual follow-up should confirm whether eMAG Bulgaria is directly held/operated by Dante International and whether the transaction has closed.",
       "source_urls": [
-        "https://single-market-economy.ec.europa.eu/document/download/1bc15039-9295-4cae-b629-f86552cd84d0_en?filename=COM_2026_368_1_EN_ACT_part1_v5.pdf",
-        "https://ir.jd.com/zh-hans/node/11771/pdf"
+        "https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "brand": "Les Secrets de Loly",
+      "suggested_update": "Already present in known_deals as completed in 2026. The Quadrivio official source confirms a majority-stake acquisition dated 2026-03-10 from Quilvest Capital Partners; consider setting deal_type=majority_stake if not already captured.",
+      "source_urls": [
+        "https://www.quadriviogroup.com/en/media/press-releases/lifestyle-fund-ii-acquires-les-secrets-de-loly"
       ],
       "confidence": "high"
-    },
-    {
-      "brand": "Skroutz",
-      "suggested_update": "Known_deals lists Blackstone/Skroutz as pending regulatory review in 2026; no fresh official completion source was found in this pass. Keep as pending_regulatory_review until an EU/national competition filing, Blackstone release, or Skroutz/CPPIB/BC Partners release confirms closing.",
-      "source_urls": [
-        "https://www.blackstone.com/news/press/"
-      ],
-      "confidence": "low"
-    },
-    {
-      "brand": "Depop",
-      "suggested_update": "Known_deals contains both Etsy 2021 and eBay 2026 ownership rows. If the 2026 eBay row is supported by official completion sources in the master file, it should supersede the 2021 Etsy row as current owner; otherwise flag for source verification because this pass did not re-confirm it.",
-      "source_urls": [
-        "https://www.etsy.com/news/etsy-to-acquire-depop"
-      ],
-      "confidence": "low"
     }
   ],
   "search_gaps": [
     {
-      "area": "August 2026 weekly window, consumer apps/platforms",
-      "suggested_query": "site:businesswire.com OR site:prnewswire.com August 2026 acquires European app marketplace fintech travel fashion brand"
+      "area": "eMAG / Dante International transaction completion and subsidiary perimeter",
+      "suggested_query": "Naspers Dante International eMAG acquisition completed 2026 closing official Naspers Prosus annual report eMAG Bulgaria ownership"
     },
     {
-      "area": "EU merger register consumer-platform cases July-August 2026",
-      "suggested_query": "site:eur-lex.europa.eu 2026M acquisition online platform retail travel fintech fashion August 2026 concentration"
+      "area": "Aroma-Zone sale process completion",
+      "suggested_query": "Partners Group Aroma-Zone acquisition completed Eurazeo closing 2026 official press release"
     },
     {
-      "area": "National competition authority decisions for UK/Germany/France/Spain in summer 2026",
-      "suggested_query": "CMA Bundeskartellamt Autorité de la concurrence CNMC 2026 acquisition marketplace retailer fashion app platform"
+      "area": "Recharge / Coda closing confirmation",
+      "suggested_query": "Coda Recharge acquisition completed closing 2025 Recharge.com Startselect official"
     },
     {
-      "area": "Buyer watchlist recent portfolio additions",
-      "suggested_query": "Blackstone KKR Hellman Friedman Advent Bain Carlyle 2026 Europe consumer brand acquisition official press release"
+      "area": "National grocery/retail carve-outs and franchise control changes",
+      "suggested_query": "2026 acquisition remaining stake European grocery retailer country operator brand licence official press release"
     },
     {
-      "area": "Known candidates confirmation pass: German marketplaces/apps",
-      "suggested_query": "Komoot Omio Raisin Scalable Capital Immowelt acquisition majority stake owner annual report official"
+      "area": "Recent EU merger-control retail and consumer-platform clearances",
+      "suggested_query": "site:competition-policy.ec.europa.eu/mergers \"retail\" \"acquisition\" \"2026\" \"M.\" \"sole control\""
     },
     {
-      "area": "Known candidates confirmation pass: Nordic marketplaces/media",
-      "suggested_query": "Tradera Tori Blocket Hemnet Booli ownership acquisition annual report 2026 official"
+      "area": "Fashion and beauty missed majority deals 2025-2026",
+      "suggested_query": "2026 majority stake European fashion brand acquired official press release private equity"
     },
     {
-      "area": "Fashion/luxury restructuring deals with US brand-management buyers",
-      "suggested_query": "Marquee Brands Authentic Brands WHP Global Bluestar 2026 European fashion brand acquisition completed"
+      "area": "Marketplace/platform missed deals from 2015 onward",
+      "suggested_query": "site:prnewswire.com European marketplace acquired 2026 definitive agreement consumer platform"
     }
   ],
   "status": "completed",
-  "generated_at": "2026-08-15T04:34:25.610958+00:00"
+  "generated_at": "2026-08-22T04:35:30.651725+00:00"
 }

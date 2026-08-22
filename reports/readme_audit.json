@@ -1,16 +1,37 @@
 {
   "has_issues": true,
-  "summary": "Found one minor README formatting/data presentation issue. Tables are well-formed and the ownership claims appear supported by the provided evidence, so publishing can proceed.",
+  "summary": "README is structurally publishable. I found a few minor flag/readability issues in the Other table, but no malformed tables or blocking ownership/source problems.",
   "push_decision": "PASS",
-  "push_reason": "Only a non-blocking missing country flag was found; no malformed tables or likely wrong current-owner claims were visible.",
+  "push_reason": "Tables render consistently and the ownership claims are supported by the provided evidence. Issues are minor presentation fixes.",
   "issues": [
     {
       "severity": "warning",
       "category": "missing_flag",
-      "location": "Other table, Depop row, Current owner cell",
-      "problem": "The owner is shown as `eBay Inc.` without a country flag, while other single-country owners are consistently flagged and eBay is a clear U.S. owner.",
-      "suggestion": "Change the Current owner cell to `🇺🇸 eBay Inc.`."
+      "location": "Other table, Auchan Hungary row",
+      "problem": "The Founded in cell shows a single clear country as plain text: \"Hungary\". The Current owner cell also lacks a country flag while other owner cells generally include one.",
+      "suggestion": "Change to `🇭🇺 Hungary` and, if consistent with the data, prefix Indotek Group with `🇭🇺`."
+    },
+    {
+      "severity": "warning",
+      "category": "missing_flag",
+      "location": "Other table, Depop row",
+      "problem": "The Current owner cell shows `eBay Inc.` without a country flag, unlike similar US-owner rows.",
+      "suggestion": "Change owner display to `🇺🇸 eBay Inc.`."
+    },
+    {
+      "severity": "warning",
+      "category": "missing_flag",
+      "location": "Other table, Tendam row",
+      "problem": "The Current owner cell shows `Multiply Group` without a country flag, while the table otherwise uses owner-country flags.",
+      "suggestion": "Add the appropriate owner-country flag for Multiply Group if it is present in the source data."
+    },
+    {
+      "severity": "info",
+      "category": "long_name",
+      "location": "Other table, Recharge row",
+      "problem": "The brand name `Recharge / Recharge.com / Startselect.com` is long and makes the table harder to scan.",
+      "suggestion": "Consider shortening the display name to `Recharge` and leaving associated brands to the source/data notes if needed."
     }
   ],
-  "generated_at": "2026-08-15T04:35:55.468788+00:00"
+  "generated_at": "2026-08-22T04:36:49.233171+00:00"
 }
