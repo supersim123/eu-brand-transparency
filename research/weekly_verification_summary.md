@@ -1,24 +1,19 @@
 # Weekly OpenAI Verification
 
-- Generated at: `2026-08-22T04:36:36.059426+00:00`
+- Generated at: `2026-08-29T10:55:48.705691+00:00`
 - Decision: **PASS**
-- Approved deals: **4**
-- Rejected candidates: **6**
-- Applied: 4 added, 0 updated, 0 superseded
-- Summary: Verified all weekly candidates independently. Approved four completed, consumer-facing European brand/operator ownership records: Auchan Hungary, Habitat brand rights, Recharge/Recharge.com/Startselect.com, and Bogner. Rejected pending or not-yet-completed items, non-European/B2B-only platform items, uncertain eMAG completion/update items, and duplicate Les Secrets de Loly update.
+- Approved deals: **1**
+- Rejected candidates: **4**
+- Applied: 1 added, 0 updated, 0 superseded
+- Summary: Reviewed five candidates independently as of 2026-08-29. Approved only Harvey Nichols: completion and current owner are directly supported by Frasers/RNS and administrator evidence. Rejected eMAG, Trust, and InPost because the evidence confirms approval/announcement/offer status rather than completed transfer of control by the review date. Rejected HUGO BOSS because Frasers' 47.89% holding is not a majority/control acquisition and HUGO BOSS remains a listed company with Frasers described only as single largest shareholder.
 
 ## Approved
 
-- **Auchan Hungary** -> Indotek Group: Consumer-facing grocery/hypermarket operator in Europe; official Indotek release and issuer-distributed release explicitly confirm the acquisition of the remaining 53% stake and resulting 100% ownership on 2026-06-26.
-- **Habitat** -> Vente-unique.com: Consumer-facing home furnishings brand; official Euronext/issuer release states CAFOM sold the Habitat brands to Vente-unique.com for €11 million and identifies Vente-unique.com as a CAFOM subsidiary.
-- **Recharge / Recharge.com / Startselect.com** -> Coda: European, consumer-facing prepaid payments and digital goods storefront; official Coda and Recharge releases explicitly confirm completion and continued operation of the Recharge brands under Coda.
-- **Bogner** -> Katjes International via Katjes Quiet Luxury: Consumer-facing German luxury sports fashion brand; official Katjes and Bogner releases confirm closing, the 60% stake, the direct acquisition vehicle and retained family stake.
+- **Harvey Nichols** -> Frasers Group plc: Consumer-facing European luxury department-store brand. Completion is explicitly confirmed by both Frasers' RNS announcement and the administrators' FAQ, and the direct/ultimate ownership chain is supported by the administrator statement that Frasers Group Trading Limited is wholly owned by Frasers Group plc.
 
 ## Rejected
 
-- **eMAG / Dante International**: Rejected for now: the European Commission source confirms regulatory approval on 2026-08-07, and prior EU notice described Naspers/Prosus/MIH as acquiring sole control, but no high-reliability official source was found that explicitly confirms transaction closing after approval and the resulting current ownership as of 2026-08-22.
-- **Aroma-Zone**: Rejected as not completed: Partners Group and Eurazeo sources describe exclusivity/contemplated majority acquisition and use conditional language; no completion/closing source found.
-- **Instaleap**: Rejected because it is not a European-origin consumer-facing brand/app/platform; the official Instacart source confirms an acquisition, but Instaleap is described as a global grocery technology enablement platform with Colombia/global roots and B2B retailer customers.
-- **Kompass**: Rejected as outside consumer-facing scope: official source confirms Expandi acquired 100% of Kompass, but the business is a B2B directory/data/media/marketing platform rather than a consumer-facing European brand or service.
-- **eMAG Bulgaria**: Rejected update: the EC approval concerns Naspers acquiring sole control of Dante International/eMAG, but the Bulgaria-specific ownership chain and post-approval closing were not verified from high-reliability official sources.
-- **Les Secrets de Loly**: Rejected as duplicate/update-only: an existing completed 2026 row already records Quadrivio Group / Lifestyle Fund II ownership; no new ownership change to add.
+- **eMAG**: Reject: EU materials confirm notification and Commission compatibility decision for Naspers / eMAG dated 2026-08-06, but the candidate itself is pending_regulatory_review and no source found explicitly confirms the share transfer/completion had occurred by 2026-08-29. Approval is not completion.
+- **Trust**: Reject: ACCO Brands' 2026-08-14 release states it entered a definitive agreement to acquire Trust and that closing was expected in late Q3 or early Q4 2026 subject to customary conditions and competition approvals. No completed acquisition source was found by 2026-08-29.
+- **InPost**: Reject: sources confirm a conditional recommended public offer and EU clearance, not completed settlement/transfer of control. InPost's own FAQ still described the transaction as expected to complete in H2 2026, and reporting indicated at least one regulatory review remained pending after EU clearance.
+- **HUGO BOSS**: Reject: Frasers' tender offer result gave it approximately 47.89% of share capital and voting rights, below a majority. HUGO BOSS' own release describes Frasers as the single largest shareholder and emphasizes continued established governance, not a completed control acquisition.

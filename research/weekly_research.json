@@ -1,198 +1,133 @@
 {
   "new_deal_candidates": [
     {
-      "brand": "eMAG / Dante International",
-      "sector": "retail / e-commerce marketplace",
+      "brand": "eMAG",
+      "sector": "marketplace / e-commerce",
       "origin_country": "Romania",
-      "buyer": "Naspers Limited",
-      "buyer_country": "South Africa",
+      "buyer": "Naspers Limited via Prosus / MIH",
+      "buyer_country": "South Africa / Netherlands",
       "buyer_region": "Other",
       "deal_year": 2026,
       "deal_status": "pending_regulatory_review",
       "deal_type": "acquisition",
       "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1783332246572&uri=CELEX%3A32026M12496",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947",
         "https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi"
       ],
-      "preferred_source_type": "competition_authority",
+      "preferred_source_type": "regulator",
       "confidence": "high",
-      "why_relevant": "European Commission notice dated 2026-08-07 states it approved Naspers Limited's acquisition of sole control over Dante International S.A. (eMAG), a Romanian retail/e-commerce business. This appears consumer-facing and relevant to marketplace/retail ownership transparency, and is absent from known_deals except for the unresolved eMAG Bulgaria candidate.",
-      "dedupe_note": "Not a duplicate of known eMAG Bulgaria candidate: this is a control-change lead for Dante International/eMAG at group level, which likely affects eMAG operations including Bulgaria but should be verified at subsidiary/brand scope."
+      "why_relevant": "Large Romanian consumer-facing e-commerce marketplace. EU materials state Naspers, through Prosus and MIH, will acquire sole control of the whole of Dante International S.A. / eMAG; Commission decision dated 2026-08-06 approved the concentration.",
+      "dedupe_note": "Not found in known_deals list. Related to OLX/Prosus route but distinct marketplace brand and ownership change from joint/control structure to Naspers sole control."
     },
     {
-      "brand": "Aroma-Zone",
-      "sector": "beauty / wellness / self-care",
-      "origin_country": "France",
-      "buyer": "Partners Group",
-      "buyer_country": "Switzerland",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "announced",
-      "deal_type": "majority_stake",
-      "source_urls": [
-        "https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Partners Group announced on 2026-08-06 that it entered into exclusivity to acquire Aroma-Zone, described as a fast-growing natural beauty, wellness and self-care brand in Europe, from Eurazeo. The release states the transaction would be a majority acquisition via Partners Group's direct private equity program.",
-      "dedupe_note": "Absent from known_deals and known_candidates provided."
-    },
-    {
-      "brand": "Auchan Hungary",
-      "sector": "retail / grocery / hypermarkets",
-      "origin_country": "Hungary",
-      "buyer": "Indotek Group",
-      "buyer_country": "Hungary",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "announced",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://www.prnewswire.com/news-releases/indotek-group-acquires-remaining-53-stake-in-auchan-hungary-assumes-full-ownership-302811185.html"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "Indotek Group announced on 2026-06-26 it acquired the remaining 53% stake in Auchan Magyarország Kft. from Auchan Retail International, increasing ownership from 47% to 100%. The business includes Auchan Hungary hypermarkets and long-term brand licence/procurement arrangements with the wider Auchan network.",
-      "dedupe_note": "Not a global Auchan ownership change; country-level operator/control change only. Include if the dataset tracks national retail brand operators/franchises."
-    },
-    {
-      "brand": "Instaleap",
-      "sector": "grocery technology / retail enablement platform",
-      "origin_country": "Colombia / global with European operations",
-      "buyer": "Instacart",
+      "brand": "Trust",
+      "sector": "consumer electronics / gaming accessories",
+      "origin_country": "Netherlands",
+      "buyer": "ACCO Brands Corporation",
       "buyer_country": "United States",
       "buyer_region": "USA",
       "deal_year": 2026,
-      "deal_status": "completed",
+      "deal_status": "announced",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://company.instacart.fr/pressreleases/instacart-acquires-instaleap-to-accelerate-global-expansion-of-its-enterprise-platform"
+        "https://ir.accobrands.com/news/news-details/2026/ACCO-Brands-to-Acquire-Trust/default.aspx",
+        "https://www.nasdaq.com/press-release/acco-brands-acquire-trust-2026-08-14"
       ],
       "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "Instacart announced on 2026-04-14 that it acquired Instaleap, a grocery enablement and fulfillment technology platform with retailer and marketplace customers in nearly 30 countries and a growing presence in Europe. Relevant to grocery/retail platform ownership, but not a European-origin brand.",
-      "dedupe_note": "Not in known_deals. Marked medium because origin is not clearly European despite European market relevance."
+      "confidence": "high",
+      "why_relevant": "Well-known Netherlands-headquartered consumer electronics and gaming peripherals brand sold through retail, online and B2B channels across Europe and Latin America. ACCO announced on 2026-08-14 that it entered a definitive agreement to acquire Trust from Egeria.",
+      "dedupe_note": "Not found in known_deals list. Pending/announced rather than completed; ACCO statement says closing depends on regulatory approvals and customary conditions."
     },
     {
-      "brand": "Habitat",
-      "sector": "home furnishings / household retail",
-      "origin_country": "United Kingdom / France operations",
-      "buyer": "Vente-unique.com",
-      "buyer_country": "France",
+      "brand": "InPost",
+      "sector": "delivery / e-commerce logistics platform",
+      "origin_country": "Poland / Luxembourg-listed",
+      "buyer": "Consortium of Advent International, FedEx, A&R Investments, and PPF Group",
+      "buyer_country": "United States / Malta / Czech Republic-Netherlands",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "take_private",
+      "source_urls": [
+        "https://newsroom.fedex.com/newsroom/global-english/inpost-advent-fedex-a-r-and-ppf-announce-agreement-on-recommended-all-cash-offer-for-all-issued-and-outstanding-inpost-shares-at-an-offer-price-of-eur-15-60-per-share",
+        "https://www.sec.gov/Archives/edgar/data/1048911/000110465926012106/tm265575d1_8k.htm",
+        "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1764687743576&uri=CELEX%3A52026M12362",
+        "https://inpost.eu/investors/consortiums-offer?page=0"
+      ],
+      "preferred_source_type": "regulator",
+      "confidence": "high",
+      "why_relevant": "Major European consumer-facing parcel-locker and out-of-home delivery platform used by e-commerce shoppers. Joint InPost/FedEx release announced a recommended all-cash public offer for all shares at EUR 15.60 per share, valuing 100% of shares at EUR 7.8bn; EU prior-notification states FedEx, Advent-controlled IS Iris, and A&R would acquire joint control of InPost.",
+      "dedupe_note": "Not found in known_deals list. Status kept pending_regulatory_review because source set confirms offer and EU notification/approval reporting, but no final completion source was found in this pass."
+    },
+    {
+      "brand": "Harvey Nichols",
+      "sector": "retail / luxury department store",
+      "origin_country": "United Kingdom",
+      "buyer": "Frasers Group plc",
+      "buyer_country": "United Kingdom",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "asset_deal",
       "source_urls": [
-        "https://live.euronext.com/en/products/equities/company-news/2026-03-30-vente-uniquecom-acquires-habitat-brands-cafom-group"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "CAFOM announced on 2026-03-30 the sale of Habitat brands in France and internationally to its subsidiary Vente-unique.com for €11 million, giving Vente-unique.com full access to the Habitat brand platform for online European furniture/home furnishings markets.",
-      "dedupe_note": "Potentially internal group transaction because Vente-unique.com is described as a CAFOM subsidiary. Include only if brand/IP-level ownership transfers are tracked separately from ultimate group ownership."
-    },
-    {
-      "brand": "Recharge / Recharge.com / Startselect.com",
-      "sector": "fintech / prepaid payments / digital goods marketplace",
-      "origin_country": "Netherlands",
-      "buyer": "Coda",
-      "buyer_country": "Singapore",
-      "buyer_region": "Other",
-      "deal_year": 2025,
-      "deal_status": "announced",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://www.prnewswire.com/news-releases/coda-accelerates-global-expansion-with-acquisition-of-european-payments-platform-recharge-302506664.html"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "Coda announced on 2025-07-16 that it signed a definitive agreement to acquire Amsterdam-headquartered Recharge, described as Europe's leading prepaid payments platform and operator of consumer digital storefronts including Recharge.com and Startselect.com. This is a missed consumer-facing fintech/marketplace deal from 2015 onward.",
-      "dedupe_note": "Absent from known_deals and known_candidates provided; completion status needs follow-up."
-    },
-    {
-      "brand": "Bogner",
-      "sector": "fashion / luxury apparel",
-      "origin_country": "Germany",
-      "buyer": "Katjes International via Katjes Quiet Luxury",
-      "buyer_country": "Germany",
-      "buyer_region": "Europe",
-      "deal_year": 2025,
-      "deal_status": "announced",
-      "deal_type": "majority_stake",
-      "source_urls": [
-        "https://katjes-international.de/en/assets/files/press-releases/20250801-katjes-international-acquires-majority-stake-in-the-bogner-group-pm.pdf"
+        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/frasers-group-acquisition-of-harvey-nichols/9720947",
+        "https://www.fticonsulting.com/uk/creditors-portal/harvey-nichols-and-company-limited",
+        "https://www.theretailbulletin.com/department-stores/frasers-group-acquires-harvey-nichols-in-pre-pack-deal-14-08-2026/"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Katjes International announced on 2025-08-01 that its wholly owned subsidiary Katjes Quiet Luxury signed an agreement to acquire 60% of Willy Bogner GmbH, described as Germany's largest family-owned luxury apparel brand. This appears to be a relevant missed European fashion majority-stake transaction.",
-      "dedupe_note": "Absent from known_deals and known_candidates provided."
+      "why_relevant": "Iconic UK luxury department store and online retail brand. Frasers announced on 2026-08-13 that it acquired Harvey Nichols from FTI Consulting; administrator FAQ confirms a pre-packaged administration sale of UK stores, e-commerce platform and international franchise rights to Frasers Group Trading Limited.",
+      "dedupe_note": "Not found in known_deals list. Classified as asset_deal because administrator source says Frasers acquired certain business operations and assets rather than a clean share acquisition."
     },
     {
-      "brand": "Kompass",
-      "sector": "B2B marketplace / directory / business data platform",
-      "origin_country": "France",
-      "buyer": "Expandi Limited",
+      "brand": "HUGO BOSS",
+      "sector": "fashion",
+      "origin_country": "Germany",
+      "buyer": "Frasers Group plc",
       "buyer_country": "United Kingdom",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
-      "deal_type": "acquisition",
+      "deal_type": "majority_stake",
       "source_urls": [
-        "https://www.webdisclosure.com/press-release/expandi-group-etr-expandi-limited-acquires-kompass-to-create-leading-european-b2b-data-media-and-ai-powered-marketing-platform-YYDsanWxYDY"
+        "https://group.hugoboss.com/en/investors/publications/financial-releases/publication/hugo-boss-notes-results-of-voluntary-public-takeover-offer-by-frasers-group",
+        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918",
+        "https://fashionunited.com/news/business/frasers-group-takeover-bid-for-hugo-boss-becomes-unconditional/2026072873740"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "medium",
-      "why_relevant": "Expandi Limited announced on 2026-03-03 the acquisition of 100% of Kompass, describing Kompass.com as a localized European B2B marketplace/directory platform with substantial traffic and global reach. Consumer relevance is weaker than retail/travel/fashion, but it fits marketplace/platform ownership tracking if B2B platforms are in scope.",
-      "dedupe_note": "Absent from known_deals and known_candidates provided; include only if B2B marketplaces/directories are accepted."
+      "why_relevant": "Major German fashion brand. HUGO BOSS investor release dated August 2026 says Frasers’ voluntary public takeover offer ended with Frasers holding approximately 47.89% of share capital and voting rights after European Commission clearance. Although below 50%, it makes Frasers the single largest shareholder and may confer material influence/control depending on attendance and governance.",
+      "dedupe_note": "Not found in known_deals list. Marked medium confidence and majority_stake despite 47.89% because this is not a strict >50% majority; needs governance review before marking as control acquisition."
     }
   ],
-  "candidate_updates": [
-    {
-      "brand": "eMAG Bulgaria",
-      "suggested_update": "Update unresolved eMAG Bulgaria candidate to reflect the European Commission's 2026-08-07 approval of Naspers Limited acquiring sole control of Dante International S.A. (eMAG). Manual follow-up should confirm whether eMAG Bulgaria is directly held/operated by Dante International and whether the transaction has closed.",
-      "source_urls": [
-        "https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi"
-      ],
-      "confidence": "medium"
-    },
-    {
-      "brand": "Les Secrets de Loly",
-      "suggested_update": "Already present in known_deals as completed in 2026. The Quadrivio official source confirms a majority-stake acquisition dated 2026-03-10 from Quilvest Capital Partners; consider setting deal_type=majority_stake if not already captured.",
-      "source_urls": [
-        "https://www.quadriviogroup.com/en/media/press-releases/lifestyle-fund-ii-acquires-les-secrets-de-loly"
-      ],
-      "confidence": "high"
-    }
-  ],
+  "candidate_updates": [],
   "search_gaps": [
     {
-      "area": "eMAG / Dante International transaction completion and subsidiary perimeter",
-      "suggested_query": "Naspers Dante International eMAG acquisition completed 2026 closing official Naspers Prosus annual report eMAG Bulgaria ownership"
+      "area": "InPost completion status",
+      "suggested_query": "site:inpost.eu InPost offer declared unconditional Advent FedEx A&R PPF August September 2026 completion squeeze-out"
     },
     {
-      "area": "Aroma-Zone sale process completion",
-      "suggested_query": "Partners Group Aroma-Zone acquisition completed Eurazeo closing 2026 official press release"
+      "area": "HUGO BOSS control assessment",
+      "suggested_query": "HUGO BOSS Frasers 47.89 percent voting rights control annual general meeting attendance 2026 takeover offer final result"
     },
     {
-      "area": "Recharge / Coda closing confirmation",
-      "suggested_query": "Coda Recharge acquisition completed closing 2025 Recharge.com Startselect official"
+      "area": "Frasers Group 2026 retail roll-up",
+      "suggested_query": "site:investegate.co.uk Frasers Group acquisition 2026 retail brand administration Harvey Nichols EBuyer Claire's"
     },
     {
-      "area": "National grocery/retail carve-outs and franchise control changes",
-      "suggested_query": "2026 acquisition remaining stake European grocery retailer country operator brand licence official press release"
+      "area": "EU Commission August 2026 consumer marketplace decisions",
+      "suggested_query": "site:eur-lex.europa.eu 2026 M.12 acquisition marketplace e-commerce European Commission August 2026"
     },
     {
-      "area": "Recent EU merger-control retail and consumer-platform clearances",
-      "suggested_query": "site:competition-policy.ec.europa.eu/mergers \"retail\" \"acquisition\" \"2026\" \"M.\" \"sole control\""
+      "area": "Dutch and German consumer electronics brands M&A",
+      "suggested_query": "Netherlands consumer electronics brand acquired US company 2026 Egeria Trust regulatory approval"
     },
     {
-      "area": "Fashion and beauty missed majority deals 2025-2026",
-      "suggested_query": "2026 majority stake European fashion brand acquired official press release private equity"
-    },
-    {
-      "area": "Marketplace/platform missed deals from 2015 onward",
-      "suggested_query": "site:prnewswire.com European marketplace acquired 2026 definitive agreement consumer platform"
+      "area": "Naspers / Prosus consumer platform control changes",
+      "suggested_query": "Naspers Prosus sole control marketplace acquisition Europe 2026 eMAG Delivery Hero Just Eat Takeaway commitments"
     }
   ],
   "status": "completed",
-  "generated_at": "2026-08-22T04:35:30.651725+00:00"
+  "generated_at": "2026-08-29T10:55:01.518357+00:00"
 }
