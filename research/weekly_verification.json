@@ -1,69 +1,76 @@
 {
   "decision": "PASS",
-  "summary": "Reviewed five candidates independently as of 2026-08-29. Approved only Harvey Nichols: completion and current owner are directly supported by Frasers/RNS and administrator evidence. Rejected eMAG, Trust, and InPost because the evidence confirms approval/announcement/offer status rather than completed transfer of control by the review date. Rejected HUGO BOSS because Frasers' 47.89% holding is not a majority/control acquisition and HUGO BOSS remains a listed company with Frasers described only as single largest shareholder.",
+  "summary": "Verification completed. Only VITHIT met the publication gate: it is a European consumer brand, the 100% acquisition by Nichols plc was explicitly completed, and a high-reliability listed-company RNS supports both completion and resulting ownership. All other candidates were rejected because they were pending/announced only, not a control transfer, had a false buyer/control characterization, or lacked a reliable completed-closing source as of 2026-09-05.",
   "approved_deals": [
     {
-      "deal_id": "harvey_nichols_2026",
+      "deal_id": "vithit_2026",
       "supersedes_deal_id": null,
-      "brand": "Harvey Nichols",
-      "sector": "retail / luxury department store",
-      "origin_country": "United Kingdom",
-      "buyer": "Frasers Group plc",
+      "brand": "VITHIT",
+      "sector": "food / functional drinks",
+      "origin_country": "Ireland",
+      "buyer": "Nichols plc",
       "buyer_country": "United Kingdom",
       "buyer_region": "Europe",
       "buyer_type": "public_company",
       "year": 2026,
-      "deal_date": "2026-08-13",
-      "deal_type": "asset_deal",
-      "direct_owner": "Frasers Group Trading Limited",
-      "ultimate_owner": "Frasers Group plc",
-      "consumer_score": 5,
-      "complexity": "medium",
+      "deal_date": "2026-08-10",
+      "deal_type": "acquisition",
+      "direct_owner": "VITHIT Limited, wholly owned by Nichols plc",
+      "ultimate_owner": "Nichols plc",
+      "consumer_score": 4,
+      "complexity": "low",
       "reddit_ready": "yes",
-      "one_line_summary": "Frasers Group acquired Harvey Nichols' UK stores, online business, inventory and international franchise rights through a pre-pack administration asset deal completed on 2026-08-13.",
-      "ownership_notes": "The transaction was not a clean share acquisition of all historic Harvey Nichols companies. FTI Consulting states that immediately after the administrators were appointed on 2026-08-13, certain business operations and assets of Harvey Nichols Group entities were sold to Frasers Group Trading Limited, a wholly owned subsidiary of Frasers Group plc. The acquired assets include the UK store network, e-commerce platform and international franchise rights; the OXO Tower restaurant was sold separately to Fallow Media Limited.",
-      "approval_reason": "Consumer-facing European luxury department-store brand. Completion is explicitly confirmed by both Frasers' RNS announcement and the administrators' FAQ, and the direct/ultimate ownership chain is supported by the administrator statement that Frasers Group Trading Limited is wholly owned by Frasers Group plc.",
+      "one_line_summary": "UK-listed soft drinks group Nichols plc acquired 100% of Irish functional drinks brand VITHIT on 2026-08-10.",
+      "ownership_notes": "Nichols plc announced that it had acquired 100% of the issued share capital of VITHIT Limited and its subsidiaries for €75.0 million on a debt-free, cash-free basis. The announcement also states that following completion Nichols would retain the Dublin office and management support, indicating VITHIT is now within Nichols plc.",
+      "approval_reason": "Completed 100% acquisition of a consumer-facing Irish beverage brand, supported by a high-reliability listed-company regulatory announcement with a full publication/completion date.",
       "sources": [
         {
-          "source_type": "official_press_release",
-          "publisher": "Frasers Group plc via RNS / Investegate",
-          "title": "Frasers Group Acquisition of Harvey Nichols",
-          "url": "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/frasers-group-acquisition-of-harvey-nichols/9720947",
-          "published_date": "2026-08-13",
+          "source_type": "sec_filing",
+          "publisher": "London Stock Exchange RNS / Nichols plc",
+          "title": "Acquisition of VITHIT",
+          "url": "https://www.lse.co.uk/rns/acquisition-of-vithit-n9phy207sdyu1oo.html",
+          "published_date": "2026-08-10",
           "reliability_score": 5,
-          "summary": "Frasers Group plc announced on 2026-08-13 that it had acquired Harvey Nichols from FTI Consulting LLP, including six UK stores, the online business, inventory, employees, international franchise agreements and certain Dublin assets, excluding the OXO restaurant."
-        },
-        {
-          "source_type": "other",
-          "publisher": "FTI Consulting LLP",
-          "title": "Harvey Nichols and Company Limited | Creditors Portal UK",
-          "url": "https://www.fticonsulting.com/uk/creditors-portal/harvey-nichols-and-company-limited",
-          "published_date": "2026-08-13",
-          "reliability_score": 5,
-          "summary": "Administrator FAQ states that, immediately following the appointment of joint administrators on 2026-08-13, a sale of certain Harvey Nichols business operations and assets was completed to Frasers Group Trading Limited, a wholly owned subsidiary of Frasers Group plc; it separately identifies Fallow Media Limited as buyer of the OXO Tower restaurant assets."
+          "summary": "Nichols plc announced on 2026-08-10 that it had acquired 100% of the issued share capital of VITHIT Limited and its subsidiaries for €75.0 million, describing VITHIT as a Dublin-founded functional drinks brand with market-leading positions in the UK and Ireland."
         }
       ]
     }
   ],
   "rejected_candidates": [
     {
-      "brand": "eMAG",
-      "reason": "Reject: EU materials confirm notification and Commission compatibility decision for Naspers / eMAG dated 2026-08-06, but the candidate itself is pending_regulatory_review and no source found explicitly confirms the share transfer/completion had occurred by 2026-08-29. Approval is not completion."
+      "brand": "eMAG / Dante International",
+      "reason": "Rejected: European Commission sources confirm notification and approval of Naspers/Prosus acquiring sole control, but the opened regulator sources do not explicitly confirm that closing/completion occurred. Local media reported the founder's stake sale and post-approval ownership, but no reliability-4/5 completion source from Naspers/Prosus/eMAG or a registry filing was found to support a completed current-owner row as of 2026-09-05."
     },
     {
       "brand": "Trust",
-      "reason": "Reject: ACCO Brands' 2026-08-14 release states it entered a definitive agreement to acquire Trust and that closing was expected in late Q3 or early Q4 2026 subject to customary conditions and competition approvals. No completed acquisition source was found by 2026-08-29."
+      "reason": "Rejected: ACCO Brands' 2026-08-14 announcement says it entered into a definitive agreement to acquire Trust and that closing was expected in late Q3 or early Q4 2026 subject to closing conditions, including competition approvals. This is announced/pending, not completed."
     },
     {
-      "brand": "InPost",
-      "reason": "Reject: sources confirm a conditional recommended public offer and EU clearance, not completed settlement/transfer of control. InPost's own FAQ still described the transaction as expected to complete in H2 2026, and reporting indicated at least one regulatory review remained pending after EU clearance."
+      "brand": "Delivery Hero",
+      "reason": "Rejected: The Delivery Hero/Uber materials describe a voluntary takeover offer and business combination agreement subject to closing conditions and regulatory approvals, with closing expected later; it is not a completed acquisition as of the verification date."
     },
     {
-      "brand": "HUGO BOSS",
-      "reason": "Reject: Frasers' tender offer result gave it approximately 47.89% of share capital and voting rights, below a majority. HUGO BOSS' own release describes Frasers as the single largest shareholder and emphasizes continued established governance, not a completed control acquisition."
+      "brand": "Glovo Spain and other Delivery Hero operations in 14 markets",
+      "reason": "Rejected: The SSW Partners asset sale is expressly conditioned on completion of Uber's offer for Delivery Hero. No completed transfer of the Glovo/14-market operations was confirmed."
+    },
+    {
+      "brand": "The European Candy Group / CCI",
+      "reason": "Rejected: Orkla announced an agreement to acquire 100% and Dutch ACM cleared acquisition of sole control, but Orkla's M&A table still listed inclusion in financials as TBD and no closing confirmation was found. Also, CCI is primarily a private-label confectionery manufacturer rather than a clear consumer-facing brand/platform for this list."
+    },
+    {
+      "brand": "AUTODOC",
+      "reason": "Rejected: The candidate's buyer/control characterization is wrong. AUTODOC's 2026-08-19 announcement states the founders, via AutoTech GmbH & Co. KG, bought out Apollo-managed funds and again indirectly hold 100% of Autodoc SE; Apollo had held a minority investment since 2024. This is not an Apollo acquisition or majority-stake control change by Apollo."
+    },
+    {
+      "brand": "Skroutz",
+      "reason": "Rejected: The Greek competition authority approval of Blackstone's acquisition of sole control is a regulatory milestone only. No reliable source confirming transaction closing was found, so the existing pending row should not be converted to completed."
+    },
+    {
+      "brand": "Glovo",
+      "reason": "Rejected: Suggested update concerns a pending indirect ownership change tied to Uber's proposed Delivery Hero takeover and a conditional SSW Partners sale. No completed ownership change for Glovo was confirmed."
     }
   ],
-  "generated_at": "2026-08-29T10:55:48.705691+00:00",
+  "generated_at": "2026-09-05T08:11:44.235568+00:00",
   "applied": {
     "added": 1,
     "updated": 0,

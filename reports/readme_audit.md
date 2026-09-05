@@ -1,21 +1,18 @@
 # README Audit
 
-- Generated at: `2026-08-29T10:55:53.678706+00:00`
+- Generated at: `2026-09-05T08:11:51.083057+00:00`
 - Decision: **PASS**
-- Summary: The README is mostly well-formed and source-backed. A few rows have missing country flags where a single clear owner or origin country is shown, and one row has an unusually long brand label that hurts table readability. These are minor README/data cleanup issues and do not block publishing.
-- Reason: Markdown tables and source evidence are acceptable; identified issues are non-blocking formatting/readability fixes.
+- Summary: The README is mostly well-formed and source-backed, but a few rows have missing country flags in owner/founded cells where a single clear country is shown. These are minor README formatting/data issues and should not block publishing.
+- Reason: Tables and source links are structurally valid, and no likely wrong current-owner claim is evident from the provided source evidence. Issues are limited to missing flags/readability-level data formatting.
 
 ## Issues
 
 - **warning / missing_flag** at `Other table, Auchan Hungary row`
-  Problem: The 'Founded in' cell shows 'Hungary' without the Hungarian flag, and the 'Current owner' cell shows 'Indotek Group' without a country flag, while the source indicates a clear Hungarian owner/context.
-  Suggestion: Use flags consistently, e.g. '🇭🇺 Hungary' and '🇭🇺 Indotek Group'.
+  Problem: The 'Founded in' cell shows 'Hungary' without the national flag, and the 'Current owner' cell shows 'Indotek Group' without the Hungarian flag even though a single clear country is implied by the source/row context.
+  Suggestion: Change to '🇭🇺 Hungary' and '🇭🇺 Indotek Group' if Indotek is intended to be shown as Hungarian.
 - **warning / missing_flag** at `Other table, Depop row`
-  Problem: The 'Current owner' cell shows 'eBay Inc.' without the US flag, while other US owners are flagged consistently.
-  Suggestion: Change the owner cell to '🇺🇸 eBay Inc.'.
+  Problem: The 'Current owner' cell shows 'eBay Inc.' without a national flag, while other single-country owners are flagged and eBay is clearly U.S.-based in this dataset style.
+  Suggestion: Change to '🇺🇸 eBay Inc.'.
 - **warning / missing_flag** at `Other table, Tendam row`
-  Problem: The 'Current owner' cell shows 'Multiply Group' without a country flag, while the source identifies the acquirer and other rows use flags for clear owner countries.
-  Suggestion: Add the appropriate owner-country flag if the dataset has a single clear country for Multiply Group.
-- **warning / long_name** at `Other table, Recharge row`
-  Problem: The brand label 'Recharge / Recharge.com / Startselect.com' is long and makes the table harder to scan.
-  Suggestion: Consider shortening the display brand to 'Recharge' or 'Recharge.com' and keep related storefronts in the underlying data or notes.
+  Problem: The 'Current owner' cell shows 'Multiply Group' without a national flag, while the source identifies the buyer and the row otherwise follows a country-flag convention for single clear owners.
+  Suggestion: Add the appropriate country flag for Multiply Group, e.g. '🇦🇪 Multiply Group' if using its UAE domicile/headquarters.

@@ -1,28 +1,28 @@
 {
   "new_deal_candidates": [
     {
-      "brand": "eMAG",
-      "sector": "marketplace / e-commerce",
+      "brand": "eMAG / Dante International",
+      "sector": "retail / e-commerce marketplace",
       "origin_country": "Romania",
-      "buyer": "Naspers Limited via Prosus / MIH",
+      "buyer": "Naspers Limited, through Prosus and MIH B2C Holdings",
       "buyer_country": "South Africa / Netherlands",
       "buyer_region": "Other",
       "deal_year": 2026,
-      "deal_status": "pending_regulatory_review",
+      "deal_status": "completed",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1783332246572&uri=CELEX%3A32026M12496",
         "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947",
+        "https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en",
         "https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi"
       ],
       "preferred_source_type": "regulator",
       "confidence": "high",
-      "why_relevant": "Large Romanian consumer-facing e-commerce marketplace. EU materials state Naspers, through Prosus and MIH, will acquire sole control of the whole of Dante International S.A. / eMAG; Commission decision dated 2026-08-06 approved the concentration.",
-      "dedupe_note": "Not found in known_deals list. Related to OLX/Prosus route but distinct marketplace brand and ownership change from joint/control structure to Naspers sole control."
+      "why_relevant": "Major Romanian consumer e-commerce retailer and marketplace. The European Commission notification says Naspers, through Prosus and MIH, would acquire sole control of eMAG by purchase of shares; the Commission decision approving Case M.12496 was dated 2026-08-06 and reported on 2026-08-07.",
+      "dedupe_note": "Not found in known_deals. This is a control change from joint/control structure with founder involvement to sole control by Naspers/Prosus."
     },
     {
       "brand": "Trust",
-      "sector": "consumer electronics / gaming accessories",
+      "sector": "consumer electronics / computer and gaming accessories",
       "origin_country": "Netherlands",
       "buyer": "ACCO Brands Corporation",
       "buyer_country": "United States",
@@ -32,102 +32,175 @@
       "deal_type": "acquisition",
       "source_urls": [
         "https://ir.accobrands.com/news/news-details/2026/ACCO-Brands-to-Acquire-Trust/default.aspx",
-        "https://www.nasdaq.com/press-release/acco-brands-acquire-trust-2026-08-14"
+        "https://finance.yahoo.com/technology/articles/acco-brands-acquire-trust-105000280.html"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Well-known Netherlands-headquartered consumer electronics and gaming peripherals brand sold through retail, online and B2B channels across Europe and Latin America. ACCO announced on 2026-08-14 that it entered a definitive agreement to acquire Trust from Egeria.",
-      "dedupe_note": "Not found in known_deals list. Pending/announced rather than completed; ACCO statement says closing depends on regulatory approvals and customary conditions."
+      "why_relevant": "Well-recognized Dutch consumer electronics and gaming peripherals brand. ACCO announced on 2026-08-14 that it entered into a definitive agreement to acquire Trust from Egeria.",
+      "dedupe_note": "Not found in known_deals. Add as a newly announced US acquisition of a European consumer electronics brand."
     },
     {
-      "brand": "InPost",
-      "sector": "delivery / e-commerce logistics platform",
-      "origin_country": "Poland / Luxembourg-listed",
-      "buyer": "Consortium of Advent International, FedEx, A&R Investments, and PPF Group",
-      "buyer_country": "United States / Malta / Czech Republic-Netherlands",
+      "brand": "Delivery Hero",
+      "sector": "food delivery / local commerce platform",
+      "origin_country": "Germany",
+      "buyer": "Uber Technologies, Inc.",
+      "buyer_country": "United States",
       "buyer_region": "USA",
       "deal_year": 2026,
       "deal_status": "pending_regulatory_review",
-      "deal_type": "take_private",
+      "deal_type": "pending_takeover",
       "source_urls": [
-        "https://newsroom.fedex.com/newsroom/global-english/inpost-advent-fedex-a-r-and-ppf-announce-agreement-on-recommended-all-cash-offer-for-all-issued-and-outstanding-inpost-shares-at-an-offer-price-of-eur-15-60-per-share",
-        "https://www.sec.gov/Archives/edgar/data/1048911/000110465926012106/tm265575d1_8k.htm",
-        "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1764687743576&uri=CELEX%3A52026M12362",
-        "https://inpost.eu/investors/consortiums-offer?page=0"
+        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
+        "https://ir.deliveryhero.com/news",
+        "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm"
       ],
-      "preferred_source_type": "regulator",
+      "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Major European consumer-facing parcel-locker and out-of-home delivery platform used by e-commerce shoppers. Joint InPost/FedEx release announced a recommended all-cash public offer for all shares at EUR 15.60 per share, valuing 100% of shares at EUR 7.8bn; EU prior-notification states FedEx, Advent-controlled IS Iris, and A&R would acquire joint control of InPost.",
-      "dedupe_note": "Not found in known_deals list. Status kept pending_regulatory_review because source set confirms offer and EU notification/approval reporting, but no final completion source was found in this pass."
+      "why_relevant": "Large German consumer-facing food-delivery and quick-commerce platform. Delivery Hero announced a business combination agreement with Uber; the transaction is conditional and subject to approvals. The official materials also describe a related sale of operations in 14 markets to SSW Partners to address overlaps.",
+      "dedupe_note": "Known_deals includes Glovo, a Delivery Hero brand, but not a parent-level Delivery Hero takeover. This is a material pending indirect ownership change for Delivery Hero and its brands if completed."
     },
     {
-      "brand": "Harvey Nichols",
-      "sector": "retail / luxury department store",
-      "origin_country": "United Kingdom",
-      "buyer": "Frasers Group plc",
+      "brand": "Glovo Spain and other Delivery Hero operations in 14 markets",
+      "sector": "food delivery",
+      "origin_country": "Spain / multi-country Europe and other markets",
+      "buyer": "SSW Partners",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "asset_deal",
+      "source_urls": [
+        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
+        "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm",
+        "https://cincodias.elpais.com/companias/2026-07-16/uber-lanza-una-oferta-por-el-100-de-delivery-hero-duena-de-glovo-bajo-una-valoracion-de-13000-millones-de-euros.html"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "Material update to the known Glovo/Delivery Hero ownership chain. Official Delivery Hero/Uber materials say SSW Partners agreed to purchase Delivery Hero operations in 14 markets, including Spain, Sweden, Austria, Cyprus, Czechia, Greece, Norway, Poland, Portugal and Romania, conditional on the Uber offer closing.",
+      "dedupe_note": "Known_deals already has Glovo acquired by Delivery Hero in 2022. This should be treated as an update candidate rather than a duplicate because Glovo Spain/selected market operations may move to SSW Partners if the conditional transaction closes."
+    },
+    {
+      "brand": "The European Candy Group / CCI",
+      "sector": "food / confectionery",
+      "origin_country": "Netherlands",
+      "buyer": "Orkla Snacks Sverige AB / Orkla ASA",
+      "buyer_country": "Norway",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.orkla.com/media/press-releases/2026/orkla-snacks-acquires-the-european-candy-group-b-v-to-support-continued-bubs-growth/",
+        "https://www.orkla.com/investors/mergers-and-acquisitions/",
+        "https://www.acm.nl/nl/publicaties/orkla-snacks-sverige-mag-uitsluitende-zeggenschap-verkrijgen-over-european-candy-group-concentratiebesluit",
+        "https://www.bwb.gv.at/zusammenschluesse/zusammenschluss/7501"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "European confectionery manufacturer with consumer relevance through vegan sweets and supply for Orkla's BUBS brand. Orkla announced on 2026-07-31 that it agreed to acquire 100% of The European Candy Group for EUR 207 million, with closing expected in late Q3 or early Q4 2026. Dutch ACM issued clearance/final notice on 2026-09-04, but Orkla’s own M&A table still showed inclusion in financials as TBD.",
+      "dedupe_note": "Not found in known_deals. Include despite being more manufacturer than pure brand because it is a notable European consumer confectionery transaction with official sources and recent regulator clearance."
+    },
+    {
+      "brand": "VITHIT",
+      "sector": "food / functional drinks",
+      "origin_country": "Ireland",
+      "buyer": "Nichols plc",
       "buyer_country": "United Kingdom",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
-      "deal_type": "asset_deal",
+      "deal_type": "acquisition",
       "source_urls": [
-        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/frasers-group-acquisition-of-harvey-nichols/9720947",
-        "https://www.fticonsulting.com/uk/creditors-portal/harvey-nichols-and-company-limited",
-        "https://www.theretailbulletin.com/department-stores/frasers-group-acquires-harvey-nichols-in-pre-pack-deal-14-08-2026/"
+        "https://www.lse.co.uk/rns/acquisition-of-vithit-n9phy207sdyu1oo.html"
       ],
-      "preferred_source_type": "official_press_release",
+      "preferred_source_type": "sec_filing",
       "confidence": "high",
-      "why_relevant": "Iconic UK luxury department store and online retail brand. Frasers announced on 2026-08-13 that it acquired Harvey Nichols from FTI Consulting; administrator FAQ confirms a pre-packaged administration sale of UK stores, e-commerce platform and international franchise rights to Frasers Group Trading Limited.",
-      "dedupe_note": "Not found in known_deals list. Classified as asset_deal because administrator source says Frasers acquired certain business operations and assets rather than a clean share acquisition."
+      "why_relevant": "Irish functional soft-drinks brand with strong UK and Ireland consumer presence. Nichols plc announced on 2026-08-10 that it acquired 100% of VITHIT Limited and subsidiaries for EUR 75 million on a debt-free, cash-free basis.",
+      "dedupe_note": "Not found in known_deals. Buyer is European rather than watchlist USA/China, but this is a recent completed acquisition of a consumer beverage brand."
     },
     {
-      "brand": "HUGO BOSS",
-      "sector": "fashion",
+      "brand": "AUTODOC",
+      "sector": "retail / automotive e-commerce",
       "origin_country": "Germany",
-      "buyer": "Frasers Group plc",
-      "buyer_country": "United Kingdom",
-      "buyer_region": "Europe",
+      "buyer": "Apollo Funds and institutional investors",
+      "buyer_country": "United States / mixed",
+      "buyer_region": "USA",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "majority_stake",
       "source_urls": [
-        "https://group.hugoboss.com/en/investors/publications/financial-releases/publication/hugo-boss-notes-results-of-voluntary-public-takeover-offer-by-frasers-group",
-        "https://www.investegate.co.uk/announcement/rns/frasers-group--fras/hugo-boss-offer-condition-satisfied/9689918",
-        "https://fashionunited.com/news/business/frasers-group-takeover-bid-for-hugo-boss-becomes-unconditional/2026072873740"
+        "https://ir.autodoc.group/news/autodoc-and-apollo-funds-successfully-conclude-transformative-partnership/28ce8de9-7796-48d8-abf4-61fc6a26206b"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "medium",
-      "why_relevant": "Major German fashion brand. HUGO BOSS investor release dated August 2026 says Frasers’ voluntary public takeover offer ended with Frasers holding approximately 47.89% of share capital and voting rights after European Commission clearance. Although below 50%, it makes Frasers the single largest shareholder and may confer material influence/control depending on attendance and governance.",
-      "dedupe_note": "Not found in known_deals list. Marked medium confidence and majority_stake despite 47.89% because this is not a strict >50% majority; needs governance review before marking as control acquisition."
+      "why_relevant": "Berlin-based European online retailer of automotive spare parts and accessories. AUTODOC announced on 2026-08-19 that it successfully completed a share purchase involving Apollo-managed funds and institutional investors. The wording indicates a transformative partnership and minority investment alongside institutional investors, so control mechanics should be manually verified before final list inclusion.",
+      "dedupe_note": "Not found in known_deals. Marked medium because available source confirms Apollo-led investment completion but does not clearly state sole control or majority control in the snippet."
     }
   ],
-  "candidate_updates": [],
+  "candidate_updates": [
+    {
+      "brand": "Skroutz",
+      "suggested_update": "Known_deals currently marks Skroutz as pending_regulatory_review. Add regulator milestone: Greek competition authority reportedly approved Blackstone’s acquisition of exclusive control over Skroutz on 2026-07-30. Do not mark fully completed unless closing confirmation is found.",
+      "source_urls": [
+        "https://www.naftemporiki.gr/business/2144681/epitropi-antagonismoy-prasino-fos-gia-tin-exagora-tis-skroutz-apo-ti-blackstone/",
+        "https://www.blackstone.com/news/press/blackstone-to-acquire-skroutz-greeces-leading-online-marketplace-from-cvc/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "brand": "Glovo",
+      "suggested_update": "Known_deals has Glovo acquired by Delivery Hero in 2022. Add pending indirect ownership update: Uber announced a takeover of Delivery Hero, while Delivery Hero agreed to sell operations in 14 markets to SSW Partners conditional on Uber closing. Glovo Spain appears specifically implicated by reliable Spanish media; exact brand/per-market perimeter needs confirmation from offer documents.",
+      "source_urls": [
+        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
+        "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm",
+        "https://cincodias.elpais.com/companias/2026-07-16/uber-lanza-una-oferta-por-el-100-de-delivery-hero-duena-de-glovo-bajo-una-valoracion-de-13000-millones-de-euros.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "brand": "Delivery Hero",
+      "suggested_update": "If Delivery Hero is present in unresolved candidates outside this selected rotation, upgrade to a pending takeover candidate: Uber announced a business combination agreement with Delivery Hero in 2026, with SSW Partners purchasing 14-market operations subject to offer completion.",
+      "source_urls": [
+        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
+        "https://ir.deliveryhero.com/news"
+      ],
+      "confidence": "high"
+    }
+  ],
   "search_gaps": [
     {
-      "area": "InPost completion status",
-      "suggested_query": "site:inpost.eu InPost offer declared unconditional Advent FedEx A&R PPF August September 2026 completion squeeze-out"
+      "area": "Official offer documentation for Uber / Delivery Hero",
+      "suggested_query": "Delivery Hero Uber offer document 2026 PDF SSW Partners 14 markets Glovo Spain"
     },
     {
-      "area": "HUGO BOSS control assessment",
-      "suggested_query": "HUGO BOSS Frasers 47.89 percent voting rights control annual general meeting attendance 2026 takeover offer final result"
+      "area": "Skroutz final closing confirmation",
+      "suggested_query": "Blackstone Skroutz completion closing acquisition September 2026 official"
     },
     {
-      "area": "Frasers Group 2026 retail roll-up",
-      "suggested_query": "site:investegate.co.uk Frasers Group acquisition 2026 retail brand administration Harvey Nichols EBuyer Claire's"
+      "area": "AUTODOC control details",
+      "suggested_query": "AUTODOC Apollo Funds share purchase minority majority control 2026 annual report ownership"
     },
     {
-      "area": "EU Commission August 2026 consumer marketplace decisions",
-      "suggested_query": "site:eur-lex.europa.eu 2026 M.12 acquisition marketplace e-commerce European Commission August 2026"
+      "area": "European Commission Case M.12496 full decision download",
+      "suggested_query": "Case M.12496 Naspers eMAG Commission decision PDF sole control Dante International"
     },
     {
-      "area": "Dutch and German consumer electronics brands M&A",
-      "suggested_query": "Netherlands consumer electronics brand acquired US company 2026 Egeria Trust regulatory approval"
+      "area": "Consumer electronics deals in EU competition register",
+      "suggested_query": "site:competition-cases.ec.europa.eu consumer electronics acquisition Europe August 2026 accessories brand"
     },
     {
-      "area": "Naspers / Prosus consumer platform control changes",
-      "suggested_query": "Naspers Prosus sole control marketplace acquisition Europe 2026 eMAG Delivery Hero Just Eat Takeaway commitments"
+      "area": "Recent European fashion and beauty ownership changes",
+      "suggested_query": "European fashion brand acquired August 2026 private equity official press release"
+    },
+    {
+      "area": "Prosus/Naspers marketplace ownership changes after eMAG",
+      "suggested_query": "Prosus Naspers acquisitions Europe marketplace e-commerce 2026 official"
+    },
+    {
+      "area": "Dutch ACM consumer retail merger decisions",
+      "suggested_query": "site:acm.nl concentratiebesluit consumentenmerk retail overname augustus september 2026"
     }
   ],
   "status": "completed",
-  "generated_at": "2026-08-29T10:55:01.518357+00:00"
+  "generated_at": "2026-09-05T08:10:51.793014+00:00"
 }

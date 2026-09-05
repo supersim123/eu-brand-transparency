@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-113-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-114-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**113** ownership records across **11** sectors.
+**114** ownership records across **11** sectors.
 
 ---
 
@@ -36,7 +36,7 @@
 - [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
 - [Marketplaces](#marketplaces) _7 records_
-- [Other](#other) _13 records_
+- [Other](#other) _14 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -203,6 +203,7 @@
 | **Harvey Nichols** | 🇬🇧 United Kingdom | 🇬🇧 Frasers Group plc | 2026 | [FTI Consulting LLP](https://www.fticonsulting.com/uk/creditors-portal/harvey-nichols-and-company-limited) |
 | **ABOUT YOU** | 🇩🇪 Germany | 🇩🇪 Zalando | 2025 | [ABOUT YOU / Zalando](https://corporate.aboutyou.de/app/uploads/2025/07/25-07-11_Zalando-and-ABOUT-YOU-Successfully-Complete-Transaction-and-Team-Up-to-Lead-the-Way-in-European-Fashion-and-Lifestyle-E-commerce.pdf) |
 | **Les Secrets de Loly** | 🇫🇷 France | 🇮🇹 Quadrivio Group / Lifestyle Fund II | 2026 | [Weinberg Capital Partners](https://www.weinbergcapital.com/en/all-news/les-secrets-de-loly-enters-a-new-growth-cycle-with-the-arrival-of-new-shareholders-including-weinberg-capital-partners/) |
+| **VITHIT** | 🇮🇪 Ireland | 🇬🇧 Nichols plc | 2026 | [London Stock Exchange RNS / Nichols plc](https://www.lse.co.uk/rns/acquisition-of-vithit-n9phy207sdyu1oo.html) |
 | **Viktor&Rolf** | 🇳🇱 Netherlands | 🇮🇹 OTB Group | 2026 | [OTB Group](https://www.otb.net/en/news/otb-acquires-100-of-viktor-and-rolf) |
 | **Tendam** | 🇪🇸 Spain | Multiply Group | 2025 | [Multiply Group](https://www.businesswire.com/news/home/20250723669640/en/Multiply-Group-Completes-Acquisition-of-Tendam-Doubling-Operational-EBITDA-and-Expanding-Global-Footprint) |
 | **Hydraid** | 🇩🇪 Germany | 🇩🇪 Schwabe Group | 2026 | [Schwabe Group](https://www.schwabe-group.com/en/schwabe-acquires-majority-stake-hydraid) |
