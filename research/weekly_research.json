@@ -1,206 +1,153 @@
 {
   "new_deal_candidates": [
     {
+      "brand": "easyJet",
+      "sector": "travel / airline",
+      "origin_country": "United Kingdom",
+      "buyer": "Apollo Global Management via Eagle Bidco Ltd",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "pending_takeover",
+      "source_urls": [
+        "https://corporate.easyjet.com/investors/offer-from-apollo/default.aspx",
+        "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates",
+        "https://www.apollo.com/site-services/uk?source=vanity-link"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Large UK/European consumer travel brand. easyJet states that, as of 6 August 2026, easyJet and Apollo via Eagle Bidco Ltd agreed terms for a recommended cash acquisition to be implemented by scheme of arrangement; scheme document publication deadline was extended to on or before 15 October 2026.",
+      "dedupe_note": "easyJet is present in known research candidates but not in known deals; this is a material ownership-change lead."
+    },
+    {
       "brand": "eMAG / Dante International",
       "sector": "retail / e-commerce marketplace",
       "origin_country": "Romania",
-      "buyer": "Naspers Limited, through Prosus and MIH B2C Holdings",
-      "buyer_country": "South Africa / Netherlands",
+      "buyer": "Naspers Limited via Prosus and MIH",
+      "buyer_country": "South Africa",
       "buyer_region": "Other",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947",
+        "https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf",
         "https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en",
-        "https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi"
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947"
       ],
-      "preferred_source_type": "regulator",
+      "preferred_source_type": "competition_authority",
       "confidence": "high",
-      "why_relevant": "Major Romanian consumer e-commerce retailer and marketplace. The European Commission notification says Naspers, through Prosus and MIH, would acquire sole control of eMAG by purchase of shares; the Commission decision approving Case M.12496 was dated 2026-08-06 and reported on 2026-08-07.",
-      "dedupe_note": "Not found in known_deals. This is a control change from joint/control structure with founder involvement to sole control by Naspers/Prosus."
+      "why_relevant": "Major Romanian consumer e-commerce platform. European Commission decision of 6 August 2026 says Naspers, parent of Prosus, would acquire sole control of Dante International S.A. / eMAG, which was previously jointly controlled by Iulian Gabriel Stanciu and Naspers via Prosus/MIH.",
+      "dedupe_note": "Not found in known deals list. Buyer is not USA/China/Europe but deal is a major European consumer marketplace ownership change."
     },
     {
-      "brand": "Trust",
-      "sector": "consumer electronics / computer and gaming accessories",
-      "origin_country": "Netherlands",
-      "buyer": "ACCO Brands Corporation",
-      "buyer_country": "United States",
-      "buyer_region": "USA",
-      "deal_year": 2026,
-      "deal_status": "announced",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://ir.accobrands.com/news/news-details/2026/ACCO-Brands-to-Acquire-Trust/default.aspx",
-        "https://finance.yahoo.com/technology/articles/acco-brands-acquire-trust-105000280.html"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Well-recognized Dutch consumer electronics and gaming peripherals brand. ACCO announced on 2026-08-14 that it entered into a definitive agreement to acquire Trust from Egeria.",
-      "dedupe_note": "Not found in known_deals. Add as a newly announced US acquisition of a European consumer electronics brand."
-    },
-    {
-      "brand": "Delivery Hero",
-      "sector": "food delivery / local commerce platform",
-      "origin_country": "Germany",
-      "buyer": "Uber Technologies, Inc.",
-      "buyer_country": "United States",
-      "buyer_region": "USA",
-      "deal_year": 2026,
-      "deal_status": "pending_regulatory_review",
-      "deal_type": "pending_takeover",
-      "source_urls": [
-        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
-        "https://ir.deliveryhero.com/news",
-        "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Large German consumer-facing food-delivery and quick-commerce platform. Delivery Hero announced a business combination agreement with Uber; the transaction is conditional and subject to approvals. The official materials also describe a related sale of operations in 14 markets to SSW Partners to address overlaps.",
-      "dedupe_note": "Known_deals includes Glovo, a Delivery Hero brand, but not a parent-level Delivery Hero takeover. This is a material pending indirect ownership change for Delivery Hero and its brands if completed."
-    },
-    {
-      "brand": "Glovo Spain and other Delivery Hero operations in 14 markets",
-      "sector": "food delivery",
-      "origin_country": "Spain / multi-country Europe and other markets",
-      "buyer": "SSW Partners",
-      "buyer_country": "United States",
-      "buyer_region": "USA",
-      "deal_year": 2026,
-      "deal_status": "pending_regulatory_review",
-      "deal_type": "asset_deal",
-      "source_urls": [
-        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
-        "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm",
-        "https://cincodias.elpais.com/companias/2026-07-16/uber-lanza-una-oferta-por-el-100-de-delivery-hero-duena-de-glovo-bajo-una-valoracion-de-13000-millones-de-euros.html"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "Material update to the known Glovo/Delivery Hero ownership chain. Official Delivery Hero/Uber materials say SSW Partners agreed to purchase Delivery Hero operations in 14 markets, including Spain, Sweden, Austria, Cyprus, Czechia, Greece, Norway, Poland, Portugal and Romania, conditional on the Uber offer closing.",
-      "dedupe_note": "Known_deals already has Glovo acquired by Delivery Hero in 2022. This should be treated as an update candidate rather than a duplicate because Glovo Spain/selected market operations may move to SSW Partners if the conditional transaction closes."
-    },
-    {
-      "brand": "The European Candy Group / CCI",
-      "sector": "food / confectionery",
-      "origin_country": "Netherlands",
-      "buyer": "Orkla Snacks Sverige AB / Orkla ASA",
-      "buyer_country": "Norway",
+      "brand": "Aroma-Zone",
+      "sector": "beauty / wellness / selfcare",
+      "origin_country": "France",
+      "buyer": "Partners Group, with Eurazeo retaining significant minority stake",
+      "buyer_country": "Switzerland",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "pending_regulatory_review",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://www.orkla.com/media/press-releases/2026/orkla-snacks-acquires-the-european-candy-group-b-v-to-support-continued-bubs-growth/",
-        "https://www.orkla.com/investors/mergers-and-acquisitions/",
-        "https://www.acm.nl/nl/publicaties/orkla-snacks-sverige-mag-uitsluitende-zeggenschap-verkrijgen-over-european-candy-group-concentratiebesluit",
-        "https://www.bwb.gv.at/zusammenschluesse/zusammenschluss/7501"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "European confectionery manufacturer with consumer relevance through vegan sweets and supply for Orkla's BUBS brand. Orkla announced on 2026-07-31 that it agreed to acquire 100% of The European Candy Group for EUR 207 million, with closing expected in late Q3 or early Q4 2026. Dutch ACM issued clearance/final notice on 2026-09-04, but Orkla’s own M&A table still showed inclusion in financials as TBD.",
-      "dedupe_note": "Not found in known_deals. Include despite being more manufacturer than pure brand because it is a notable European consumer confectionery transaction with official sources and recent regulator clearance."
-    },
-    {
-      "brand": "VITHIT",
-      "sector": "food / functional drinks",
-      "origin_country": "Ireland",
-      "buyer": "Nichols plc",
-      "buyer_country": "United Kingdom",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "completed",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://www.lse.co.uk/rns/acquisition-of-vithit-n9phy207sdyu1oo.html"
-      ],
-      "preferred_source_type": "sec_filing",
-      "confidence": "high",
-      "why_relevant": "Irish functional soft-drinks brand with strong UK and Ireland consumer presence. Nichols plc announced on 2026-08-10 that it acquired 100% of VITHIT Limited and subsidiaries for EUR 75 million on a debt-free, cash-free basis.",
-      "dedupe_note": "Not found in known_deals. Buyer is European rather than watchlist USA/China, but this is a recent completed acquisition of a consumer beverage brand."
-    },
-    {
-      "brand": "AUTODOC",
-      "sector": "retail / automotive e-commerce",
-      "origin_country": "Germany",
-      "buyer": "Apollo Funds and institutional investors",
-      "buyer_country": "United States / mixed",
-      "buyer_region": "USA",
-      "deal_year": 2026,
-      "deal_status": "completed",
       "deal_type": "majority_stake",
       "source_urls": [
-        "https://ir.autodoc.group/news/autodoc-and-apollo-funds-successfully-conclude-transformative-partnership/28ce8de9-7796-48d8-abf4-61fc6a26206b"
+        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b",
+        "https://en.newsroom.eurazeo.com/news/eurazeo-enters-into-exclusive-discussions-with-partners-group-regarding-the-contemplated-sale-of-its-stake-in-aroma-zone-and-its-reinvestment-ed1d9-52e2c.html",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1786058751613&uri=CELEX%3A52026M12613"
+      ],
+      "preferred_source_type": "competition_authority",
+      "confidence": "high",
+      "why_relevant": "Fast-growing French consumer beauty and wellness brand. Partners Group announced on 6 August 2026 that it entered exclusivity to acquire Aroma-Zone from Eurazeo; Eurazeo says Partners Group would acquire a majority stake and Eurazeo would reinvest/retain a significant minority. EU OJ prior notification dated 27 August 2026 identifies Case M.12613, PG / EURAZEO / AROMA-ZONE / LH 91, for joint control.",
+      "dedupe_note": "Not found in known deals list; official company and EU notification sources support pending transaction."
+    },
+    {
+      "brand": "Cocoli.com",
+      "sector": "marketplace / furniture resale",
+      "origin_country": "Germany",
+      "buyer": "The Platform Group SE & Co. KGaA",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "asset_deal",
+      "source_urls": [
+        "https://www.webdisclosure.com/press-release/the-platform-group-se-co-kgaa-etr-tpg-the-platform-group-expands-its-furniture-marketplace-business-through-the-acquisition-of-cocolicom-MgoWQfZLBx6"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "medium",
-      "why_relevant": "Berlin-based European online retailer of automotive spare parts and accessories. AUTODOC announced on 2026-08-19 that it successfully completed a share purchase involving Apollo-managed funds and institutional investors. The wording indicates a transformative partnership and minority investment alongside institutional investors, so control mechanics should be manually verified before final list inclusion.",
-      "dedupe_note": "Not found in known_deals. Marked medium because available source confirms Apollo-led investment completion but does not clearly state sole control or majority control in the snippet."
+      "why_relevant": "German consumer furniture marketplace/resale platform. The Platform Group announced on 6 August 2026 that it signed an asset purchase agreement to acquire Cocoli.com assets and expand its furniture marketplace business.",
+      "dedupe_note": "Not found in known deals list. Medium confidence because the accessible source is an issuer press release distributed through WebDisclosure rather than the company's own IR page."
+    },
+    {
+      "brand": "Bogner / Willy Bogner GmbH",
+      "sector": "fashion / luxury apparel",
+      "origin_country": "Germany",
+      "buyer": "Katjes International via Katjes Quiet Luxury",
+      "buyer_country": "Germany",
+      "buyer_region": "Europe",
+      "deal_year": 2025,
+      "deal_status": "announced",
+      "deal_type": "majority_stake",
+      "source_urls": [
+        "https://katjes-international.de/en/assets/files/press-releases/20250801-katjes-international-acquires-majority-stake-in-the-bogner-group-pm.pdf"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Well-known German luxury sportswear/fashion brand. Katjes International announced on 1 August 2025 that its wholly-owned subsidiary Katjes Quiet Luxury signed an agreement to acquire 60% of Willy Bogner GmbH, with closing expected in September 2025.",
+      "dedupe_note": "High-confidence missed deal from 2015 onward; not found in known deals list."
     }
   ],
   "candidate_updates": [
     {
-      "brand": "Skroutz",
-      "suggested_update": "Known_deals currently marks Skroutz as pending_regulatory_review. Add regulator milestone: Greek competition authority reportedly approved Blackstone’s acquisition of exclusive control over Skroutz on 2026-07-30. Do not mark fully completed unless closing confirmation is found.",
+      "brand": "easyJet",
+      "suggested_update": "Move from research candidate to pending_takeover lead: recommended Apollo cash acquisition announced 6 August 2026; scheme document publication deadline extended to on or before 15 October 2026, so status should remain announced/pending rather than completed.",
       "source_urls": [
-        "https://www.naftemporiki.gr/business/2144681/epitropi-antagonismoy-prasino-fos-gia-tin-exagora-tis-skroutz-apo-ti-blackstone/",
-        "https://www.blackstone.com/news/press/blackstone-to-acquire-skroutz-greeces-leading-online-marketplace-from-cvc/"
+        "https://corporate.easyjet.com/investors/offer-from-apollo/default.aspx",
+        "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "brand": "Glovo",
-      "suggested_update": "Known_deals has Glovo acquired by Delivery Hero in 2022. Add pending indirect ownership update: Uber announced a takeover of Delivery Hero, while Delivery Hero agreed to sell operations in 14 markets to SSW Partners conditional on Uber closing. Glovo Spain appears specifically implicated by reliable Spanish media; exact brand/per-market perimeter needs confirmation from offer documents.",
+      "brand": "Aroma-Zone",
+      "suggested_update": "If Aroma-Zone is in the omitted candidate/deal pool, update owner from Eurazeo majority/control to pending Partners Group-led majority acquisition with Eurazeo reinvestment/significant minority; EU case M.12613 shows notification for joint control.",
       "source_urls": [
-        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
-        "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm",
-        "https://cincodias.elpais.com/companias/2026-07-16/uber-lanza-una-oferta-por-el-100-de-delivery-hero-duena-de-glovo-bajo-una-valoracion-de-13000-millones-de-euros.html"
+        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1786058751613&uri=CELEX%3A52026M12613"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "brand": "Delivery Hero",
-      "suggested_update": "If Delivery Hero is present in unresolved candidates outside this selected rotation, upgrade to a pending takeover candidate: Uber announced a business combination agreement with Delivery Hero in 2026, with SSW Partners purchasing 14-market operations subject to offer completion.",
+      "brand": "eMAG",
+      "suggested_update": "Add or update eMAG/Dante International ownership to Naspers sole control via Prosus/MIH following EU Commission approval dated 6 August 2026; prior structure was joint control by Iulian Gabriel Stanciu and Naspers.",
       "source_urls": [
-        "https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/",
-        "https://ir.deliveryhero.com/news"
+        "https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf",
+        "https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en"
       ],
       "confidence": "high"
     }
   ],
   "search_gaps": [
     {
-      "area": "Official offer documentation for Uber / Delivery Hero",
-      "suggested_query": "Delivery Hero Uber offer document 2026 PDF SSW Partners 14 markets Glovo Spain"
+      "area": "UK take-private pipeline for consumer and travel names",
+      "suggested_query": "site:corporate.*.com/investors \"Rule 2.7\" \"recommended cash acquisition\" \"2026\" \"plc\" \"Apollo\" OR \"Blackstone\" OR \"KKR\" consumer brand"
     },
     {
-      "area": "Skroutz final closing confirmation",
-      "suggested_query": "Blackstone Skroutz completion closing acquisition September 2026 official"
+      "area": "EU merger notifications for consumer platforms",
+      "suggested_query": "site:eur-lex.europa.eu/legal-content/EN/TXT \"2026M\" \"marketplace\" \"acquire\" \"sole control\" \"consumer\""
     },
     {
-      "area": "AUTODOC control details",
-      "suggested_query": "AUTODOC Apollo Funds share purchase minority majority control 2026 annual report ownership"
+      "area": "French beauty and fashion PE transactions",
+      "suggested_query": "site:autoritedelaconcurrence.fr \"2026\" \"prise de contrôle\" \"cosmétiques\" OR \"mode\" OR \"marque\""
     },
     {
-      "area": "European Commission Case M.12496 full decision download",
-      "suggested_query": "Case M.12496 Naspers eMAG Commission decision PDF sole control Dante International"
+      "area": "German e-commerce and marketplace asset deals",
+      "suggested_query": "site:eqs-news.com OR site:webdisclosure.com \"2026\" \"acquisition\" \"marketplace\" \"Düsseldorf\" \"Berlin\" \"asset deal\""
     },
     {
-      "area": "Consumer electronics deals in EU competition register",
-      "suggested_query": "site:competition-cases.ec.europa.eu consumer electronics acquisition Europe August 2026 accessories brand"
-    },
-    {
-      "area": "Recent European fashion and beauty ownership changes",
-      "suggested_query": "European fashion brand acquired August 2026 private equity official press release"
-    },
-    {
-      "area": "Prosus/Naspers marketplace ownership changes after eMAG",
-      "suggested_query": "Prosus Naspers acquisitions Europe marketplace e-commerce 2026 official"
-    },
-    {
-      "area": "Dutch ACM consumer retail merger decisions",
-      "suggested_query": "site:acm.nl concentratiebesluit consumentenmerk retail overname augustus september 2026"
+      "area": "Romanian and CEE e-commerce consolidation",
+      "suggested_query": "site:competition-cases.ec.europa.eu \"NASPERS / EMAG\" OR \"Dante International\" OR \"Prosus\" \"M.12496\""
     }
   ],
   "status": "completed",
-  "generated_at": "2026-09-05T08:10:51.793014+00:00"
+  "generated_at": "2026-09-19T08:39:53.303768+00:00"
 }

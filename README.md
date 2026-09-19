@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-114-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-115-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**114** ownership records across **11** sectors.
+**115** ownership records across **11** sectors.
 
 ---
 
@@ -36,7 +36,7 @@
 - [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
 - [Marketplaces](#marketplaces) _7 records_
-- [Other](#other) _14 records_
+- [Other](#other) _15 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -209,6 +209,7 @@
 | **Hydraid** | 🇩🇪 Germany | 🇩🇪 Schwabe Group | 2026 | [Schwabe Group](https://www.schwabe-group.com/en/schwabe-acquires-majority-stake-hydraid) |
 | **VADO** | 🇩🇪 Germany | 🇦🇹 legero united | 2026 | [legero united](https://legero-united.com/en/press-archive/legero-united-acquires-vado-family-run-businesses-join-forces-vado-founder-hermann-meyer-joins-the-executive-board-as-chief-product-officer/) |
 | **Luxe Collective** | 🇬🇧 United Kingdom | 🇺🇸 FASHIONPHILE | 2025 | [FASHIONPHILE](https://www.prnewswire.com/news-releases/fashionphile-acquires-luxe-collective-marking-entry-into-the-uk-luxury-resale-market-302582792.html) |
+| **Cocoli.com** | 🇩🇪 Germany | 🇩🇪 The Platform Group SE & Co. KGaA | 2026 | [The Platform Group SE & Co. KGaA](https://corporate.the-platform-group.com/de/news/the-platform-group-uebernimmt-moebelplattform/ac18eea0-7cb1-4efe-8cea-e3a393d7c825) |
 
 ## Research Candidates
 

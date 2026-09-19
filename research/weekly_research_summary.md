@@ -1,43 +1,36 @@
 # Weekly OpenAI News Research
 
-- Generated at: `2026-09-05T08:10:51.793014+00:00`
+- Generated at: `2026-09-19T08:39:53.303768+00:00`
 - Status: `completed`
-- New deal candidates: **7**
+- New deal candidates: **5**
 - Candidate updates: **3**
-- Search gaps: **8**
+- Search gaps: **5**
 
 Research candidates are not published until a second OpenAI pass independently verifies completion and current ownership against source documents.
 
 ## New Deal Candidates
 
-- **eMAG / Dante International** -> Naspers Limited, through Prosus and MIH B2C Holdings (2026, high)
-  Sources: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947, https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en, https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-preluarea-emag-de-catre-naspers-2026-08-07_ro?prefLang=fi
-- **Trust** -> ACCO Brands Corporation (2026, high)
-  Sources: https://ir.accobrands.com/news/news-details/2026/ACCO-Brands-to-Acquire-Trust/default.aspx, https://finance.yahoo.com/technology/articles/acco-brands-acquire-trust-105000280.html
-- **Delivery Hero** -> Uber Technologies, Inc. (2026, high)
-  Sources: https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/, https://ir.deliveryhero.com/news, https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm
-- **Glovo Spain and other Delivery Hero operations in 14 markets** -> SSW Partners (2026, medium)
-  Sources: https://www.deliveryhero.com/newsroom/delivery-hero-and-uber-to-join-forces-to-deliver-more-for-customers-vendors-and-riders/, https://www.sec.gov/Archives/edgar/data/1543151/000155278126000382/e26302_ex99-2.htm, https://cincodias.elpais.com/companias/2026-07-16/uber-lanza-una-oferta-por-el-100-de-delivery-hero-duena-de-glovo-bajo-una-valoracion-de-13000-millones-de-euros.html
-- **The European Candy Group / CCI** -> Orkla Snacks Sverige AB / Orkla ASA (2026, high)
-  Sources: https://www.orkla.com/media/press-releases/2026/orkla-snacks-acquires-the-european-candy-group-b-v-to-support-continued-bubs-growth/, https://www.orkla.com/investors/mergers-and-acquisitions/, https://www.acm.nl/nl/publicaties/orkla-snacks-sverige-mag-uitsluitende-zeggenschap-verkrijgen-over-european-candy-group-concentratiebesluit, https://www.bwb.gv.at/zusammenschluesse/zusammenschluss/7501
-- **VITHIT** -> Nichols plc (2026, high)
-  Sources: https://www.lse.co.uk/rns/acquisition-of-vithit-n9phy207sdyu1oo.html
-- **AUTODOC** -> Apollo Funds and institutional investors (2026, medium)
-  Sources: https://ir.autodoc.group/news/autodoc-and-apollo-funds-successfully-conclude-transformative-partnership/28ce8de9-7796-48d8-abf4-61fc6a26206b
+- **easyJet** -> Apollo Global Management via Eagle Bidco Ltd (2026, high)
+  Sources: https://corporate.easyjet.com/investors/offer-from-apollo/default.aspx, https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates, https://www.apollo.com/site-services/uk?source=vanity-link
+- **eMAG / Dante International** -> Naspers Limited via Prosus and MIH (2026, high)
+  Sources: https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf, https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en, https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947
+- **Aroma-Zone** -> Partners Group, with Eurazeo retaining significant minority stake (2026, high)
+  Sources: https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b, https://en.newsroom.eurazeo.com/news/eurazeo-enters-into-exclusive-discussions-with-partners-group-regarding-the-contemplated-sale-of-its-stake-in-aroma-zone-and-its-reinvestment-ed1d9-52e2c.html, https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1786058751613&uri=CELEX%3A52026M12613
+- **Cocoli.com** -> The Platform Group SE & Co. KGaA (2026, medium)
+  Sources: https://www.webdisclosure.com/press-release/the-platform-group-se-co-kgaa-etr-tpg-the-platform-group-expands-its-furniture-marketplace-business-through-the-acquisition-of-cocolicom-MgoWQfZLBx6
+- **Bogner / Willy Bogner GmbH** -> Katjes International via Katjes Quiet Luxury (2025, high)
+  Sources: https://katjes-international.de/en/assets/files/press-releases/20250801-katjes-international-acquires-majority-stake-in-the-bogner-group-pm.pdf
 
 ## Candidate Updates
 
-- **Skroutz**: Known_deals currently marks Skroutz as pending_regulatory_review. Add regulator milestone: Greek competition authority reportedly approved Blackstone’s acquisition of exclusive control over Skroutz on 2026-07-30. Do not mark fully completed unless closing confirmation is found.
-- **Glovo**: Known_deals has Glovo acquired by Delivery Hero in 2022. Add pending indirect ownership update: Uber announced a takeover of Delivery Hero, while Delivery Hero agreed to sell operations in 14 markets to SSW Partners conditional on Uber closing. Glovo Spain appears specifically implicated by reliable Spanish media; exact brand/per-market perimeter needs confirmation from offer documents.
-- **Delivery Hero**: If Delivery Hero is present in unresolved candidates outside this selected rotation, upgrade to a pending takeover candidate: Uber announced a business combination agreement with Delivery Hero in 2026, with SSW Partners purchasing 14-market operations subject to offer completion.
+- **easyJet**: Move from research candidate to pending_takeover lead: recommended Apollo cash acquisition announced 6 August 2026; scheme document publication deadline extended to on or before 15 October 2026, so status should remain announced/pending rather than completed.
+- **Aroma-Zone**: If Aroma-Zone is in the omitted candidate/deal pool, update owner from Eurazeo majority/control to pending Partners Group-led majority acquisition with Eurazeo reinvestment/significant minority; EU case M.12613 shows notification for joint control.
+- **eMAG**: Add or update eMAG/Dante International ownership to Naspers sole control via Prosus/MIH following EU Commission approval dated 6 August 2026; prior structure was joint control by Iulian Gabriel Stanciu and Naspers.
 
 ## Search Gaps
 
-- **Official offer documentation for Uber / Delivery Hero**: `Delivery Hero Uber offer document 2026 PDF SSW Partners 14 markets Glovo Spain`
-- **Skroutz final closing confirmation**: `Blackstone Skroutz completion closing acquisition September 2026 official`
-- **AUTODOC control details**: `AUTODOC Apollo Funds share purchase minority majority control 2026 annual report ownership`
-- **European Commission Case M.12496 full decision download**: `Case M.12496 Naspers eMAG Commission decision PDF sole control Dante International`
-- **Consumer electronics deals in EU competition register**: `site:competition-cases.ec.europa.eu consumer electronics acquisition Europe August 2026 accessories brand`
-- **Recent European fashion and beauty ownership changes**: `European fashion brand acquired August 2026 private equity official press release`
-- **Prosus/Naspers marketplace ownership changes after eMAG**: `Prosus Naspers acquisitions Europe marketplace e-commerce 2026 official`
-- **Dutch ACM consumer retail merger decisions**: `site:acm.nl concentratiebesluit consumentenmerk retail overname augustus september 2026`
+- **UK take-private pipeline for consumer and travel names**: `site:corporate.*.com/investors "Rule 2.7" "recommended cash acquisition" "2026" "plc" "Apollo" OR "Blackstone" OR "KKR" consumer brand`
+- **EU merger notifications for consumer platforms**: `site:eur-lex.europa.eu/legal-content/EN/TXT "2026M" "marketplace" "acquire" "sole control" "consumer"`
+- **French beauty and fashion PE transactions**: `site:autoritedelaconcurrence.fr "2026" "prise de contrôle" "cosmétiques" OR "mode" OR "marque"`
+- **German e-commerce and marketplace asset deals**: `site:eqs-news.com OR site:webdisclosure.com "2026" "acquisition" "marketplace" "Düsseldorf" "Berlin" "asset deal"`
+- **Romanian and CEE e-commerce consolidation**: `site:competition-cases.ec.europa.eu "NASPERS / EMAG" OR "Dante International" OR "Prosus" "M.12496"`

@@ -1,18 +1,21 @@
 # README Audit
 
-- Generated at: `2026-09-05T08:11:51.083057+00:00`
+- Generated at: `2026-09-19T08:41:13.983875+00:00`
 - Decision: **PASS**
-- Summary: The README is mostly well-formed and source-backed, but a few rows have missing country flags in owner/founded cells where a single clear country is shown. These are minor README formatting/data issues and should not block publishing.
-- Reason: Tables and source links are structurally valid, and no likely wrong current-owner claim is evident from the provided source evidence. Issues are limited to missing flags/readability-level data formatting.
+- Summary: README is publishable. Tables and source-backed ownership claims look generally consistent, but there are a few minor presentation issues to fix later, mainly missing flags and overly long display names in the Other section.
+- Reason: No malformed tables, missing critical source evidence, or likely wrong current-owner claims were found. Issues are non-blocking formatting/readability fixes.
 
 ## Issues
 
-- **warning / missing_flag** at `Other table, Auchan Hungary row`
-  Problem: The 'Founded in' cell shows 'Hungary' without the national flag, and the 'Current owner' cell shows 'Indotek Group' without the Hungarian flag even though a single clear country is implied by the source/row context.
-  Suggestion: Change to '🇭🇺 Hungary' and '🇭🇺 Indotek Group' if Indotek is intended to be shown as Hungarian.
-- **warning / missing_flag** at `Other table, Depop row`
-  Problem: The 'Current owner' cell shows 'eBay Inc.' without a national flag, while other single-country owners are flagged and eBay is clearly U.S.-based in this dataset style.
-  Suggestion: Change to '🇺🇸 eBay Inc.'.
-- **warning / missing_flag** at `Other table, Tendam row`
-  Problem: The 'Current owner' cell shows 'Multiply Group' without a national flag, while the source identifies the buyer and the row otherwise follows a country-flag convention for single clear owners.
-  Suggestion: Add the appropriate country flag for Multiply Group, e.g. '🇦🇪 Multiply Group' if using its UAE domicile/headquarters.
+- **warning / missing_flag** at `Other table → Auchan Hungary row → Founded in`
+  Problem: The cell shows a single clear country, "Hungary", but lacks the national flag used elsewhere in the README.
+  Suggestion: Change `Hungary` to `🇭🇺 Hungary`.
+- **warning / missing_flag** at `Other table → Depop row → Current owner`
+  Problem: The owner is listed as `eBay Inc.` without a country flag, while other single-country owners generally include one.
+  Suggestion: Change to `🇺🇸 eBay Inc.` if the data model treats eBay as a U.S. owner.
+- **warning / long_name** at `Other table → Recharge / Recharge.com / Startselect.com row`
+  Problem: The brand display name is long and makes the table harder to scan.
+  Suggestion: Consider shortening the displayed brand to `Recharge` and keeping Recharge.com / Startselect.com detail in the underlying data or source notes.
+- **info / long_name** at `Other table → Cocoli.com row → Current owner`
+  Problem: `The Platform Group SE & Co. KGaA` is a long legal name that may reduce readability in the table.
+  Suggestion: Consider displaying `The Platform Group` while retaining the legal name in the data/source record if needed.

@@ -1,7 +1,7 @@
 # EU Brand Transparency Weekly News Research
 
 Date window:
-- Search current news and official sources up to 2026-09-05.
+- Search current news and official sources up to 2026-09-19.
 - Prioritize ownership changes announced or completed in the last 7-30 days.
 - Also include high-confidence missed deals from 2015 onward if relevant and absent.
 
@@ -130,10 +130,44 @@ Known deals:
 - brand=Les Secrets de Loly; sector=beauty / haircare; origin_country=France; buyer=Quadrivio Group / Lifestyle Fund II; buyer_country=Italy; year=2026; deal_status=completed
 - brand=Sessùn; sector=fashion; origin_country=France; buyer=Quadrivio Group / Lifestyle Fund II; buyer_country=Italy; year=2024; deal_status=completed
 - brand=ABOUT YOU; sector=fashion e-commerce / marketplace; origin_country=Germany; buyer=Zalando; buyer_country=Germany; year=2025; deal_status=completed
-- ... 9 more rows omitted
+- ... 10 more rows omitted
 
 Known research candidates:
-- Candidate selection: rotating unresolved candidates, not the first CSV rows. Selected 120 of 502 total candidates. Unresolved pool: 349. High-priority rotating share: 60. Rotation week index: 107414.
+- Candidate selection: rotating unresolved candidates, not the first CSV rows. Selected 120 of 502 total candidates. Unresolved pool: 349. High-priority rotating share: 60. Rotation week index: 107416.
+- brand=Vivid Money; sector=fintech; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=idealo; sector=marketplace; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=t-online; sector=media; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=wetter.com; sector=weather; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=OLX Portugal; sector=marketplace; origin_country=Portugal; ownership_status=needs_research; research_priority=high
+- brand=Worten; sector=retail; origin_country=Portugal; ownership_status=needs_research; research_priority=high
+- brand=AS; sector=sports; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=Drimer; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=El Mundo; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=El Pais; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=HolaCamp; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=RTVE; sector=streaming; origin_country=Spain; ownership_status=needs_research; research_priority=high
+- brand=Avanza; sector=fintech; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=Hemnet; sector=real estate; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=SVT; sector=streaming; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=Tradera; sector=marketplace; origin_country=Sweden; ownership_status=needs_research; research_priority=high
+- brand=Zilch; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Carrefour; sector=retail; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=Danone; sector=food; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=Doctolib; sector=healthcare; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=LVMH; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=high
+- brand=Adidas; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Aldi; sector=retail; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=DeepL; sector=productivity; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Lidl; sector=retail; origin_country=Germany; ownership_status=needs_research; research_priority=high
+- brand=Ryanair; sector=travel; origin_country=Ireland; ownership_status=needs_research; research_priority=high
+- brand=Ferrero; sector=food; origin_country=Italy; ownership_status=needs_research; research_priority=high
+- brand=Prada; sector=fashion; origin_country=Italy; ownership_status=needs_research; research_priority=high
+- brand=Nestle; sector=food; origin_country=Switzerland; ownership_status=needs_research; research_priority=high
+- brand=Proton; sector=productivity; origin_country=Switzerland; ownership_status=needs_research; research_priority=high
+- brand=Burberry; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Tesco; sector=retail; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=easyJet; sector=travel; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
+- brand=Ilta-Sanomat; sector=media; origin_country=Finland; ownership_status=needs_research; research_priority=high
 - brand=Iltalehti; sector=media; origin_country=Finland; ownership_status=needs_research; research_priority=high
 - brand=Yle; sector=media; origin_country=Finland; ownership_status=needs_research; research_priority=high
 - brand=Groupe SEB; sector=household appliances; origin_country=France; ownership_status=needs_research; research_priority=high
@@ -160,100 +194,66 @@ Known research candidates:
 - brand=ElevenLabs; sector=artificial intelligence; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
 - brand=Lush; sector=beauty; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
 - brand=Marks & Spencer; sector=retail; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
-- brand=Sainsbury's; sector=retail; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
-- brand=SumUp; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
-- brand=Foreca; sector=weather; origin_country=Finland; ownership_status=needs_research; research_priority=high
-- brand=Helsingin Sanomat; sector=media; origin_country=Finland; ownership_status=needs_research; research_priority=high
-- brand=OP Financial Group; sector=fintech; origin_country=Finland; ownership_status=needs_research; research_priority=high
-- brand=Tori; sector=marketplace; origin_country=Finland; ownership_status=needs_research; research_priority=high
-- brand=Kolet; sector=travel; origin_country=France; ownership_status=needs_research; research_priority=high
-- brand=Lookiero; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=high
-- brand=Planity; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=high
-- brand=Sarenza; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=high
-- brand=Showroomprive; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=high
-- brand=Wethenew; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=high
-- brand=Arbio; sector=travel; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=Ecosia; sector=search; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=Grover; sector=electronics rental; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=LIMANGO; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=STYLIGHT; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=Vivid Money; sector=fintech; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=idealo; sector=marketplace; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=t-online; sector=media; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=wetter.com; sector=weather; origin_country=Germany; ownership_status=needs_research; research_priority=high
-- brand=OLX Portugal; sector=marketplace; origin_country=Portugal; ownership_status=needs_research; research_priority=high
-- brand=Worten; sector=retail; origin_country=Portugal; ownership_status=needs_research; research_priority=high
-- brand=AS; sector=sports; origin_country=Spain; ownership_status=needs_research; research_priority=high
-- brand=Drimer; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=high
-- brand=El Mundo; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=high
-- brand=El Pais; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=high
-- brand=HolaCamp; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=high
-- brand=RTVE; sector=streaming; origin_country=Spain; ownership_status=needs_research; research_priority=high
-- brand=Avanza; sector=fintech; origin_country=Sweden; ownership_status=needs_research; research_priority=high
-- brand=Hemnet; sector=real estate; origin_country=Sweden; ownership_status=needs_research; research_priority=high
-- brand=SVT; sector=streaming; origin_country=Sweden; ownership_status=needs_research; research_priority=high
-- brand=Tradera; sector=marketplace; origin_country=Sweden; ownership_status=needs_research; research_priority=high
-- brand=Zilch; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=high
-- brand=Publico; sector=media; origin_country=Portugal; ownership_status=needs_research; research_priority=medium
-- brand=RTP; sector=streaming; origin_country=Portugal; ownership_status=needs_research; research_priority=medium
-- brand=Record; sector=media; origin_country=Portugal; ownership_status=needs_research; research_priority=medium
-- brand=Aktuality.sk; sector=media; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
-- brand=Alza Slovakia; sector=retail; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
-- brand=Heureka Slovakia; sector=marketplace; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
-- brand=SME; sector=media; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
-- brand=Zoznam; sector=media; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
-- brand=RTV Slovenija; sector=streaming; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
-- brand=20minutos; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=ABC; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=El Confidencial; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=El Economista; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=El Espanol; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=FilmAffinity; sector=entertainment; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=Glovo; sector=food delivery; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=Idealista; sector=real estate; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=La Vanguardia; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=Mundo Deportivo; sector=sports; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=RAE; sector=reference; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=Sport; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=Typeform; sector=productivity; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=eldiario.es; sector=media; origin_country=Spain; ownership_status=needs_research; research_priority=medium
-- brand=Acne Studios; sector=fashion; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Apotea; sector=pharmacy; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Biltema; sector=retail; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Clas Ohlson; sector=retail; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Embracer Group; sector=gaming; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Expressen; sector=media; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=PriceRunner; sector=marketplace; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Prisjakt; sector=marketplace; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Sveriges Radio; sector=media; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Voi; sector=mobility; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
-- brand=Blick; sector=media; origin_country=Switzerland; ownership_status=needs_research; research_priority=medium
-- brand=MySwitzerland; sector=travel; origin_country=Switzerland; ownership_status=needs_research; research_priority=medium
-- brand=Weleda; sector=beauty; origin_country=Switzerland; ownership_status=needs_research; research_priority=medium
-- brand=Auto Trader UK; sector=marketplace; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Boohoo; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Curve; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Gymshark; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Mulberry; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Next; sector=fashion; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Ocado; sector=grocery; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Olio; sector=food; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Starling Bank; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Synthesia; sector=artificial intelligence; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=Yell; sector=directory; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
-- brand=FirmenABC; sector=directory; origin_country=Austria; ownership_status=needs_research; research_priority=medium
-- brand=HEROLD; sector=directory; origin_country=Austria; ownership_status=needs_research; research_priority=medium
-- brand=Heute; sector=media; origin_country=Austria; ownership_status=needs_research; research_priority=medium
-- brand=Kurier; sector=media; origin_country=Austria; ownership_status=needs_research; research_priority=medium
-- brand=MeinBezirk; sector=media; origin_country=Austria; ownership_status=needs_research; research_priority=medium
-- brand=Revo Foods; sector=foodtech; origin_country=Austria; ownership_status=needs_research; research_priority=medium
-- brand=Companyweb; sector=directory; origin_country=Belgium; ownership_status=needs_research; research_priority=medium
-- brand=Gouden Gids; sector=directory; origin_country=Belgium; ownership_status=needs_research; research_priority=medium
-- brand=Actualno; sector=media; origin_country=Bulgaria; ownership_status=needs_research; research_priority=medium
-- brand=Alo.bg; sector=marketplace; origin_country=Bulgaria; ownership_status=needs_research; research_priority=medium
-- brand=BG-Mamma; sector=community; origin_country=Bulgaria; ownership_status=needs_research; research_priority=medium
-- brand=Bazar.bg; sector=marketplace; origin_country=Bulgaria; ownership_status=needs_research; research_priority=medium
-- brand=Dir.bg; sector=media; origin_country=Bulgaria; ownership_status=needs_research; research_priority=medium
+- brand=Weebora; sector=travel; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Young Platform; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Divaks; sector=foodtech; origin_country=Lithuania; ownership_status=needs_research; research_priority=medium
+- brand=Bunq; sector=fintech; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Mollie; sector=fintech; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Picnic; sector=grocery; origin_country=Netherlands; ownership_status=needs_research; research_priority=medium
+- brand=Targeo; sector=maps; origin_country=Poland; ownership_status=needs_research; research_priority=medium
+- brand=Infopedia; sector=reference; origin_country=Portugal; ownership_status=needs_research; research_priority=medium
+- brand=KuantoKusta; sector=marketplace; origin_country=Portugal; ownership_status=needs_research; research_priority=medium
+- brand=NIT; sector=media; origin_country=Portugal; ownership_status=needs_research; research_priority=medium
+- brand=Azet; sector=media; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
+- brand=Bazos Slovakia; sector=marketplace; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
+- brand=Modry Konik; sector=community; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
+- brand=Pluska; sector=media; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
+- brand=Pravda; sector=media; origin_country=Slovakia; ownership_status=needs_research; research_priority=medium
+- brand=Bizi; sector=directory; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Bolha; sector=marketplace; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Ceneje; sector=marketplace; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Delo; sector=media; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Juicy Marbles; sector=foodtech; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Najdi.si; sector=search; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Siol.net; sector=media; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Svet24; sector=media; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Zurnal24; sector=media; origin_country=Slovenia; ownership_status=needs_research; research_priority=medium
+- brand=Eltiempo.es; sector=weather; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Groots; sector=foodtech; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Nomade Nation; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Paginas Amarillas; sector=directory; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=eDreams ODIGEO; sector=travel; origin_country=Spain; ownership_status=needs_research; research_priority=medium
+- brand=Booli; sector=real estate; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Eniro; sector=directory; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Hitta; sector=local search; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Hooked; sector=foodtech; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Svenska.se; sector=reference; origin_country=Sweden; ownership_status=needs_research; research_priority=medium
+- brand=Moneyhouse; sector=directory; origin_country=Switzerland; ownership_status=needs_research; research_priority=medium
+- brand=Checkout.com; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Loveholidays; sector=travel; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Nourish3d; sector=foodtech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Primer; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Secret Escapes; sector=travel; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=Zopa; sector=fintech; origin_country=United Kingdom; ownership_status=needs_research; research_priority=medium
+- brand=ZenHotels; sector=travel; origin_country=Unknown; ownership_status=unknown; known_owner=Emerging Travel Group; research_priority=medium
+- brand=Understory; sector=travel; origin_country=Denmark; ownership_status=needs_research; research_priority=medium
+- brand=Patatam; sector=fashion; origin_country=France; ownership_status=needs_research; research_priority=medium
+- brand=Storefront; sector=fashion; origin_country=France; ownership_status=unknown; known_owner=Storefront; research_priority=medium
+- brand=21DIAMONDS; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Commercetools; sector=e-commerce infrastructure; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Elopage; sector=creator commerce; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Hive; sector=e-commerce logistics; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=LUDWIG BECK; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=MYBESTBRANDS; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=Spryker Systems; sector=e-commerce infrastructure; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=TRISTYLE GROUP; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=VEHNS GROUP; sector=fashion; origin_country=Germany; ownership_status=needs_research; research_priority=medium
+- brand=BorsadelCredito.it; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Criptalia; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=CrowdFundMe; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Growish; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Moneymour; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
+- brand=Soisy; sector=fintech; origin_country=Italy; ownership_status=needs_research; research_priority=medium
 
 Buyer watchlist:
 - buyer=Blackstone; buyer_country=USA; buyer_region=USA; buyer_type=private_equity; priority=high; lead_notes=Strong marketplace travel and consumer services route including Adevinta Merlin VFS Global AutoScout24 and Skroutz
