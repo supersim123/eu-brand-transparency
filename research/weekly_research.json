@@ -1,6 +1,62 @@
 {
   "new_deal_candidates": [
     {
+      "brand": "CarTrawler",
+      "sector": "travel / mobility platform",
+      "origin_country": "Ireland",
+      "buyer": "Expedia Group",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://partner.expediagroup.com/en-us/resources/blog/expedia-group-completes-cartrawler-acquisition",
+        "https://corporate.cartrawler.com/en-gb/news-resources/news/"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Ireland-based B2B travel platform providing car rental, ground transport and insurtech solutions; Expedia Group announced completion on 2026-09-01, within the weekly/monthly priority window.",
+      "dedupe_note": "Not present in known_deals list."
+    },
+    {
+      "brand": "Layla",
+      "sector": "travel app / AI trip planning",
+      "origin_country": "Germany",
+      "buyer": "Expedia Group",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-acquires-Layla-accelerating-its-AI-powered-trip-planning-and-booking-strategy/default.aspx"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Berlin-based AI-native trip planning and booking platform acquired by Expedia Group, announced 2026-07-31; consumer-facing travel app/platform relevance.",
+      "dedupe_note": "Not present in known_deals list."
+    },
+    {
+      "brand": "TheFork",
+      "sector": "restaurant booking marketplace / travel-adjacent platform",
+      "origin_country": "France",
+      "buyer": "American Express",
+      "buyer_country": "United States",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "asset_deal",
+      "source_urls": [
+        "https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700",
+        "https://www.sec.gov/Archives/edgar/data/1526520/000119312526336693/R11.htm"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "European online restaurant reservation and management platform; Tripadvisor entered a put option agreement to sell TheFork to American Express for $700m, with SEC filing indicating expected completion by end-2026.",
+      "dedupe_note": "Not present in known_deals list."
+    },
+    {
       "brand": "easyJet",
       "sector": "travel / airline",
       "origin_country": "United Kingdom",
@@ -8,146 +64,129 @@
       "buyer_country": "United States",
       "buyer_region": "USA",
       "deal_year": 2026,
-      "deal_status": "announced",
-      "deal_type": "pending_takeover",
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "take_private",
       "source_urls": [
-        "https://corporate.easyjet.com/investors/offer-from-apollo/default.aspx",
         "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates",
         "https://www.apollo.com/site-services/uk?source=vanity-link"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Large UK/European consumer travel brand. easyJet states that, as of 6 August 2026, easyJet and Apollo via Eagle Bidco Ltd agreed terms for a recommended cash acquisition to be implemented by scheme of arrangement; scheme document publication deadline was extended to on or before 15 October 2026.",
-      "dedupe_note": "easyJet is present in known research candidates but not in known deals; this is a material ownership-change lead."
+      "why_relevant": "Major UK/European consumer travel brand; easyJet states that Apollo made a firm Rule 2.7 offer on 2026-08-06 and that terms were agreed for a recommended cash acquisition via court-approved scheme, with scheme document timing extended to 2026-10-15.",
+      "dedupe_note": "easyJet appears in known_candidates as needs_research; this is a material ownership-change lead, not present in known_deals."
     },
     {
-      "brand": "eMAG / Dante International",
-      "sector": "retail / e-commerce marketplace",
-      "origin_country": "Romania",
-      "buyer": "Naspers Limited via Prosus and MIH",
-      "buyer_country": "South Africa",
-      "buyer_region": "Other",
+      "brand": "Aroma-Zone",
+      "sector": "beauty / wellness / self-care retail",
+      "origin_country": "France",
+      "buyer": "Partners Group",
+      "buyer_country": "Switzerland",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "majority_stake",
+      "source_urls": [
+        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "medium",
+      "why_relevant": "French natural beauty, wellness and self-care brand with European retail footprint; Partners Group announced on 2026-08-06 that it had entered exclusivity to acquire the company from Eurazeo through a majority acquisition.",
+      "dedupe_note": "Not present in known_deals list; status is not yet completed and should be monitored for closing."
+    },
+    {
+      "brand": "SheerLuxe",
+      "sector": "fashion / beauty / lifestyle media platform",
+      "origin_country": "United Kingdom",
+      "buyer": "Future plc",
+      "buyer_country": "United Kingdom",
+      "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf",
-        "https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en",
-        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AC_202603947"
+        "https://futureplc.com/news/future-acquires-sheerluxe/",
+        "https://futureplc.com/wp-content/uploads/2026/01/2026.01.22-Acquisition-of-SheerLuxe.pdf",
+        "https://futureplc.com/investor-results-events/"
       ],
-      "preferred_source_type": "competition_authority",
+      "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Major Romanian consumer e-commerce platform. European Commission decision of 6 August 2026 says Naspers, parent of Prosus, would acquire sole control of Dante International S.A. / eMAG, which was previously jointly controlled by Iulian Gabriel Stanciu and Naspers via Prosus/MIH.",
-      "dedupe_note": "Not found in known deals list. Buyer is not USA/China/Europe but deal is a major European consumer marketplace ownership change."
+      "why_relevant": "UK fashion, beauty and lifestyle digital media/creator platform with consumer reach; Future announced acquisition on 2026-01-22 and investor materials state acquisition of 100% of SheerLuxe for initial cash consideration of £39.9m.",
+      "dedupe_note": "Not present in known_deals list."
     },
     {
-      "brand": "Aroma-Zone",
-      "sector": "beauty / wellness / selfcare",
-      "origin_country": "France",
-      "buyer": "Partners Group, with Eurazeo retaining significant minority stake",
-      "buyer_country": "Switzerland",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "pending_regulatory_review",
-      "deal_type": "majority_stake",
-      "source_urls": [
-        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b",
-        "https://en.newsroom.eurazeo.com/news/eurazeo-enters-into-exclusive-discussions-with-partners-group-regarding-the-contemplated-sale-of-its-stake-in-aroma-zone-and-its-reinvestment-ed1d9-52e2c.html",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1786058751613&uri=CELEX%3A52026M12613"
-      ],
-      "preferred_source_type": "competition_authority",
-      "confidence": "high",
-      "why_relevant": "Fast-growing French consumer beauty and wellness brand. Partners Group announced on 6 August 2026 that it entered exclusivity to acquire Aroma-Zone from Eurazeo; Eurazeo says Partners Group would acquire a majority stake and Eurazeo would reinvest/retain a significant minority. EU OJ prior notification dated 27 August 2026 identifies Case M.12613, PG / EURAZEO / AROMA-ZONE / LH 91, for joint control.",
-      "dedupe_note": "Not found in known deals list; official company and EU notification sources support pending transaction."
-    },
-    {
-      "brand": "Cocoli.com",
-      "sector": "marketplace / furniture resale",
-      "origin_country": "Germany",
-      "buyer": "The Platform Group SE & Co. KGaA",
+      "brand": "Hain International / Hain Celestial UK and Europe brands",
+      "sector": "food / better-for-you grocery brands",
+      "origin_country": "United Kingdom / Europe",
+      "buyer": "AURELIUS",
       "buyer_country": "Germany",
       "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "announced",
       "deal_type": "asset_deal",
       "source_urls": [
-        "https://www.webdisclosure.com/press-release/the-platform-group-se-co-kgaa-etr-tpg-the-platform-group-expands-its-furniture-marketplace-business-through-the-acquisition-of-cocolicom-MgoWQfZLBx6"
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-enters-definitive-agreement-sell-international",
+        "https://www.aurelius-group.com/de/aurelius-to-acquire-hain-international-from-hain-celestial"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "medium",
-      "why_relevant": "German consumer furniture marketplace/resale platform. The Platform Group announced on 6 August 2026 that it signed an asset purchase agreement to acquire Cocoli.com assets and expand its furniture marketplace business.",
-      "dedupe_note": "Not found in known deals list. Medium confidence because the accessible source is an issuer press release distributed through WebDisclosure rather than the company's own IR page."
-    },
-    {
-      "brand": "Bogner / Willy Bogner GmbH",
-      "sector": "fashion / luxury apparel",
-      "origin_country": "Germany",
-      "buyer": "Katjes International via Katjes Quiet Luxury",
-      "buyer_country": "Germany",
-      "buyer_region": "Europe",
-      "deal_year": 2025,
-      "deal_status": "announced",
-      "deal_type": "majority_stake",
-      "source_urls": [
-        "https://katjes-international.de/en/assets/files/press-releases/20250801-katjes-international-acquires-majority-stake-in-the-bogner-group-pm.pdf"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Well-known German luxury sportswear/fashion brand. Katjes International announced on 1 August 2025 that its wholly-owned subsidiary Katjes Quiet Luxury signed an agreement to acquire 60% of Willy Bogner GmbH, with closing expected in September 2025.",
-      "dedupe_note": "High-confidence missed deal from 2015 onward; not found in known deals list."
+      "why_relevant": "Hain Celestial announced on 2026-09-14 a definitive agreement to sell its International business to AURELIUS for about $323m; AURELIUS describes the target as the UK and European business with manufacturing across the UK, Germany and Austria supplying grocery retailers and foodservice customers.",
+      "dedupe_note": "Not present in known_deals list. Brand-level mapping needs follow-up because sources describe the portfolio/business rather than a single named consumer brand."
     }
   ],
   "candidate_updates": [
     {
       "brand": "easyJet",
-      "suggested_update": "Move from research candidate to pending_takeover lead: recommended Apollo cash acquisition announced 6 August 2026; scheme document publication deadline extended to on or before 15 October 2026, so status should remain announced/pending rather than completed.",
+      "suggested_update": "Move from known_candidates needs_research to pending ownership-change candidate: Apollo Global Management, through Eagle Bidco Ltd, made a recommended Rule 2.7 cash offer on 2026-08-06; scheme document publication deadline extended to on or before 2026-10-15, so classify as pending_regulatory_review/take_private rather than completed.",
       "source_urls": [
-        "https://corporate.easyjet.com/investors/offer-from-apollo/default.aspx",
-        "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates"
+        "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates",
+        "https://www.apollo.com/site-services/uk?source=vanity-link"
+      ],
+      "confidence": "high"
+    },
+    {
+      "brand": "TheFork",
+      "suggested_update": "Add as a new ownership-change candidate: Tripadvisor agreed to sell TheFork to American Express for $700m; Tripadvisor SEC disclosure states the sale is expected to complete by end-2026.",
+      "source_urls": [
+        "https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700",
+        "https://www.sec.gov/Archives/edgar/data/1526520/000119312526336693/R11.htm"
       ],
       "confidence": "high"
     },
     {
       "brand": "Aroma-Zone",
-      "suggested_update": "If Aroma-Zone is in the omitted candidate/deal pool, update owner from Eurazeo majority/control to pending Partners Group-led majority acquisition with Eurazeo reinvestment/significant minority; EU case M.12613 shows notification for joint control.",
+      "suggested_update": "Add to monitor list as announced/exclusivity majority acquisition by Partners Group from Eurazeo; not yet completed based on available official source.",
       "source_urls": [
-        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b",
-        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1786058751613&uri=CELEX%3A52026M12613"
+        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b"
       ],
-      "confidence": "high"
-    },
-    {
-      "brand": "eMAG",
-      "suggested_update": "Add or update eMAG/Dante International ownership to Naspers sole control via Prosus/MIH following EU Commission approval dated 6 August 2026; prior structure was joint control by Iulian Gabriel Stanciu and Naspers.",
-      "source_urls": [
-        "https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf",
-        "https://op.europa.eu/en/publication-detail/-/publication/d0a75606-97b8-11f1-9262-01aa75ed71a1/language-en"
-      ],
-      "confidence": "high"
+      "confidence": "medium"
     }
   ],
   "search_gaps": [
     {
-      "area": "UK take-private pipeline for consumer and travel names",
-      "suggested_query": "site:corporate.*.com/investors \"Rule 2.7\" \"recommended cash acquisition\" \"2026\" \"plc\" \"Apollo\" OR \"Blackstone\" OR \"KKR\" consumer brand"
+      "area": "Hain International brand-level mapping",
+      "suggested_query": "Hain International UK Europe brands AURELIUS Linda McCartney Clarks Maple Grove official sale portfolio September 2026"
     },
     {
-      "area": "EU merger notifications for consumer platforms",
-      "suggested_query": "site:eur-lex.europa.eu/legal-content/EN/TXT \"2026M\" \"marketplace\" \"acquire\" \"sole control\" \"consumer\""
+      "area": "TheFork regulatory closing status",
+      "suggested_query": "American Express TheFork acquisition closing competition approval 2026 Tripadvisor SEC 10-Q"
     },
     {
-      "area": "French beauty and fashion PE transactions",
-      "suggested_query": "site:autoritedelaconcurrence.fr \"2026\" \"prise de contrôle\" \"cosmétiques\" OR \"mode\" OR \"marque\""
+      "area": "Aroma-Zone closing confirmation",
+      "suggested_query": "Partners Group completes acquisition Aroma-Zone Eurazeo 2026"
     },
     {
-      "area": "German e-commerce and marketplace asset deals",
-      "suggested_query": "site:eqs-news.com OR site:webdisclosure.com \"2026\" \"acquisition\" \"marketplace\" \"Düsseldorf\" \"Berlin\" \"asset deal\""
+      "area": "easyJet takeover regulatory status",
+      "suggested_query": "easyJet Apollo Eagle Bidco scheme document regulatory approval October 2026 takeover panel"
     },
     {
-      "area": "Romanian and CEE e-commerce consolidation",
-      "suggested_query": "site:competition-cases.ec.europa.eu \"NASPERS / EMAG\" OR \"Dante International\" OR \"Prosus\" \"M.12496\""
+      "area": "Recent EU Commission merger cases for travel and marketplaces",
+      "suggested_query": "site:competition-cases.ec.europa.eu 2026 Expedia CarTrawler TheFork American Express merger case"
+    },
+    {
+      "area": "Consumer-facing app acquisitions by US buyers in Germany/France/UK 2026",
+      "suggested_query": "2026 acquired Berlin app by US company travel fintech marketplace official press release"
     }
   ],
   "status": "completed",
-  "generated_at": "2026-09-19T08:39:53.303768+00:00"
+  "generated_at": "2026-09-26T09:13:42.402407+00:00"
 }
