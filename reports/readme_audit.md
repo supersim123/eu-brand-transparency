@@ -1,21 +1,24 @@
 # README Audit
 
-- Generated at: `2026-09-19T08:41:13.983875+00:00`
+- Generated at: `2026-09-26T09:14:43.894545+00:00`
 - Decision: **PASS**
-- Summary: README is publishable. Tables and source-backed ownership claims look generally consistent, but there are a few minor presentation issues to fix later, mainly missing flags and overly long display names in the Other section.
-- Reason: No malformed tables, missing critical source evidence, or likely wrong current-owner claims were found. Issues are non-blocking formatting/readability fixes.
+- Summary: README is publishable. Tables and source links look structurally sound, but a few rows in the Other section have inconsistent/missing country flags and one brand label is overly long for scanning.
+- Reason: Issues are non-blocking formatting/readability fixes; there is no malformed table or likely wrong current-owner claim visible from the provided evidence.
 
 ## Issues
 
-- **warning / missing_flag** at `Other table → Auchan Hungary row → Founded in`
-  Problem: The cell shows a single clear country, "Hungary", but lacks the national flag used elsewhere in the README.
-  Suggestion: Change `Hungary` to `🇭🇺 Hungary`.
-- **warning / missing_flag** at `Other table → Depop row → Current owner`
-  Problem: The owner is listed as `eBay Inc.` without a country flag, while other single-country owners generally include one.
-  Suggestion: Change to `🇺🇸 eBay Inc.` if the data model treats eBay as a U.S. owner.
-- **warning / long_name** at `Other table → Recharge / Recharge.com / Startselect.com row`
-  Problem: The brand display name is long and makes the table harder to scan.
-  Suggestion: Consider shortening the displayed brand to `Recharge` and keeping Recharge.com / Startselect.com detail in the underlying data or source notes.
-- **info / long_name** at `Other table → Cocoli.com row → Current owner`
-  Problem: `The Platform Group SE & Co. KGaA` is a long legal name that may reduce readability in the table.
-  Suggestion: Consider displaying `The Platform Group` while retaining the legal name in the data/source record if needed.
+- **warning / missing_flag** at `Other table → Auchan Hungary row`
+  Problem: The Founded in cell says "Hungary" without the national flag, unlike the rest of the table style.
+  Suggestion: Change to "🇭🇺 Hungary".
+- **warning / missing_flag** at `Other table → Depop row`
+  Problem: The Current owner cell lists "eBay Inc." without a country flag, while comparable single-country owner cells include flags.
+  Suggestion: Change to "🇺🇸 eBay Inc.".
+- **warning / missing_flag** at `Other table → Layla row`
+  Problem: The Current owner cell lists "Expedia Group" without a country flag, while comparable single-country owner cells include flags.
+  Suggestion: Change to "🇺🇸 Expedia Group".
+- **warning / missing_flag** at `Other table → CarTrawler row`
+  Problem: The Current owner cell lists "Expedia Group" without a country flag, while comparable single-country owner cells include flags.
+  Suggestion: Change to "🇺🇸 Expedia Group".
+- **info / long_name** at `Other table → Recharge / Recharge.com / Startselect.com row`
+  Problem: The brand name is long and makes the table harder to scan.
+  Suggestion: Consider using a shorter display name such as "Recharge" and keeping Recharge.com / Startselect.com in the underlying data or source context.

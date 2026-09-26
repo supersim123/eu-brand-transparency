@@ -1,37 +1,44 @@
 {
   "has_issues": true,
-  "summary": "README is publishable. Tables and source-backed ownership claims look generally consistent, but there are a few minor presentation issues to fix later, mainly missing flags and overly long display names in the Other section.",
+  "summary": "README is publishable. Tables and source links look structurally sound, but a few rows in the Other section have inconsistent/missing country flags and one brand label is overly long for scanning.",
   "push_decision": "PASS",
-  "push_reason": "No malformed tables, missing critical source evidence, or likely wrong current-owner claims were found. Issues are non-blocking formatting/readability fixes.",
+  "push_reason": "Issues are non-blocking formatting/readability fixes; there is no malformed table or likely wrong current-owner claim visible from the provided evidence.",
   "issues": [
     {
       "severity": "warning",
       "category": "missing_flag",
-      "location": "Other table → Auchan Hungary row → Founded in",
-      "problem": "The cell shows a single clear country, \"Hungary\", but lacks the national flag used elsewhere in the README.",
-      "suggestion": "Change `Hungary` to `🇭🇺 Hungary`."
+      "location": "Other table → Auchan Hungary row",
+      "problem": "The Founded in cell says \"Hungary\" without the national flag, unlike the rest of the table style.",
+      "suggestion": "Change to \"🇭🇺 Hungary\"."
     },
     {
       "severity": "warning",
       "category": "missing_flag",
-      "location": "Other table → Depop row → Current owner",
-      "problem": "The owner is listed as `eBay Inc.` without a country flag, while other single-country owners generally include one.",
-      "suggestion": "Change to `🇺🇸 eBay Inc.` if the data model treats eBay as a U.S. owner."
+      "location": "Other table → Depop row",
+      "problem": "The Current owner cell lists \"eBay Inc.\" without a country flag, while comparable single-country owner cells include flags.",
+      "suggestion": "Change to \"🇺🇸 eBay Inc.\"."
     },
     {
       "severity": "warning",
-      "category": "long_name",
-      "location": "Other table → Recharge / Recharge.com / Startselect.com row",
-      "problem": "The brand display name is long and makes the table harder to scan.",
-      "suggestion": "Consider shortening the displayed brand to `Recharge` and keeping Recharge.com / Startselect.com detail in the underlying data or source notes."
+      "category": "missing_flag",
+      "location": "Other table → Layla row",
+      "problem": "The Current owner cell lists \"Expedia Group\" without a country flag, while comparable single-country owner cells include flags.",
+      "suggestion": "Change to \"🇺🇸 Expedia Group\"."
+    },
+    {
+      "severity": "warning",
+      "category": "missing_flag",
+      "location": "Other table → CarTrawler row",
+      "problem": "The Current owner cell lists \"Expedia Group\" without a country flag, while comparable single-country owner cells include flags.",
+      "suggestion": "Change to \"🇺🇸 Expedia Group\"."
     },
     {
       "severity": "info",
       "category": "long_name",
-      "location": "Other table → Cocoli.com row → Current owner",
-      "problem": "`The Platform Group SE & Co. KGaA` is a long legal name that may reduce readability in the table.",
-      "suggestion": "Consider displaying `The Platform Group` while retaining the legal name in the data/source record if needed."
+      "location": "Other table → Recharge / Recharge.com / Startselect.com row",
+      "problem": "The brand name is long and makes the table harder to scan.",
+      "suggestion": "Consider using a shorter display name such as \"Recharge\" and keeping Recharge.com / Startselect.com in the underlying data or source context."
     }
   ],
-  "generated_at": "2026-09-19T08:41:13.983875+00:00"
+  "generated_at": "2026-09-26T09:14:43.894545+00:00"
 }
