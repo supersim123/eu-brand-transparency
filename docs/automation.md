@@ -78,7 +78,7 @@ The repository does not use `pull_request_target`. Do not add it unless you are 
 Optional repository variable:
 
 ```text
-OPENAI_MODEL=gpt-5.5
-OPENAI_VERIFY_MODEL=gpt-5.5
-OPENAI_AUDIT_MODEL=gpt-5.5
+OPENAI_MODEL=gpt-6-luna
+OPENAI_VERIFY_MODEL=gpt-6-luna
+OPENAI_AUDIT_MODEL=gpt-6-luna
 ```
