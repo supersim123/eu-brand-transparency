@@ -46,7 +46,7 @@ jobs:
       - name: Validate updated data
         run: python scripts/validate_data.py
       - name: Regenerate public list
-        run: python scripts/generate_readme.py
+        run: LATEST_CHANGES_DATE="$(date -u +%F)" python scripts/generate_readme.py
       - name: Audit generated README
         if: github.event_name == 'schedule' || github.actor == 'supersim123'
         env:

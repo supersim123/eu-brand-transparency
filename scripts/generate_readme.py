@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import csv
 import json
+import os
+import re
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -198,7 +200,7 @@ def _render_readme(
 
 
 def _render_latest_changes(deals: list[dict[str, str]], candidates: list[dict[str, str]]) -> str:
-    now = datetime.now(timezone.utc).date().isoformat()
+    now = _latest_changes_date()
     high_confidence = sum(1 for row in deals if row.get("confidence") == "high")
     non_european = sum(1 for row in deals if row.get("buyer_region") in {"USA", "China", "Other"})
     lines = [
@@ -249,6 +251,20 @@ def _render_latest_changes(deals: list[dict[str, str]], candidates: list[dict[st
             ]
         )
     return "\n".join(lines)
+
+
+def _latest_changes_date() -> str:
+    configured = os.getenv("LATEST_CHANGES_DATE", "").strip()
+    if configured:
+        return configured
+
+    if LATEST_CHANGES_PATH.exists():
+        existing = LATEST_CHANGES_PATH.read_text(encoding="utf-8")
+        match = re.search(r"^# Latest Changes \((\d{4}-\d{2}-\d{2})\)$", existing, re.MULTILINE)
+        if match:
+            return match.group(1)
+
+    return datetime.now(timezone.utc).date().isoformat()
 
 
 def _read_json(path: Path) -> dict:

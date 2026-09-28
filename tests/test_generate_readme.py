@@ -1,17 +1,23 @@
 from __future__ import annotations
 
+import os
 import subprocess
 import sys
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
-from scripts.generate_readme import _merge_review_metadata, _public_deals
+from scripts.generate_readme import _latest_changes_date, _merge_review_metadata, _public_deals
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class GenerateReadmeTest(unittest.TestCase):
+    def test_latest_changes_date_can_be_set_for_refreshes(self) -> None:
+        with patch.dict(os.environ, {"LATEST_CHANGES_DATE": "2026-10-03"}):
+            self.assertEqual(_latest_changes_date(), "2026-10-03")
+
     def test_canonical_deal_is_public_without_reviewed_snapshot_row(self) -> None:
         canonical = [
             {
