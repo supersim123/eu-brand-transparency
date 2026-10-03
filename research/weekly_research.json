@@ -1,192 +1,140 @@
 {
   "new_deal_candidates": [
     {
-      "brand": "CarTrawler",
-      "sector": "travel / mobility platform",
-      "origin_country": "Ireland",
-      "buyer": "Expedia Group",
-      "buyer_country": "United States",
-      "buyer_region": "USA",
+      "brand": "Huel",
+      "sector": "food / functional nutrition",
+      "origin_country": "United Kingdom",
+      "buyer": "Danone",
+      "buyer_country": "France",
+      "buyer_region": "Europe",
       "deal_year": 2026,
       "deal_status": "completed",
       "deal_type": "acquisition",
       "source_urls": [
-        "https://partner.expediagroup.com/en-us/resources/blog/expedia-group-completes-cartrawler-acquisition",
-        "https://corporate.cartrawler.com/en-gb/news-resources/news/"
+        "https://www.danone.com/investors/publications-and-events/press-releases.html",
+        "https://rss.globenewswire.com/news-release/2026/09/04/3356691/0/en/danone-completes-its-acquisition-of-huel-extending-its-portfolio-in-functional-nutrition.html"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "Ireland-based B2B travel platform providing car rental, ground transport and insurtech solutions; Expedia Group announced completion on 2026-09-01, within the weekly/monthly priority window.",
-      "dedupe_note": "Not present in known_deals list."
+      "why_relevant": "Danone reported completing its acquisition of Huel on September 4, 2026, adding a prominent UK direct-to-consumer nutrition brand to the French group.",
+      "dedupe_note": "Huel does not appear in the supplied known deals or candidate list."
     },
     {
-      "brand": "Layla",
-      "sector": "travel app / AI trip planning",
+      "brand": "The European Candy Group (CCI)",
+      "sector": "food / confectionery",
+      "origin_country": "Netherlands",
+      "buyer": "Orkla ASA, via Orkla Snacks",
+      "buyer_country": "Norway",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "completed",
+      "deal_type": "acquisition",
+      "source_urls": [
+        "https://www.orkla.com/media/press-releases/2026/orkla-snacks-acquisition-of-the-european-candy-group-completed/",
+        "https://www.acm.nl/nl/publicaties/orkla-snacks-sverige-mag-uitsluitende-zeggenschap-verkrijgen-over-european-candy-group-eindmededeling"
+      ],
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "Orkla completed its acquisition of 100% of CCI in September 2026. CCI is a major European confectionery producer whose capacity will also support the BUBS brand’s growth.",
+      "dedupe_note": "CCI does not appear in the supplied known deals or candidate list; this is a company acquisition rather than a transfer of a single consumer brand."
+    },
+    {
+      "brand": "Berentzen",
+      "sector": "food / spirits",
       "origin_country": "Germany",
-      "buyer": "Expedia Group",
-      "buyer_country": "United States",
-      "buyer_region": "USA",
-      "deal_year": 2026,
-      "deal_status": "completed",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-acquires-Layla-accelerating-its-AI-powered-trip-planning-and-booking-strategy/default.aspx"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Berlin-based AI-native trip planning and booking platform acquired by Expedia Group, announced 2026-07-31; consumer-facing travel app/platform relevance.",
-      "dedupe_note": "Not present in known_deals list."
-    },
-    {
-      "brand": "TheFork",
-      "sector": "restaurant booking marketplace / travel-adjacent platform",
-      "origin_country": "France",
-      "buyer": "American Express",
-      "buyer_country": "United States",
+      "buyer": "Sazerac Company",
+      "buyer_country": "USA",
       "buyer_region": "USA",
       "deal_year": 2026,
       "deal_status": "announced",
-      "deal_type": "asset_deal",
+      "deal_type": "pending_takeover",
       "source_urls": [
-        "https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700",
-        "https://www.sec.gov/Archives/edgar/data/1526520/000119312526336693/R11.htm"
+        "https://www.berentzen-gruppe.de/en/investors/takeoveroffer",
+        "https://www.berentzen-gruppe.de/en/media/press-releases?cHash=a71d56124b1025294a566a228144dbf1&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=443"
       ],
       "preferred_source_type": "official_press_release",
       "confidence": "high",
-      "why_relevant": "European online restaurant reservation and management platform; Tripadvisor entered a put option agreement to sell TheFork to American Express for $700m, with SEC filing indicating expected completion by end-2026.",
-      "dedupe_note": "Not present in known_deals list."
+      "why_relevant": "On September 21, 2026, Berentzen and Sazerac announced a takeover agreement. Sazerac intends to make a voluntary offer subject to a 50%-plus-one-share acceptance threshold; completion is not yet confirmed.",
+      "dedupe_note": "Berentzen does not appear in the supplied known deals or candidate list."
     },
     {
-      "brand": "easyJet",
-      "sector": "travel / airline",
+      "brand": "Hain International (including Ella’s Kitchen, Linda McCartney Foods, Hartley’s and other brands)",
+      "sector": "food",
       "origin_country": "United Kingdom",
-      "buyer": "Apollo Global Management via Eagle Bidco Ltd",
-      "buyer_country": "United States",
-      "buyer_region": "USA",
-      "deal_year": 2026,
-      "deal_status": "pending_regulatory_review",
-      "deal_type": "take_private",
-      "source_urls": [
-        "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates",
-        "https://www.apollo.com/site-services/uk?source=vanity-link"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "Major UK/European consumer travel brand; easyJet states that Apollo made a firm Rule 2.7 offer on 2026-08-06 and that terms were agreed for a recommended cash acquisition via court-approved scheme, with scheme document timing extended to 2026-10-15.",
-      "dedupe_note": "easyJet appears in known_candidates as needs_research; this is a material ownership-change lead, not present in known_deals."
-    },
-    {
-      "brand": "Aroma-Zone",
-      "sector": "beauty / wellness / self-care retail",
-      "origin_country": "France",
-      "buyer": "Partners Group",
-      "buyer_country": "Switzerland",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "announced",
-      "deal_type": "majority_stake",
-      "source_urls": [
-        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "French natural beauty, wellness and self-care brand with European retail footprint; Partners Group announced on 2026-08-06 that it had entered exclusivity to acquire the company from Eurazeo through a majority acquisition.",
-      "dedupe_note": "Not present in known_deals list; status is not yet completed and should be monitored for closing."
-    },
-    {
-      "brand": "SheerLuxe",
-      "sector": "fashion / beauty / lifestyle media platform",
-      "origin_country": "United Kingdom",
-      "buyer": "Future plc",
-      "buyer_country": "United Kingdom",
-      "buyer_region": "Europe",
-      "deal_year": 2026,
-      "deal_status": "completed",
-      "deal_type": "acquisition",
-      "source_urls": [
-        "https://futureplc.com/news/future-acquires-sheerluxe/",
-        "https://futureplc.com/wp-content/uploads/2026/01/2026.01.22-Acquisition-of-SheerLuxe.pdf",
-        "https://futureplc.com/investor-results-events/"
-      ],
-      "preferred_source_type": "official_press_release",
-      "confidence": "high",
-      "why_relevant": "UK fashion, beauty and lifestyle digital media/creator platform with consumer reach; Future announced acquisition on 2026-01-22 and investor materials state acquisition of 100% of SheerLuxe for initial cash consideration of £39.9m.",
-      "dedupe_note": "Not present in known_deals list."
-    },
-    {
-      "brand": "Hain International / Hain Celestial UK and Europe brands",
-      "sector": "food / better-for-you grocery brands",
-      "origin_country": "United Kingdom / Europe",
       "buyer": "AURELIUS",
       "buyer_country": "Germany",
       "buyer_region": "Europe",
       "deal_year": 2026,
-      "deal_status": "announced",
+      "deal_status": "pending_regulatory_review",
       "deal_type": "asset_deal",
       "source_urls": [
         "https://ir.hain.com/news-releases/news-release-details/hain-celestial-enters-definitive-agreement-sell-international",
-        "https://www.aurelius-group.com/de/aurelius-to-acquire-hain-international-from-hain-celestial"
+        "https://www.aurelius-group.com/aurelius-to-acquire-hain-international-from-hain-celestial?trk=public_post_comment-text"
       ],
       "preferred_source_type": "official_press_release",
-      "confidence": "medium",
-      "why_relevant": "Hain Celestial announced on 2026-09-14 a definitive agreement to sell its International business to AURELIUS for about $323m; AURELIUS describes the target as the UK and European business with manufacturing across the UK, Germany and Austria supplying grocery retailers and foodservice customers.",
-      "dedupe_note": "Not present in known_deals list. Brand-level mapping needs follow-up because sources describe the portfolio/business rather than a single named consumer brand."
-    }
-  ],
-  "candidate_updates": [
+      "confidence": "high",
+      "why_relevant": "Hain Celestial agreed on September 14, 2026, to sell its International business to AURELIUS. The announced portfolio includes several established UK and European consumer food brands; closing remains subject to conditions, including regulatory approvals.",
+      "dedupe_note": "The supplied known deals do not include Hain International or the listed brands as part of this announced carve-out."
+    },
+    {
+      "brand": "Fnac Darty",
+      "sector": "retail / electronics and cultural goods",
+      "origin_country": "France",
+      "buyer": "EP Group, controlled by Daniel Křetínský",
+      "buyer_country": "Czechia",
+      "buyer_region": "Europe",
+      "deal_year": 2026,
+      "deal_status": "pending_regulatory_review",
+      "deal_type": "pending_takeover",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ%3AC_202604981",
+        "https://www.fnacdarty.com/en/publications/ouverture-le-12-mai-de-loffre-publique-dachat-initie-par-ep-group/",
+        "https://www.fnacdarty.com/le-groupe/investisseurs/resultats-et-publications/informations-reglementees/communiques-financiers-au-titre-de-linformation-permanente/"
+      ],
+      "preferred_source_type": "competition_authority",
+      "confidence": "high",
+      "why_relevant": "The European Commission’s September 2026 notice says EPG will acquire sole control of Fnac Darty through a public bid. Fnac Darty’s September filing confirms notification for merger-control review; the offer is not yet a completed ownership change.",
+      "dedupe_note": "Fnac Darty is absent from the supplied known deals and candidate list."
+    },
     {
       "brand": "easyJet",
-      "suggested_update": "Move from known_candidates needs_research to pending ownership-change candidate: Apollo Global Management, through Eagle Bidco Ltd, made a recommended Rule 2.7 cash offer on 2026-08-06; scheme document publication deadline extended to on or before 2026-10-15, so classify as pending_regulatory_review/take_private rather than completed.",
+      "sector": "travel / aviation",
+      "origin_country": "United Kingdom",
+      "buyer": "Apollo Global Management, via Eagle Bidco",
+      "buyer_country": "USA",
+      "buyer_region": "USA",
+      "deal_year": 2026,
+      "deal_status": "announced",
+      "deal_type": "pending_takeover",
       "source_urls": [
-        "https://www.easyjet.com/en/news/airline/story/acquisition-of-easyjet-updates",
-        "https://www.apollo.com/site-services/uk?source=vanity-link"
+        "https://www.easyjet.com/en/news/airline/article/acquisition-of-easyjet-updates",
+        "https://corporate.easyjet.com/investors/offer-from-apollo/default.aspx"
       ],
-      "confidence": "high"
-    },
-    {
-      "brand": "TheFork",
-      "suggested_update": "Add as a new ownership-change candidate: Tripadvisor agreed to sell TheFork to American Express for $700m; Tripadvisor SEC disclosure states the sale is expected to complete by end-2026.",
-      "source_urls": [
-        "https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700",
-        "https://www.sec.gov/Archives/edgar/data/1526520/000119312526336693/R11.htm"
-      ],
-      "confidence": "high"
-    },
-    {
-      "brand": "Aroma-Zone",
-      "suggested_update": "Add to monitor list as announced/exclusivity majority acquisition by Partners Group from Eurazeo; not yet completed based on available official source.",
-      "source_urls": [
-        "https://www.partnersgroup.com/news-and-views/press-releases/investment-news/detail?news_id=241a6a19-75ec-440f-afea-6482b2a73c8b"
-      ],
-      "confidence": "medium"
+      "preferred_source_type": "official_press_release",
+      "confidence": "high",
+      "why_relevant": "easyJet confirms that its board agreed on August 6, 2026, to recommend Apollo’s cash acquisition offer. The scheme document deadline was extended to October 15, 2026, so the transaction remains pending.",
+      "dedupe_note": "easyJet does not appear in the supplied known deals or candidate list; the announcement is outside the 30-day priority window but remains an active, material takeover proposal."
     }
   ],
+  "candidate_updates": [],
   "search_gaps": [
     {
-      "area": "Hain International brand-level mapping",
-      "suggested_query": "Hain International UK Europe brands AURELIUS Linda McCartney Clarks Maple Grove official sale portfolio September 2026"
+      "area": "Active public takeover offers and competition reviews",
+      "suggested_query": "Check easyJet, Fnac Darty and other European consumer-company takeover offer pages and competition-authority filings for developments after 2026-10-03."
     },
     {
-      "area": "TheFork regulatory closing status",
-      "suggested_query": "American Express TheFork acquisition closing competition approval 2026 Tripadvisor SEC 10-Q"
+      "area": "European food and beverage carve-outs",
+      "suggested_query": "Search company investor-relations releases and national competition authority decisions for 2026 sales of European food, confectionery and beverage businesses or brand portfolios."
     },
     {
-      "area": "Aroma-Zone closing confirmation",
-      "suggested_query": "Partners Group completes acquisition Aroma-Zone Eurazeo 2026"
+      "area": "Consumer travel platforms",
+      "suggested_query": "Review Expedia Group, travel-company press releases and Irish company announcements for completed acquisitions of European travel platforms in 2026."
     },
     {
-      "area": "easyJet takeover regulatory status",
-      "suggested_query": "easyJet Apollo Eagle Bidco scheme document regulatory approval October 2026 takeover panel"
-    },
-    {
-      "area": "Recent EU Commission merger cases for travel and marketplaces",
-      "suggested_query": "site:competition-cases.ec.europa.eu 2026 Expedia CarTrawler TheFork American Express merger case"
-    },
-    {
-      "area": "Consumer-facing app acquisitions by US buyers in Germany/France/UK 2026",
-      "suggested_query": "2026 acquired Berlin app by US company travel fintech marketplace official press release"
+      "area": "Unresolved candidate ownership checks",
+      "suggested_query": "For the rotating unresolved candidate list, verify current ownership and any post-2025 control changes using company annual reports, investor-relations pages and national company registries."
     }
   ],
   "status": "completed",
-  "generated_at": "2026-09-26T09:13:42.402407+00:00"
+  "generated_at": "2026-10-03T09:44:58.617816+00:00"
 }

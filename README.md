@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-118-blue.svg"></a>
+    <a href="#contents" title="Ownership records"><img src="https://img.shields.io/badge/ownership_records-119-blue.svg"></a>
     <a href="#research-candidates" title="Research candidates"><img src="https://img.shields.io/badge/candidates-502-lightgrey.svg"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
 </p>
 
-**118** ownership records across **11** sectors.
+**119** ownership records across **11** sectors.
 
 ---
 
@@ -36,7 +36,7 @@
 - [Consumer Apps & Software](#consumer-apps--software) _18 records_
 - [Household & Electronics](#household--electronics) _3 records_
 - [Marketplaces](#marketplaces) _7 records_
-- [Other](#other) _18 records_
+- [Other](#other) _19 records_
 - [Research Candidates](#research-candidates)
 - [Contribution](#contribution)
 
@@ -201,6 +201,7 @@
 | **Recharge / Recharge.com / Startselect.com** | 🇳🇱 Netherlands | 🇸🇬 Coda | 2025 | [Coda](https://www.coda.co/press/coda-completes-recharge-acquisition-expanding-global-reach/) |
 | <img src="https://www.google.com/s2/favicons?domain=www.depop.com&sz=32" width="18" height="18" alt=""> **Depop** | 🇬🇧 United Kingdom | eBay Inc. | 2026 | [eBay Inc.](https://www.ebayinc.com/stories/news/ebay-completes-acquisition-of-depop/) |
 | **Harvey Nichols** | 🇬🇧 United Kingdom | 🇬🇧 Frasers Group plc | 2026 | [FTI Consulting LLP](https://www.fticonsulting.com/uk/creditors-portal/harvey-nichols-and-company-limited) |
+| **Huel** | 🇬🇧 United Kingdom | 🇫🇷 Danone Holdings (UK) Limited / Danone S.A. | 2026 | [Danone via GlobeNewswire](https://rss.globenewswire.com/news-release/2026/09/04/3356691/0/en/danone-completes-its-acquisition-of-huel-extending-its-portfolio-in-functional-nutrition.html) |
 | **ABOUT YOU** | 🇩🇪 Germany | 🇩🇪 Zalando | 2025 | [ABOUT YOU / Zalando](https://corporate.aboutyou.de/app/uploads/2025/07/25-07-11_Zalando-and-ABOUT-YOU-Successfully-Complete-Transaction-and-Team-Up-to-Lead-the-Way-in-European-Fashion-and-Lifestyle-E-commerce.pdf) |
 | **Layla** | 🇩🇪 Germany | Expedia Group | 2026 | [Expedia Group](https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-acquires-Layla-accelerating-its-AI-powered-trip-planning-and-booking-strategy/default.aspx) |
 | **Les Secrets de Loly** | 🇫🇷 France | 🇮🇹 Quadrivio Group / Lifestyle Fund II | 2026 | [Weinberg Capital Partners](https://www.weinbergcapital.com/en/all-news/les-secrets-de-loly-enters-a-new-growth-cycle-with-the-arrival-of-new-shareholders-including-weinberg-capital-partners/) |
