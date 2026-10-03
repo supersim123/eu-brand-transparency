@@ -1,24 +1,18 @@
 # README Audit
 
-- Generated at: `2026-09-26T09:14:43.894545+00:00`
+- Generated at: `2026-10-03T09:46:05.650023+00:00`
 - Decision: **PASS**
-- Summary: README is publishable. Tables and source links look structurally sound, but a few rows in the Other section have inconsistent/missing country flags and one brand label is overly long for scanning.
-- Reason: Issues are non-blocking formatting/readability fixes; there is no malformed table or likely wrong current-owner claim visible from the provided evidence.
+- Summary: The tables are well formed and the current-owner claims reviewed are supported by the supplied evidence. A few missing flags and lengthy owner labels could be cleaned up; these are non-blocking.
+- Reason: The issues are minor presentation improvements and do not make the README unsafe to publish automatically.
 
 ## Issues
 
-- **warning / missing_flag** at `Other table → Auchan Hungary row`
-  Problem: The Founded in cell says "Hungary" without the national flag, unlike the rest of the table style.
-  Suggestion: Change to "🇭🇺 Hungary".
-- **warning / missing_flag** at `Other table → Depop row`
-  Problem: The Current owner cell lists "eBay Inc." without a country flag, while comparable single-country owner cells include flags.
-  Suggestion: Change to "🇺🇸 eBay Inc.".
-- **warning / missing_flag** at `Other table → Layla row`
-  Problem: The Current owner cell lists "Expedia Group" without a country flag, while comparable single-country owner cells include flags.
-  Suggestion: Change to "🇺🇸 Expedia Group".
-- **warning / missing_flag** at `Other table → CarTrawler row`
-  Problem: The Current owner cell lists "Expedia Group" without a country flag, while comparable single-country owner cells include flags.
-  Suggestion: Change to "🇺🇸 Expedia Group".
-- **info / long_name** at `Other table → Recharge / Recharge.com / Startselect.com row`
-  Problem: The brand name is long and makes the table harder to scan.
-  Suggestion: Consider using a shorter display name such as "Recharge" and keeping Recharge.com / Startselect.com in the underlying data or source context.
+- **warning / missing_flag** at `Other table: Auchan Hungary and Habitat rows`
+  Problem: The country names "Hungary" and "France operations" appear without their flags, unlike the other country labels in the tables.
+  Suggestion: Add 🇭🇺 before Hungary and 🇫🇷 before France.
+- **warning / missing_flag** at `Other table: Depop, Layla, and CarTrawler rows`
+  Problem: The owner cells for eBay Inc. and Expedia Group omit flags, while the README uses flags for other clearly US-based owners.
+  Suggestion: Add 🇺🇸 before eBay Inc. and Expedia Group for consistency.
+- **warning / long_name** at `Other table: Huel and Cocoli.com rows`
+  Problem: The owner labels "Danone Holdings (UK) Limited / Danone S.A." and "The Platform Group SE & Co. KGaA" are lengthy legal names that make the owner column harder to scan.
+  Suggestion: Use shorter display names such as "Danone" and "The Platform Group," retaining the legal names in the source records if needed.
